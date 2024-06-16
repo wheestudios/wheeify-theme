@@ -495,6 +495,7 @@
         "item_kWLWrb",
         "item_dizKmG"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -580,6 +581,7 @@
         "item_BUkPE7",
         "item_DtBFNc"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-primary",
         "bg_opacity": 5,
@@ -621,6 +623,7 @@
     },
     "blog_slider_UUweWT": {
       "type": "blog-slider",
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
