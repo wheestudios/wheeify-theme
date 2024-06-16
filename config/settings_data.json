@@ -4,6 +4,8 @@
     "color_secondary": "#004672",
     "color_body_bg": "#faf9fa",
     "color_body_color": "#242025",
+    "color_text_color_1": "#242025",
+    "color_text_color_2": "#246025",
     "transparent_header": "",
     "container_max_width": 1200,
     "border_radius": 0,

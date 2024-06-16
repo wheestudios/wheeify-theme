@@ -2,7 +2,7 @@
   {
     "name": "theme_info",
     "theme_name": "wheeify",
-    "theme_version": "5.0.0",
+    "theme_version": "0.0.1",
     "theme_author": "Whee! Studios",
     "theme_documentation_url": "https:\/\/wheestudios.com",
     "theme_support_url": "https:\/\/wheestudios.com"
@@ -31,7 +31,19 @@
       {
         "type": "color",
         "id": "color_body_color",
-        "label": "Body color",
+        "label": "Text Color 1",
+        "default": "#212529"
+      },
+      {
+        "type": "color",
+        "id": "color_text_color_1",
+        "label": "Text Color 1",
+        "default": "#212529"
+      },
+      {
+        "type": "color",
+        "id": "color_text_color_2",
+        "label": "Text Color 2",
         "default": "#212529"
       }
     ]
