@@ -11,7 +11,7 @@
     "favicon": "shopify:\/\/shop_images\/android-icon-192x192.png",
     "font_body": "poppins_n4",
     "font_headings": "poppins_n9",
-    "btn_text_transform": "text-lowercase",
+    "btn_text_transform": "text-uppercase",
     "btn_font_family": "var(--bs-body-font-family)",
     "btn_font_weight": "500",
     "btn_letter_spacing": 1,
