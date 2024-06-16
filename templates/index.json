@@ -38,6 +38,7 @@
         "slide_Q4UPQq",
         "slide_TddqxQ"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -72,7 +73,7 @@
     "featured_products_nXJKQn": {
       "type": "featured-products",
       "settings": {
-        "bg_color": "bg-primary",
+        "bg_color": "bg-white",
         "bg_opacity": 100,
         "bg_gradient": "",
         "text_color": "text-body",
