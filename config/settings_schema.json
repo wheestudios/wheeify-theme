@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "ks_bootshop",
+    "theme_name": "wheeify",
     "theme_version": "5.0.0",
-    "theme_author": "KondaSoft",
-    "theme_documentation_url": "https:\/\/www.kondasoft.com",
-    "theme_support_url": "https:\/\/community.kondasoft.com"
+    "theme_author": "Whee! Studios",
+    "theme_documentation_url": "https:\/\/wheestudios.com",
+    "theme_support_url": "https:\/\/wheestudios.com"
   },
   {
     "name": "Colors",
@@ -43,7 +43,6 @@
         "type": "select",
         "id": "transparent_header",
         "label": "Transparent header",
-        "info": "NOTE: This feature is supported only in our Premium Shopify Themes. [Browse premium themes](https:\/\/www.kondasoft.com\/collections\/shopify-themes)",
         "options": [
           {
             "value": "header-transparent",
@@ -182,6 +181,10 @@
           {
             "value": "700",
             "label": "Bold"
+          },
+          {
+            "value": "900",
+            "label": "Black"
           }
         ],
         "info": "Note: Some fonts might not have all font-weight variants."
