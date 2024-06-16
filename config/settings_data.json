@@ -1,18 +1,19 @@
 {
   "current": {
-    "color_primary": "#0d6efd",
-    "color_secondary": "#455a64",
-    "color_body_bg": "#ffffff",
-    "color_body_color": "#212529",
-    "container_max_width": 1350,
-    "border_radius": 0.3,
-    "logo": "shopify:\/\/shop_images\/logo.png",
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
-    "font_body": "sans-serif",
-    "font_headings": "ubuntu_n4",
-    "btn_text_transform": "none",
+    "color_primary": "#b20000",
+    "color_secondary": "#004672",
+    "color_body_bg": "#faf9fa",
+    "color_body_color": "#242025",
+    "transparent_header": "",
+    "container_max_width": 1200,
+    "border_radius": 0,
+    "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
+    "favicon": "shopify:\/\/shop_images\/android-icon-192x192.png",
+    "font_body": "poppins_n4",
+    "font_headings": "poppins_n9",
+    "btn_text_transform": "text-uppercase",
     "btn_font_family": "var(--bs-body-font-family)",
-    "btn_font_weight": "500",
+    "btn_font_weight": "400",
     "btn_letter_spacing": 1,
     "btn_bg_gradient": true,
     "btn_padding_x": 1,
@@ -87,12 +88,15 @@
     "product_card_wishlist_color": "text-primary",
     "product_card_img_carousel_dark": false,
     "cart_img_border": "img-thumbnail",
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   }
