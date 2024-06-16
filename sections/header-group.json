@@ -8,13 +8,13 @@
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
-            "announcement": "Announce something important here"
+            "announcement": "FREE SHIPPING on All Orders"
           }
         },
         "slide_mwF4Tk": {
           "type": "slide",
           "settings": {
-            "announcement": "Free Shipping For All Orders Over $100"
+            "announcement": "<a href=\"https:\/\/wheepride.shop\/pages\/special-offers\" title=\"Special Offer Details at Whee! Pride\">Use Code: <strong>PRIDE2024 <\/strong>for 15% Off Orders of $40 or More!<\/a>"
           }
         }
       },
@@ -49,9 +49,9 @@
           "type": "mobile",
           "settings": {
             "container_max_width": "",
-            "logo": "shopify:\/\/shop_images\/ks-bootshop-logo.png",
-            "logo_height": 30,
-            "main_menu": "dropdown-menu",
+            "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
+            "logo_height": 72,
+            "main_menu": "",
             "collections_menu": "",
             "social_icons": true,
             "pt": 2,
@@ -62,9 +62,9 @@
           "type": "desktop",
           "settings": {
             "container_max_width": "",
-            "logo": "shopify:\/\/shop_images\/ks-bootshop-logo.png",
-            "logo_height": 32,
-            "main_menu": "dropdown-menu",
+            "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
+            "logo_height": 100,
+            "main_menu": "",
             "pt": 5,
             "pb": 5
           }
