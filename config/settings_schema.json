@@ -167,6 +167,10 @@
         "default": "500",
         "options": [
           {
+            "value": "200",
+            "label": "Light"
+          },
+          {
             "value": "400",
             "label": "Normal"
           },
@@ -200,7 +204,7 @@
       {
         "type": "checkbox",
         "id": "btn_bg_gradient",
-        "label": "Background grdient",
+        "label": "Background gradient",
         "default": false
       },
       {
