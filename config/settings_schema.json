@@ -131,15 +131,15 @@
             "label": "Normal"
           },
           {
-            "value": "text-capitalize",
+            "value": "capitalize",
             "label": "Capitalize"
           },
           {
-            "value": "text-lowercase",
+            "value": "lowercase",
             "label": "Lowercase"
           },
           {
-            "value": "text-uppercase",
+            "value": "uppercase",
             "label": "Uppercase"
           }
         ]
