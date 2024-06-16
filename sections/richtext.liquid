@@ -33,14 +33,14 @@
       <div class="d-inline-flex mx-n2 mt-7">
         {% unless section.settings.btn_primary_text == blank %}
           <a 
-            class="btn m-2 {{ section.settings.btn_primary_color }} {{settings.btn_text_transform}}" 
+            class="btn m-2 {{ section.settings.btn_primary_color }}" 
             href="{{ section.settings.btn_primary_url }}">
             {{ section.settings.btn_primary_text }}
           </a>
         {% endunless %}
         {% unless section.settings.btn_secondary_text == blank %}
           <a 
-            class="btn m-2 {{ section.settings.btn_secondary_color }} {{settings.btn_text_transform}}" 
+            class="btn m-2 {{ section.settings.btn_secondary_color }}" 
             href="{{ section.settings.btn_secondary_url }}">
             {{ section.settings.btn_secondary_text }}
           </a>
