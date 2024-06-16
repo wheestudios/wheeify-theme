@@ -1,8 +1,8 @@
 {
   "current": {
-    "color_primary": "#0d6efd",
+    "color_primary": "#620000",
     "color_secondary": "#455a64",
-    "color_body_bg": "#ffffff",
+    "color_body_bg": "#efedef",
     "color_body_color": "#212529",
     "container_max_width": 1350,
     "border_radius": 0.3,
@@ -87,12 +87,15 @@
     "product_card_wishlist_color": "text-primary",
     "product_card_img_carousel_dark": false,
     "cart_img_border": "img-thumbnail",
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   }
