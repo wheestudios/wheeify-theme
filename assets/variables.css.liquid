@@ -10,7 +10,8 @@
   {{ settings.font_body | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
 {% endunless %}
  
-:root {
+:root,
+[data-bs-theme=light] {
   {%- comment -%} 
     Colors
   {%- endcomment -%}
@@ -67,6 +68,22 @@
   --bs-box-shadow-lg: 0 .5rem 1rem rgba(var(--bs-body-color-rgb), 0.175);
   --bs-focus-box-shadow: 0 0 0 .25rem rgba(var(--bs-primary-rgb), .125);
   --bs-box-shadow: var(--bs-box-shadow-md);
+}
+
+[data-bs-theme=dark] {
+  color-scheme: dark];
+  --bs-primary: {{ settings.color_primary }};
+  --bs-primary-rgb: {{ settings.color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-secondary: {{ settings.color_secondary }};
+  --bs-secondary-rgb: {{ settings.color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-body-bg: {{ settings.color_body_bg }};
+  --bs-body-bg-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-1: {{ settings.color_body_bg }};
+  --bs-text-color-1-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-2: {{ settings.color_body_bg }};
+  --bs-text-color-2-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-3: {{ settings.color_body_color }};
+  --bs-text-color-3-rgb: {{ settings.color_body_color | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 }
 
 {%- comment -%} 
