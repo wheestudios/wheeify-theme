@@ -51,6 +51,7 @@
 /*
   Background/Text
 */
+/*
 .bg-primary { --bg-color-rgb: var(--bs-primary-rgb); }
 .bg-secondary { --bg-color-rgb: var(--bs-secondary-rgb); }
 .bg-body { --bg-color-rgb: var(--bs-body-bg-rgb); }
@@ -59,7 +60,7 @@
 .text-secondary { --text-color-rgb: var(--bs-secondary-rgb); }
 .text-body { --text-color-rgb: var(--bs-body-color-rgb); }
 .text-white { --text-color-rgb: var(--bs-white-rgb); }
-
+*/
 
 /*
   Border
