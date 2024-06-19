@@ -14,6 +14,7 @@
   {%- comment -%} 
     Colors
   {%- endcomment -%}
+   {%- 
   --bs-primary: {{ settings.color_primary }};
   --bs-primary-rgb: {{ settings.color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --bs-secondary: {{ settings.color_secondary }};
@@ -22,7 +23,8 @@
   --bs-body-bg-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --bs-body-color: {{ settings.color_body_color }};
   --bs-body-color-rgb: {{ settings.color_body_color | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-
+ -%}
+ 
   {% comment -%} 
     General
   {%- endcomment -%}
