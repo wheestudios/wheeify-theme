@@ -15,7 +15,18 @@
     Colors
   {%- endcomment -%}
 
-
+  --bs-primary: {{ settings.color_primary }};
+  --bs-primary-rgb: {{ settings.color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-secondary: {{ settings.color_secondary }};
+  --bs-secondary-rgb: {{ settings.color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-body-bg: {{ settings.color_body_bg }};
+  --bs-body-bg-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-1: {{ settings.color_body_bg }};
+  --bs-text-color-1-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-2: {{ settings.color_body_bg }};
+  --bs-text-color-2-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-3: {{ settings.color_body_color }};
+  --bs-text-color-3-rgb: {{ settings.color_body_color | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 
   {% comment -%} 
     General
