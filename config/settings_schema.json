@@ -25,14 +25,8 @@
       {
         "type": "color",
         "id": "color_body_bg",
-        "label": "Body bg",
+        "label": "Body Background",
         "default": "#ffffff"
-      },
-      {
-        "type": "color",
-        "id": "color_body_color",
-        "label": "Text Color 1",
-        "default": "#212529"
       },
       {
         "type": "color",
@@ -44,6 +38,12 @@
         "type": "color",
         "id": "color_text_color_2",
         "label": "Text Color 2",
+        "default": "#212529"
+      },
+      {
+        "type": "color",
+        "id": "color_text_color_3",
+        "label": "Text Color 3",
         "default": "#212529"
       }
     ]
