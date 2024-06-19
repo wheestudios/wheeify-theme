@@ -8,41 +8,83 @@
     "theme_support_url": "https:\/\/wheestudios.com"
   },
   {
-    "name": "Colors",
+    "name": "Colors - Light Mode",
     "settings": [
       {
         "type": "color",
-        "id": "color_primary",
+        "id": "lm_color_primary",
         "label": "Primary",
         "default": "#d63384"
       },
       {
         "type": "color",
-        "id": "color_secondary",
+        "id": "lm_color_secondary",
         "label": "Secondary",
         "default": "#6C757D"
       },
       {
         "type": "color",
-        "id": "color_body_bg",
+        "id": "lm_color_body_bg",
         "label": "Body Background",
         "default": "#ffffff"
       },
       {
         "type": "color",
-        "id": "color_text_color_1",
+        "id": "lm_color_text_color_1",
         "label": "Text Color 1",
         "default": "#212529"
       },
       {
         "type": "color",
-        "id": "color_text_color_2",
+        "id": "lm_color_text_color_2",
         "label": "Text Color 2",
         "default": "#212529"
       },
       {
         "type": "color",
-        "id": "color_text_color_3",
+        "id": "lm_color_text_color_3",
+        "label": "Text Color 3",
+        "default": "#212529"
+      }
+    ]
+  },
+ ,
+  {
+    "name": "Colors - Dark Mode",
+    "settings": [
+      {
+        "type": "color",
+        "id": "dm_color_primary",
+        "label": "Primary",
+        "default": "#d63384"
+      },
+      {
+        "type": "color",
+        "id": "dm_color_secondary",
+        "label": "Secondary",
+        "default": "#6C757D"
+      },
+      {
+        "type": "color",
+        "id": "dm_color_body_bg",
+        "label": "Body Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "dm_color_text_color_1",
+        "label": "Text Color 1",
+        "default": "#212529"
+      },
+      {
+        "type": "color",
+        "id": "dm_color_text_color_2",
+        "label": "Text Color 2",
+        "default": "#212529"
+      },
+      {
+        "type": "color",
+        "id": "dm_color_text_color_3",
         "label": "Text Color 3",
         "default": "#212529"
       }
