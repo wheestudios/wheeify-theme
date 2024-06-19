@@ -2,7 +2,8 @@
 /*
   Variables
 */
-:root {
+:root,
+[data-bs-theme=light] {
   --bs-link-color: currentColor;
   --bs-link-color-rgb: currentColor;
   --bs-link-hover-color: currentColor;
@@ -10,13 +11,22 @@
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
 
-
-/*
-  Various classes
-*/
-.title {
-  margin-bottom: .25rem;
+[data-bs-theme=dark] {
+  color-scheme: dark];
+  --bs-link-color: currentColor;
+  --bs-link-color-rgb: currentColor;
+  --bs-link-hover-color: currentColor;
+  --bs-link-hover-color-rgb: currentColor;
+  --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
+  
+  
+ow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);/*
+  --bs-focus-ring-width: 0.25rem;  Various classes
+  --bs-focus-ring-opacity: 0.25;*/
+  --bs-focus-ring-color: rgba(13, 110, 253, 0.25);.title {
+  --bs-form-valid-color: #198754;  margin-bottom: .25rem;
+  --bs-fo}
 
 .title-border-bottom span {
   border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 1);

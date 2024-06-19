@@ -16,18 +16,18 @@
     Colors
   {%- endcomment -%}
 
-  --bs-primary: {{ settings.color_primary }};
-  --bs-primary-rgb: {{ settings.color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-secondary: {{ settings.color_secondary }};
-  --bs-secondary-rgb: {{ settings.color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-body-bg: {{ settings.color_body_bg }};
-  --bs-body-bg-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-1: {{ settings.color_body_bg }};
-  --bs-text-color-1-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-2: {{ settings.color_body_bg }};
-  --bs-text-color-2-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-3: {{ settings.color_body_color }};
-  --bs-text-color-3-rgb: {{ settings.color_body_color | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-primary: {{ settings.lm_color_primary }};
+  --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-secondary: {{ settings.lm_color_secondary }};
+  --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-body-bg: {{ settings.lm_color_body_bg }};
+  --bs-body-bg-rgb: {{ settings.lm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-1: {{ settings.lm_text_color_1 }};
+  --bs-text-color-1-rgb: {{ settings.lm_text_color_1 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-2: {{ settings.lm_text_color_2 }};
+  --bs-text-color-2-rgb: {{ settings.lm_text_color_2 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-3: {{ settings.lm_text_color_3 }};
+  --bs-text-color-3-rgb: {{ settings.lm_text_color_3 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 
   {% comment -%} 
     General
@@ -72,18 +72,18 @@
 
 [data-bs-theme=dark] {
   color-scheme: dark];
-  --bs-primary: {{ settings.color_primary }};
-  --bs-primary-rgb: {{ settings.color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-secondary: {{ settings.color_secondary }};
-  --bs-secondary-rgb: {{ settings.color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-body-bg: {{ settings.color_body_bg }};
-  --bs-body-bg-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-1: {{ settings.color_body_bg }};
-  --bs-text-color-1-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-2: {{ settings.color_body_bg }};
-  --bs-text-color-2-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-3: {{ settings.color_body_color }};
-  --bs-text-color-3-rgb: {{ settings.color_body_color | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-primary: {{ settings.dm_color_primary }};
+  --bs-primary-rgb: {{ settings.dm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-secondary: {{ settings.dm_color_secondary }};
+  --bs-secondary-rgb: {{ settings.dm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-body-bg: {{ settings.dm_color_body_bg }};
+  --bs-body-bg-rgb: {{ settings.dm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-1: {{ settings.dm_text_color_1 }};
+  --bs-text-color-1-rgb: {{ settings.dm_text_color_1 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-2: {{ settings.dm_text_color_2 }};
+  --bs-text-color-2-rgb: {{ settings.dm_text_color_2 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-color-3: {{ settings.dm_text_color_3 }};
+  --bs-text-color-3-rgb: {{ settings.dm_text_color_3 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 }
 
 {%- comment -%} 
