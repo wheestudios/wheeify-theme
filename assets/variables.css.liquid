@@ -28,7 +28,8 @@
   --bs-text-color-2-rgb: {{ settings.lm_text_color_2 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --bs-text-color-3: {{ settings.lm_text_color_3 }};
   --bs-text-color-3-rgb: {{ settings.lm_text_color_3 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-
+  --bs-white: {{ settings.lm_color_body_bg }};
+  --bs-white-rgb: {{ settings.lm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   {% comment -%} 
     General
   {%- endcomment -%}
@@ -84,6 +85,8 @@
   --bs-text-color-2-rgb: {{ settings.dm_text_color_2 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --bs-text-color-3: {{ settings.dm_text_color_3 }};
   --bs-text-color-3-rgb: {{ settings.dm_text_color_3 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-white: {{ settings.dm_color_body_bg }};
+  --bs-white-rgb: {{ settings.dm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 }
 
 {%- comment -%} 
