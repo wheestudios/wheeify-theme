@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "hero_carousel_CmDneU": {
@@ -72,6 +81,7 @@
     },
     "featured_products_nXJKQn": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "bg_color": "bg-white",
         "bg_opacity": 100,
@@ -109,6 +119,7 @@
     },
     "richtext_4miPYL": {
       "type": "richtext",
+      "disabled": true,
       "settings": {
         "bg_color": "bg-primary",
         "bg_opacity": 5,
@@ -216,6 +227,7 @@
         "collection_fQ9QDf",
         "collection_kRQqkR"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -308,6 +320,7 @@
       "block_order": [
         "row_JkMDbM"
       ],
+      "disabled": true,
       "settings": {
         "container_max_width": ""
       }
@@ -378,6 +391,7 @@
         "item_iKKgHJ",
         "item_Je3xNm"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -421,6 +435,7 @@
     },
     "html_Y7Cp8x": {
       "type": "html",
+      "disabled": true,
       "settings": {
         "liquid": "<p class=\"alert alert-primary text-center\">Current datetime is: <b>{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}<\/b><\/p>\n\n<iframe class=\"rounded\" src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d5458.176837636101!2d7.264440042281333!3d43.69609386612476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cddaa162b4a50b%3A0x77566707bed909ce!2sFontaine%20du%20Soleil!5e0!3m2!1sen!2s!4v1651756644654!5m2!1sen!2s\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
         "bg_color": "bg-body",
