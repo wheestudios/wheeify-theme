@@ -8,9 +8,6 @@
     {{ section.settings.border_top_width | prepend: 'border-top-' }}
     {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
     {{ section.settings.border_color }} 
-    {{ section.settings.font_size }} 
-    {{ section.settings.font_size_desktop }} 
-    {{ section.settings.text_transform }} 
     {{ section.settings.letter_spacing | prepend: 'ls-' }} 
   "
   style="
@@ -30,8 +27,8 @@
           <div 
             class="
               carousel-item 
-              {{ section.settings.pt | prepend: 'pt-' }} 
-              {{ section.settings.pb | prepend: 'pb-' }}
+              pt-3
+              pb-3
               {% if forloop.first %}active{% endif %}
             " 
             data-index="{{ forloop.index0 }}" 
