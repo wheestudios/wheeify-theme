@@ -25,13 +25,15 @@
   --ws-grey-800: "#242025";
   --ws-grey-900: "#121012";
 
-  --bs-body-bg: var(--ws-grey-100);
-  --bs-body-bg-rgb: {{ var(--ws-grey-100) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-body-fg: var(--ws-grey-900);
-  --bs-body-fg-rgb: {{ var(--ws-grey-900) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-bg: var(--ws-grey-100);
+  --ws-body-bg-rgb: {{ var(--ws-grey-100) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-fg: var(--ws-grey-900);
+  --ws-body-fg-rgb: {{ var(--ws-grey-900) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-  --bs-body-bg-alt: var(--ws-grey-100);
-  --bs-body-txt-alt: var(--ws-grey-900);
+  --ws-body-bg-alt: var(--ws-grey-900);
+  --ws-body-bg-alt-rgb: {{ var(--ws-grey-900) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-fg-alt: var(--ws-grey-1100);
+  --ws-body-fg-alt-rgb: {{ var(--ws-grey-100) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-primary: {{ settings.lm_color_primary }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
