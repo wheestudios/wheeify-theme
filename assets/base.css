@@ -50,15 +50,14 @@
 /*
   Background/Text
 */
-.bg-body { --bg-color-rgb: var(--bs-body-bg-rgb); }
-.bg-body-2 { background-color: #242025; }
+.body-bg-1 { background-color: var(--bs-body-bg-1); }
+.body-bg-2 { background-color: var(--bs-body-bg-2); }
+
+.body-txt-1 { background-color: var(--bs-body-tx-1); }
+.body-txt-2 { background-color: var(--bs-body-tx-1); }
+
 .bg-primary { --bg-color-rgb: var(--bs-primary-rgb); }
 .bg-secondary { --bg-color-rgb: var(--bs-secondary-rgb); }
-
-.text-body { --text-color-rgb: var(--bs-body-color-rgb); }
-.text-color-1 { --text-color-1-rgb: var(--bs-primary-1-rgb); }
-.text-primary { --text-color-rgb: var(--bs-primary-rgb); }
-.text-secondary { --text-color-rgb: var(--bs-secondary-rgb); }
 
 
 /*
