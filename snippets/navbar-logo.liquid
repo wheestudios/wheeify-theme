@@ -3,7 +3,7 @@
   href="{{ routes.root_url }}">
     <img
       class="img-fluid navbar-logo-default"
-      src="{{ block.settings.logo | image_url: height: logo_height_x2 }}" 
+      src="{{ settings.logo | image_url: height: logo_height_x2 }}" 
       alt="{{ shop.name }}"
       width="{{ block.settings.logo_height | times: block.settings.logo.aspect_ratio | round }}" 
       height="{{ block.settings.logo_height }}"
