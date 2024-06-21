@@ -48,14 +48,10 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "font_size": "fs-xs",
-        "font_size_desktop": "fs-desktop-xl",
-        "text_transform": "",
         "letter_spacing": 1,
         "carousel_autoplay": 5,
-        "carousel_vertical": true,
-        "pt": 4,
-        "pb": 4
+        "pt": 20,
+        "pb": 20
       }
     },
     "navbar": {
