@@ -39,10 +39,10 @@
         "slide_mwF4Tk"
       ],
       "settings": {
-        "bg_color": "body-bg-alt",
+        "bg_color": "bg-primary",
         "bg_opacity": 100,
         "bg_gradient": "bg-gradient",
-        "text_color": "txt-primary",
+        "text_color": "txt-secondary",
         "border_top_width": 0,
         "border_bottom_width": 0,
         "border_color": "border-body",
