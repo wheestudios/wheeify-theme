@@ -14,6 +14,12 @@
     "announcement_bar_Ge9W3V": {
       "type": "announcement-bar",
       "blocks": {
+        "slide_kBATwG": {
+          "type": "slide",
+          "settings": {
+            "announcement": "Announce something important here"
+          }
+        },
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
@@ -28,6 +34,7 @@
         }
       },
       "block_order": [
+        "slide_kBATwG",
         "slide_j46kwk",
         "slide_mwF4Tk"
       ],
@@ -84,7 +91,7 @@
         "069e870e-aed4-4929-bf73-c0daca8be18e"
       ],
       "settings": {
-        "bg_color": "bg-body-alt",
+        "bg_color": "body-bg",
         "bg_opacity": 100,
         "bg_gradient": "",
         "text_color": "text-body",
