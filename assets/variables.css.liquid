@@ -17,15 +17,15 @@
 
 
 
-  --ws-body-bg: var(--ws-grey-100);
-  --ws-body-bg-rgb: {{ var(--ws-grey-100) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --ws-body-fg: var(--ws-grey-900);
-  --ws-body-fg-rgb: {{ var(--ws-grey-900) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-bg: #faf9fa;
+  --ws-body-bg-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-fg: #121012;
+  --ws-body-fg-rgb: {{ "#121012" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-  --ws-body-bg-alt: var(--ws-grey-900);
-  --ws-body-bg-alt-rgb: {{ var(--ws-grey-900) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --ws-body-fg-alt: var(--ws-grey-1100);
-  --ws-body-fg-alt-rgb: {{ var(--ws-grey-100) | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-bg-alt: #121012;
+  --ws-body-bg-alt-rgb: {{ "#121012" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-fg-alt: #faf9fa;
+  --ws-body-fg-alt-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-primary: {{ settings.lm_color_primary }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
