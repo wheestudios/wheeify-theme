@@ -19,7 +19,7 @@
       {
         "type": "color",
         "id": "lm_color_text_color_1",
-        "label": "Text Color 1",
+        "label": "Body Foreground",
         "default": "#121012"
       },
       {
@@ -32,43 +32,13 @@
         "type": "color",
         "id": "lm_color_secondary",
         "label": "Secondary",
-        "default": "#242025"
-      },
-      {
-        "type": "color",
-        "id": "lm_color_tertiary",
-        "label": "Tertiary",
-        "default": "#474248"
-      },
-      {
-        "type": "color",
-        "id": "lm_color_text_color_2",
-        "label": "Text Color 2",
-        "default": "#474248"
-      },
-      {
-        "type": "color",
-        "id": "lm_color_text_color_3",
-        "label": "Text Color 3",
-        "default": "#69646a"
+        "default": "#f4c400"        
       }
     ]
   },
   {
     "name": "Colors - Dark Mode",
     "settings": [
-      {
-        "type": "color",
-        "id": "dm_color_primary",
-        "label": "Primary",
-        "default": "#d63384"
-      },
-      {
-        "type": "color",
-        "id": "dm_color_secondary",
-        "label": "Secondary",
-        "default": "#6C757D"
-      },
       {
         "type": "color",
         "id": "dm_color_body_bg",
@@ -78,20 +48,20 @@
       {
         "type": "color",
         "id": "dm_color_text_color_1",
-        "label": "Text Color 1",
-        "default": "#f9faf9"
+        "label": "Body Foreground",
+        "default": "#121012"
       },
       {
         "type": "color",
-        "id": "dm_color_text_color_2",
-        "label": "Text Color 2",
-        "default": "#212529"
+        "id": "dm_color_primary",
+        "label": "Primary",
+        "default": "#7b0085"
       },
       {
         "type": "color",
-        "id": "dm_color_text_color_3",
-        "label": "Text Color 3",
-        "default": "#212529"
+        "id": "dm_color_secondary",
+        "label": "Secondary",
+        "default": "#f4c400"        
       }
     ]
   },
