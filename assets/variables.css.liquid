@@ -18,8 +18,8 @@
 
   --bs-body-bg: {{ settings.lm_color_body_bg }};
   --bs-body-bg-rgb: {{ settings.lm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-body-bg-2: {{ settings.lm_color_body_bg_2 }};
-  --bs-body-bg-2-rgb: {{ settings.lm_color_body_bg_2 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-body-bg-2: "#242025";
+  --bs-body-bg-2-rgb: {{ "#242025" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-primary: {{ settings.lm_color_primary }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
