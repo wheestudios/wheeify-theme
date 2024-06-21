@@ -1,40 +1,40 @@
-
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Nav Bar">
-    <div class="container">
-      <a class="navbar-brand" href="#">{% render 'navbar-logo', block: block %}</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExample07">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form role="search">
-          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-        </form>
-      </div>
-    </div>
-  </nav>
-
-
+<navbar-wrapper 
+  id="navbar-wrapper"
+  class="
+    {{ section.settings.bg_color }} 
+    {{ section.settings.bg_gradient }}
+    {{ section.settings.text_color }} 
+    {{ section.settings.border_top_width | prepend: 'border-top-' }}
+    {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
+    {{ section.settings.border_color }} 
+    {{ section.settings.shadow }}
+  "
+  style="
+    --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
+    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
+  "> 
+       <nav 
+        id="navbar-desktop" 
+        class="navbar d-none d-desktop-block p-0"
+        {{ block.shopify_attributes }}>
+        <div 
+          class="container d-block {{ block.settings.pt | prepend: 'pt-' }} {{  block.settings.pb | prepend: 'pb-' }}"
+          style="max-width: {{ block.settings.container_max_width | append: 'px' }};">
+          <div
+            class="row align-items-center flex-grow-1">
+            <div class="col-4">
+              {% render 'navbar-logo', block: block %}
+            </div>
+            <div class="col-10">
+              {% render 'navbar-desktop-menu', block: block %}
+            </div>
+            <div class="col-4">
+              {% render 'navbar-desktop-icons', block: block %}
+            </div>
+          </div>
+        </div>
+      </nav> 
+	  
 </navbar-wrapper>
  
 {% for block in section.blocks %}
