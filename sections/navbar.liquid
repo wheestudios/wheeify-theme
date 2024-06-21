@@ -1,6 +1,16 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
     <div class="container">
-      {% render 'navbar-logo' %}
+      <a 
+        class="navbar-logo navbar-brand" 
+        href="{{ routes.root_url }}">
+          <img
+            class="img-fluid navbar-logo-default"
+            src="{{ settings.logo | image_url: height: 160 }}" 
+            alt="{{ shop.name }}"
+            width="{{ 80 | times: settings.logo.aspect_ratio | round }}" 
+            height="80"
+            loading="lazy">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,7 +59,7 @@
           "min": 20,
           "max": 100,
           "step": 2,
-          "default": 40
+          "default": 100
         },
         {
           "type": "link_list",
