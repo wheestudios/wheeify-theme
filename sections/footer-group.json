@@ -15,7 +15,7 @@
       "type": "newsletter",
       "settings": {
         "bg_color": "bg-body-2",
-        "bg_opacity": 5,
+        "bg_opacity": 100,
         "bg_gradient": "",
         "text_color": "text-body",
         "border_top_width": 1,
