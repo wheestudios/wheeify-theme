@@ -2,13 +2,12 @@
   class="navbar-logo navbar-brand" 
   href="{{ routes.root_url }}">
 
-    {% assign logo_height_x2 = settings.logo_height | times: 2 %}
     <img
       class="img-fluid navbar-logo-default"
-      src="{{ settings.logo | image_url: height: logo_height_x2 }}" 
+      src="{{ settings.logo | image_url: height: 200 }}" 
       alt="{{ shop.name }}"
-      width="{{ settings.logo_height | times: settings.logo.aspect_ratio | round }}" 
-      height="{{ settings.logo_height }}"
+      width="{{ 100 | times: settings.logo.aspect_ratio | round }}" 
+      height="100"
       loading="lazy">
   
 </a>
