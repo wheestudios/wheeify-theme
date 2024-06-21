@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "Footer Group",
@@ -31,7 +40,7 @@
         "8b92bb0f-7aaa-4462-8660-b6a23bd9c31c": {
           "type": "menu",
           "settings": {
-            "menu": "shop",
+            "menu": "",
             "title_font_size": "fs-xl",
             "title": "Collections"
           }
@@ -39,7 +48,7 @@
         "79b0b9d4-1bf4-4490-a48e-94be1aecf12a": {
           "type": "menu",
           "settings": {
-            "menu": "company",
+            "menu": "",
             "title_font_size": "fs-xl",
             "title": "Company"
           }
@@ -74,10 +83,10 @@
         "0f9016c8-7819-40d8-a874-905df26582ca"
       ],
       "settings": {
-        "bg_color": "bg-secondary",
+        "bg_color": "bg-body-2",
         "bg_opacity": 100,
         "bg_gradient": "bg-gradient",
-        "text_color": "text-white",
+        "text_color": "text-body",
         "border_top_width": 0,
         "border_bottom_width": 0,
         "border_color": "border-white",
