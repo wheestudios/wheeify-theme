@@ -1,22 +1,8 @@
-<navbar-wrapper 
-  id="navbar-wrapper"
-  class="
-    {{ section.settings.bg_color }} 
-    {{ section.settings.bg_gradient }}
-    {{ section.settings.text_color }} 
-    {{ section.settings.border_top_width | prepend: 'border-top-' }}
-    {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
-    {{ section.settings.border_color }} 
-    {{ section.settings.shadow }}
-  "
-  style="
-    --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
-    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
-  ">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Nav Bar">
     <div class="container">
-      <a class="navbar-brand" href="#">Container</a>
+      <a class="navbar-brand" href="#">{% render 'navbar-logo', block: block %}</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
