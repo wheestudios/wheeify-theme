@@ -78,20 +78,15 @@
 
 [data-bs-theme=dark] {
   color-scheme: dark];
-  --bs-primary: {{ settings.dm_color_primary }};
-  --bs-primary-rgb: {{ settings.dm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-secondary: {{ settings.dm_color_secondary }};
-  --bs-secondary-rgb: {{ settings.dm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-body-bg: {{ settings.dm_color_body_bg }};
-  --bs-body-bg-rgb: {{ settings.dm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-1: {{ settings.dm_text_color_1 }};
-  --bs-text-color-1-rgb: {{ settings.dm_text_color_1 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-2: {{ settings.dm_text_color_2 }};
-  --bs-text-color-2-rgb: {{ settings.dm_text_color_2 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-3: {{ settings.dm_text_color_3 }};
-  --bs-text-color-3-rgb: {{ settings.dm_text_color_3 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-white: {{ settings.dm_color_body_bg }};
-  --bs-white-rgb: {{ settings.dm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-bg: #121012;
+  --ws-body-bg-rgb: {{ "#121012" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-fg: #faf9fa;
+  --ws-body-fg-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  
+  --ws-body-bg-alt: #242025;
+  --ws-body-bg-alt-rgb: {{ "#242025" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-fg-alt: #faf9fa;
+  --ws-body-fg-alt-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 }
 
 {%- comment -%} 
