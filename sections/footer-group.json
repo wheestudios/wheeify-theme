@@ -16,7 +16,7 @@
       "settings": {
         "bg_color": "bg-body-2",
         "bg_opacity": 5,
-        "bg_gradient": "bg-gradient",
+        "bg_gradient": "",
         "text_color": "text-body",
         "border_top_width": 1,
         "border_bottom_width": 0,
