@@ -9,14 +9,8 @@
 */
 {
   "current": {
-    "lm_color_body_bg": "#faf9fa",
-    "lm_color_body_bg_2": "#12ae38",
-    "lm_color_text_color_1": "#121012",
     "lm_color_primary": "#7b0085",
     "lm_color_secondary": "#f4c400",
-    "dm_color_body_bg": "#121012",
-    "dm_color_body_bg_2": "#121012",
-    "dm_color_text_color_1": "#faf9fa",
     "dm_color_primary": "#7b0085",
     "dm_color_secondary": "#f4c400",
     "transparent_header": "",
@@ -65,6 +59,12 @@
     "social_x": "#",
     "social_tiktok": "#",
     "social_youtube": "#",
+    "lm_color_body_bg": "#faf9fa",
+    "lm_color_body_bg_2": "#12ae38",
+    "lm_color_text_color_1": "#121012",
+    "dm_color_body_bg": "#121012",
+    "dm_color_body_bg_2": "#121012",
+    "dm_color_text_color_1": "#faf9fa",
     "lm_color_text_color_2": "#f57f07",
     "lm_color_text_color_3": "#d107f5",
     "dm_color_text_color_2": "#f57f07",
