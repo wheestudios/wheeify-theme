@@ -12,6 +12,18 @@
     "settings": [
       {
         "type": "color",
+        "id": "lm_color_body_bg",
+        "label": "Body Background",
+        "default": "#f9faf9"
+      },
+      {
+        "type": "color",
+        "id": "lm_color_text_color_1",
+        "label": "Text Color 1",
+        "default": "#121012"
+      },
+      {
+        "type": "color",
         "id": "lm_color_primary",
         "label": "Primary",
         "default": "#7b0085"
@@ -27,18 +39,6 @@
         "id": "lm_color_tertiary",
         "label": "Tertiary",
         "default": "#474248"
-      },
-      {
-        "type": "color",
-        "id": "lm_color_body_bg",
-        "label": "Body Background",
-        "default": "#f9faf9"
-      },
-      {
-        "type": "color",
-        "id": "lm_color_text_color_1",
-        "label": "Text Color 1",
-        "default": "#121012"
       },
       {
         "type": "color",
