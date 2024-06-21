@@ -84,7 +84,7 @@
         "069e870e-aed4-4929-bf73-c0daca8be18e"
       ],
       "settings": {
-        "bg_color": "bg-body",
+        "bg_color": "bg-body-alt",
         "bg_opacity": 100,
         "bg_gradient": "",
         "text_color": "text-body",
