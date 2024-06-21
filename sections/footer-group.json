@@ -14,7 +14,7 @@
     "newsletter_fL4LWF": {
       "type": "newsletter",
       "settings": {
-        "bg_color": "bg-secondary",
+        "bg_color": "bg-body-2",
         "bg_opacity": 5,
         "bg_gradient": "bg-gradient",
         "text_color": "text-body",
