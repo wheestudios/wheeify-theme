@@ -54,29 +54,10 @@
     },
     "navbar": {
       "type": "navbar",
-      "blocks": {
-        "069e870e-aed4-4929-bf73-c0daca8be18e": {
-          "type": "desktop",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
-            "logo_height": 100,
-            "main_menu": "main-menu"
-          }
-        }
-      },
-      "block_order": [
-        "069e870e-aed4-4929-bf73-c0daca8be18e"
-      ],
       "settings": {
-        "bg_color": "body-bg",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 100,
-        "shadow": "shadow-sm"
+        "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
+        "logo_height": 100,
+        "main_menu": "main-menu"
       }
     }
   },
