@@ -1,6 +1,6 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
     <div class="container">
-      <a class="navbar-brand" href="#">Container</a>
+      {% render 'navbar-logo', block: block %}
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,27 +31,7 @@
       </div>
     </div>
   </nav>
-        <nav 
-        id="navbar-desktop" 
-        class="navbar d-none d-desktop-block p-0"
-        {{ block.shopify_attributes }}>
-        <div 
-          class="container d-block {{ block.settings.pt | prepend: 'pt-' }} {{  block.settings.pb | prepend: 'pb-' }}"
-          style="max-width: {{ block.settings.container_max_width | append: 'px' }};">
-          <div
-            class="row align-items-center flex-grow-1">
-            <div class="col-4">
-              {% render 'navbar-logo', block: block %}
-            </div>
-            <div class="col-10">
-              {% render 'navbar-desktop-menu', block: block %}
-            </div>
-            <div class="col-4">
-              {% render 'navbar-desktop-icons', block: block %}
-            </div>
-          </div>
-        </div>
-      </nav> 
+ 
 {% schema %}
 {
   "name": "Navbar",
