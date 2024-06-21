@@ -42,7 +42,7 @@
         "bg_color": "body-bg-alt",
         "bg_opacity": 100,
         "bg_gradient": "bg-gradient",
-        "text_color": "text-white",
+        "text_color": "txt-primary",
         "border_top_width": 0,
         "border_bottom_width": 0,
         "border_color": "border-body",
