@@ -31,7 +31,27 @@
       </div>
     </div>
   </nav>
- 
+        <nav 
+        id="navbar-desktop" 
+        class="navbar d-none d-desktop-block p-0"
+        {{ block.shopify_attributes }}>
+        <div 
+          class="container d-block {{ block.settings.pt | prepend: 'pt-' }} {{  block.settings.pb | prepend: 'pb-' }}"
+          style="max-width: {{ block.settings.container_max_width | append: 'px' }};">
+          <div
+            class="row align-items-center flex-grow-1">
+            <div class="col-4">
+              {% render 'navbar-logo', block: block %}
+            </div>
+            <div class="col-10">
+              {% render 'navbar-desktop-menu', block: block %}
+            </div>
+            <div class="col-4">
+              {% render 'navbar-desktop-icons', block: block %}
+            </div>
+          </div>
+        </div>
+      </nav> 
 {% schema %}
 {
   "name": "Navbar",
