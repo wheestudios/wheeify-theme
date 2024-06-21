@@ -53,7 +53,7 @@
 .bg-primary { --bg-color-rgb: var(--bs-primary-rgb); }
 .bg-secondary { --bg-color-rgb: var(--bs-secondary-rgb); }
 .bg-body { --bg-color-rgb: var(--bs-body-bg-rgb); }
-.bg-body-2 { --bg-color-2-rgb: var(--bs-body-bg-2-rgb); }
+.bg-body-2 { --bg-color-rgb: var(--bs-body-bg-2-rgb); }
 .text-primary { --text-color-rgb: var(--bs-primary-rgb); }
 .text-secondary { --text-color-rgb: var(--bs-secondary-rgb); }
 .text-body { --text-color-rgb: var(--bs-body-color-rgb); }
