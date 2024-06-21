@@ -1,5 +1,5 @@
 <ul class="nav-desktop-menu nav justify-content-center">
-  {% for link in linklists[block.settings.main_menu].links %}
+  {% for link in linklists[settings.main_menu].links %}
     <li class="nav-item {% if link.links %}dropdown{% endif %}">
       {% if link.links == blank %}
         <a
