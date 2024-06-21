@@ -16,20 +16,24 @@
     Colors
   {%- endcomment -%}
 
-  --bs-body-bg: {{ settings.lm_color_body_bg }};
-  --bs-body-bg-rgb: {{ settings.lm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-body-bg-2: "#242025";
-  --bs-body-bg-2-rgb: {{ "#242025" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-body-bg-1: "#faf9fa";
+  --bs-body-bg-rgb: {{ "faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-body-bg-2: "#121012";
+  --bs-body-bg-2-rgb: {{ "#121012" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  
+  --bs-body-txt-1: {{ "#121012" }};
+  --bs-body-txt-1-rgb: {{ "#121012" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-body-txt-2: {{ "#faf9fa" }};
+  --bs-body-txt-2-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-primary: {{ settings.lm_color_primary }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --bs-secondary: {{ settings.lm_color_secondary }};
   --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-text-color-1: {{ settings.lm_text_color_1 }};
-  --bs-text-color-1-rgb: {{ settings.lm_text_color_1 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-  --bs-white: {{ settings.lm_color_body_bg }};
-  --bs-white-rgb: {{ settings.lm_color_body_bg | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-white: {{ "#faf9fa" }};
+  --bs-white-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  
   {% comment -%} 
     General
   {%- endcomment -%}
