@@ -1,8 +1,6 @@
 <a 
   class="navbar-logo navbar-brand" 
   href="{{ routes.root_url }}">
-  {% if block.settings.logo %}
-    {% assign logo_height_x2 = block.settings.logo_height | times: 2 %}
     <img
       class="img-fluid navbar-logo-default"
       src="{{ block.settings.logo | image_url: height: logo_height_x2 }}" 
@@ -10,9 +8,5 @@
       width="{{ block.settings.logo_height | times: block.settings.logo.aspect_ratio | round }}" 
       height="{{ block.settings.logo_height }}"
       loading="lazy">
-  {% else %}
-    <span>
-      {{ shop.name }}
-    </span>
-  {% endif %}
+
 </a>
