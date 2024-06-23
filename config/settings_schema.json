@@ -45,32 +45,6 @@
     "name": "General",
     "settings": [
       {
-        "type": "select",
-        "id": "transparent_header",
-        "label": "Transparent header",
-        "options": [
-          {
-            "value": "header-transparent",
-            "label": "Yes"
-          },
-          {
-            "value": "",
-            "label": "No"
-          }
-        ],
-        "default": "header-transparent"
-      },
-      {
-        "type": "range",
-        "id": "container_max_width",
-        "label": "Container max-width",
-        "min": 1200,
-        "max": 2000,
-        "default": 1400,
-        "step": 50,
-        "unit": "px"
-      },
-      {
         "type": "range",
         "id": "border_radius",
         "label": "Border radius",
