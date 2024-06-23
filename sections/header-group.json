@@ -14,12 +14,6 @@
     "announcement_bar_Ge9W3V": {
       "type": "announcement-bar",
       "blocks": {
-        "slide_kBATwG": {
-          "type": "slide",
-          "settings": {
-            "announcement": "Announce something important here"
-          }
-        },
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
@@ -34,7 +28,6 @@
         }
       },
       "block_order": [
-        "slide_kBATwG",
         "slide_j46kwk",
         "slide_mwF4Tk"
       ],
