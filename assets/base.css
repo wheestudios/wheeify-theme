@@ -560,12 +560,12 @@ hr {
 /*
   Navs
 */
-/*
+
 .nav-link {
   color: var(--ws-body-fg-alt);
   background-color: var(--ws-body-bg-alt);
 }
-
+/*
 .nav-link:hover,
 .nav-link:focus {
   background-color: var(--ws-body-bg);
