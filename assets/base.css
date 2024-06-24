@@ -589,8 +589,8 @@ hr {
 }
 
 .nav-link.active {
-  color: var(--ws-body-fg-alt-rgb);
-  background-color: var(--ws-body-bg-alt-rgb);
+  color: var(--ws-body-fg-alt);
+  background-color: var(--ws-body-bg-alt);
 }
 
 .nav-link-icon,
