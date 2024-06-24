@@ -47,6 +47,22 @@
     },
     "navbar": {
       "type": "navbar",
+      "blocks": {
+        "megamenu_wkrVHA": {
+          "type": "megamenu",
+          "settings": {
+            "for_item": "Shop by Pride Flag",
+            "grid": 2,
+            "second_level_column": false,
+            "second_level_column_size": 20,
+            "wrap": false,
+            "wrapper_grid": 12
+          }
+        }
+      },
+      "block_order": [
+        "megamenu_wkrVHA"
+      ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
         "logo_height": 100,
