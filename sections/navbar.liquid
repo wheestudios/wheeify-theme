@@ -1,29 +1,21 @@
-
-  <nav class="navbar sticky-top navbar-expand-lg" aria-label="">
-
-      <div class="ws-nav-background ">
-        <div class="container">
-          <a 
-            class="navbar-logo navbar-brand" 
-            href="{{ routes.root_url }}">
-              <img
-                class="img-fluid navbar-logo-default"
-                src="{{ settings.logo | image_url: height: 160 }}" 
-                alt="{{ shop.name }}"
-                width="{{ 80 | times: settings.logo.aspect_ratio | round }}" 
-                height="80"
-                loading="lazy">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-
-    <div class="collapse navbar-collapse bg-dark text-white" id="mainnav">
-       <div class="container">     
+    <header class="py-3 mb-4 border-bottom">
+    <div class="container d-flex flex-wrap justify-content-center">
+      <a href="{{ routes.root_url }}" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+				<img
+				class="img-fluid navbar-logo-default"
+				src="{{ settings.logo | image_url: height: 160 }}" 
+				alt="{{ shop.name }}"
+				width="{{ 80 | times: settings.logo.aspect_ratio | round }}" 
+				height="80" loading="lazy">
+      </a>
+    </div>
+  </header>
+  <nav class="py-2 bg-body-tertiary border-bottom">
+    <div class="container d-flex flex-wrap">
 {% render 'navbar-desktop-menu' %}
-      </div>
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+      </form>
     </div>
   </nav>
 
