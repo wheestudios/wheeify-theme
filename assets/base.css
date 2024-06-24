@@ -565,13 +565,13 @@ hr {
   color: var(--ws-body-fg-alt);
   background-color: var(--ws-body-bg-alt);
 }
-/*
+
 .nav-link:hover,
 .nav-link:focus {
-  background-color: var(--ws-body-bg);
+  color: var(--ws-body-fg);
   background-color: var(--ws-body-bg);
 }
-
+/*
 .nav-link:focus-visible {
   box-shadow: 0 0 0 0.25rem rgba(var(--ws-body-bg-alt-rgb), .15);
 }
