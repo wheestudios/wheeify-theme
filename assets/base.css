@@ -634,7 +634,7 @@ hr {
   --bs-dropdown-link-hover-bg: rgba(var(--bs-body-color-rgb), .05);
   --bs-dropdown-link-active-bg: rgba(var(--bs-body-color-rgb), .1);
   --bs-dropdown-link-active-color: currentColor;
-  --bs-dropdown-spacer: .25rem;
+  --bs-dropdown-spacer: 0;
   --bs-dropdown-divider-bg: var(--bs-border-color);
 }
 
