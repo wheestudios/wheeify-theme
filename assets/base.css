@@ -685,11 +685,15 @@ hr {
   border-radius: 0;
 }
 
-.dropdown-megamenu .dropdown-item {
-  border-radius: var(--bs-border-radius);
+// Mega Menu adjustments
+.nav-item.dropdown.dropdown-mega{
+    position: static;
+    .dropdown-menu{
+        width: 90%;
+        top: auto;
+        left: 5%;
+    }
 }
-
-
 
 /* 
   Badge
