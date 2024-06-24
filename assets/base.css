@@ -41,15 +41,6 @@
   box-shadow: var(--bs-box-shadow-md);
 }
 
-
-/*
-  Container
-*/
-.container {
-  max-width: var(--bs-container-max-width);
-}
-
-
 /*
   Background/Text
 */
@@ -70,14 +61,12 @@
   border-color: rgba(var(--bs-body-color-rgb), var(--bs-border-opacity)) !important;
 }
 
-
 /*
   Headings
 */
 .heading {
   font-family: var(--bs-headings-font-family);
 }
-
 
 /*
   Buttons
