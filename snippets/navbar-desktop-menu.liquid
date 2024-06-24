@@ -1,3 +1,11 @@
+{%- assign selected_blocks_megamenu = section.blocks | where: 'type', 'megamenu' -%}
+{%- for block in selected_blocks_megamenu -%}
+    {% capture items_with_megamenu %}{{ block.settings.for_item | handle }}||{{ items_with_megamenu }}{% endcapture %}
+{%- endfor -%}
+{{ items_with_megamenu }}
+{%- assign items_with_megamenu = items_with_megamenu | split: '||' -%}
+
+
 <ul class="nav me-auto">
   {% for link in linklists[section.settings.main_menu].links %}
     <li class="nav-item {% if link.links %}dropdown{% endif %}">
