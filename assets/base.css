@@ -571,9 +571,8 @@ hr {
 /*
   Navs
 */
-
+/*
 .nav-link {
-  border-radius: var(--bs-border-radius);
   color: var(--ws-body-fg-alt);
   background-color: var(--ws-body-bg-alt);
 }
@@ -615,7 +614,7 @@ hr {
   background-color: rgba(var(--text-color-rgb, var(--bs-body-color-rgb)), .1);
   border-color: transparent;
 }
-
+*/
 
 /*
   Tabs
