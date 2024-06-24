@@ -585,7 +585,7 @@ hr {
 
 .nav-link:hover,
 .nav-link:focus {
-  background-color: rgba(var(--text-color-rgb), .05);
+  background-color: rgba(var(--ws-body-bg-alt-rgb), .05);
 }
 
 .nav-link:focus-visible {
