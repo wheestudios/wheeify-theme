@@ -589,11 +589,11 @@ hr {
 }
 
 .nav-link.active {
-  background-color: rgba(var(--text-color-rgb), .05);
+  background-color: rgba(var(--ws-body-bg-alt), .05);
 }
 
 .nav-link:active {
-  background-color: rgba(var(--text-color-rgb), .1);
+  background-color: rgba(var(--ws-body-bg-alt), .1);
 }
 
 .nav-link-icon,
