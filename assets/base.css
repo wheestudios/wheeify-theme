@@ -574,8 +574,6 @@ hr {
 
 .nav-link {
   border-radius: var(--bs-border-radius);
-  color: white;
-  backgorund-color: red;
 }
 
 .nav-link:hover,
