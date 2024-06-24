@@ -580,7 +580,7 @@ hr {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--ws-body-fg);
+  background-color: var(--ws-body-bg);
   background-color: var(--ws-body-bg);
 }
 
@@ -589,11 +589,7 @@ hr {
 }
 
 .nav-link.active {
-  background-color: rgba(var(--ws-body-bg-alt), .05);
-}
-
-.nav-link:active {
-  background-color: rgba(var(--ws-body-bg-alt), .1);
+  background-color: rgba(var(--ws-body-bg-alt-rgb), .05);
 }
 
 .nav-link-icon,
