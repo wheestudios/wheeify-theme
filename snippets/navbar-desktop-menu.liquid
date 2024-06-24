@@ -6,6 +6,7 @@
 
 
 {{ items_with_megamenu }}
+
 <ul class="nav me-auto">
   {% for link in linklists[section.settings.main_menu].links %}
     <li class="nav-item {% if link.links %}dropdown{% endif %}">
@@ -26,6 +27,8 @@
           role="button">
           {{ link.title }}
         </a>
+
+        
         <ul class="dropdown-menu">
           {% for child_link in link.links %}
             <li>
@@ -42,6 +45,8 @@
             </li>
           {% endfor %}
         </ul>
+
+        
       {% endif %}
     </li>
   {% endfor %}
