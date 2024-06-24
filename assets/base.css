@@ -563,9 +563,10 @@ hr {
 .nav-link:hover,
 .nav-link:focus {
   color: var( --bs-gray-300);
-  background-color: var(--bs-grey-100);
 }
-
+.nav-link:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(var(--ws-body-bg-alt-rgb), .15);
+}
 /*
 .nav-link {
   color: var(--ws-body-fg-alt);
@@ -574,9 +575,7 @@ hr {
 
 
 
-.nav-link:focus-visible {
-  box-shadow: 0 0 0 0.25rem rgba(var(--ws-body-bg-alt-rgb), .15);
-}
+
 
 .nav-link.active {
   color: var(--ws-body-fg-alt);
