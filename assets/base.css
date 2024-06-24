@@ -631,8 +631,8 @@ hr {
 */
 .dropdown-menu {
   --bs-dropdown-border-color: var(--bs-border-color);
-  --bs-dropdown-link-hover-bg: rgba(var(--ws-body-bg-rgb), .05);
-  --bs-dropdown-link-active-bg: rgba(var(--ws-body-bg-rgb), .1);
+  --bs-dropdown-link-hover-bg: rgba(var(--ws-body-bg-alt-rgb), .05);
+  --bs-dropdown-link-active-bg: rgba(var(--ws-body-bg-alt-rgb), .1);
   --bs-dropdown-link-active-color: currentColor;
   --bs-dropdown-spacer: 0;
   --bs-dropdown-divider-bg: var(--bs-border-color);
