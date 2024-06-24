@@ -56,8 +56,8 @@
 .body-bg { background-color: var(--ws-body-bg); }
 .body-bg-alt { background-color: var(--ws-body-bg-alt); }
 
-.body-fg { color: var(--bs-body-fg); }
-.body-fg-alt { color: var(--bs-body-fg-alt); }
+.body-fg { textcolor: var(--bs-body-fg); }
+.body-fg-alt { text-color: var(--bs-body-fg-alt); }
 
 .bg-primary { --bg-color-rgb: var(--bs-primary-rgb); }
 .bg-secondary { --bg-color-rgb: var(--bs-secondary-rgb); }
