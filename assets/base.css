@@ -563,7 +563,7 @@ hr {
 .nav-link:hover,
 .nav-link:focus {
   color: var( --bs-gray-300);
-  background-color: var(--bs-grey-600);
+  background-color: var(--bs-grey-100);
 }
 
 /*
