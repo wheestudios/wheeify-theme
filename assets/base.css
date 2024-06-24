@@ -574,11 +574,13 @@ hr {
 
 .nav-link {
   border-radius: var(--bs-border-radius);
+  color: var(--ws-body-fg-alt);
+  background-color: var(--ws-body-bg-alt);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  background-color: rgba(var(--ws-body-bg-alt-rgb), .5);
+  background-color: rgba(var(--ws-body-bg-alt-rgb), .05);
 }
 
 .nav-link:focus-visible {
