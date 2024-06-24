@@ -572,12 +572,6 @@ hr {
 /*
   Navs
 */
-.nav {
-  --bs-nav-link-padding-x: 0.75rem;
-  --bs-nav-link-padding-y: 0.375rem;
-  --bs-nav-link-color: var(--ws-body-fg-alt-rgb);
-  --bs-nav-link-hover-color: var(--ws-body-fg-rgb);
-}
 
 .nav-link {
   border-radius: var(--bs-border-radius);
