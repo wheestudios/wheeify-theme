@@ -18,9 +18,7 @@
           {{ link.title }}
         </a>
       {% else %}
-{% if items_with_megamenu contains link.handle %}
-<div class="ws-mega-menu">THIS IS A MEGA MENU</div>
-  {% else %}
+
         <a 
           class="nav-link dropdown-toggle {% if link.child_active %}active{% endif %}" 
           href="#"
@@ -31,6 +29,11 @@
           {{ link.title }}
         </a>
         <ul class="dropdown-menu">
+
+{% if items_with_megamenu contains link.handle %}
+<div class="ws-mega-menu">THIS IS A MEGA MENU</div>
+  {% else %}
+          
           {% for child_link in link.links %}
             <li>
               {% if child_link.title == '-' %}
@@ -45,9 +48,9 @@
               {% endif %}
             </li>
           {% endfor %}
+          {% endif %}
         </ul>
 
-        {% endif %}
       {% endif %}
     </li>
   {% endfor %}
