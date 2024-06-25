@@ -32,6 +32,7 @@
 
         {% if items_with_megamenu contains link.handle %}
           <li>
+            {{ link | json }}
             {% render 'megamenu' with link as megalink %}
           </li>
         {% else %}
