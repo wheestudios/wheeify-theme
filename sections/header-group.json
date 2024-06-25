@@ -61,11 +61,19 @@
             "for_item": "Shop by Product",
             "num_mega_columns": 4
           }
+        },
+        "megamenu_44CQrU": {
+          "type": "megamenu",
+          "settings": {
+            "for_item": "Gift Cars",
+            "num_mega_columns": 6
+          }
         }
       },
       "block_order": [
         "megamenu_wkrVHA",
-        "megamenu_73tBdA"
+        "megamenu_73tBdA",
+        "megamenu_44CQrU"
       ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
