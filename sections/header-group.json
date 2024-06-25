@@ -58,10 +58,22 @@
             "wrap": false,
             "wrapper_grid": 12
           }
+        },
+        "megamenu_TKHWQt": {
+          "type": "megamenu",
+          "settings": {
+            "for_item": "Shop by Collection",
+            "grid": 2,
+            "second_level_column": false,
+            "second_level_column_size": 20,
+            "wrap": false,
+            "wrapper_grid": 12
+          }
         }
       },
       "block_order": [
-        "megamenu_wkrVHA"
+        "megamenu_wkrVHA",
+        "megamenu_TKHWQt"
       ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
