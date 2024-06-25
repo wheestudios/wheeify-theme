@@ -29,8 +29,20 @@
           {{ link.title }}
         </a>
         <ul class="dropdown-menu">
-
+        {%- assign megamenu_index = 0 -%}
         {% if items_with_megamenu contains link.handle %}
+                        {%- for block in section.blocks offset: megamenu_index -%}
+                            {%- if block.type =='megamenu' -%}
+                                {%- assign for_item_handle = block.settings.for_item | handle -%}
+                                {%- if for_item_handle == link.handle -%}
+                                    {%- assign megamenu = block.settings -%}
+                                    {%- assign megamenu_index = forloop.index | plus: megamenu_index -%}
+                                    {%- break -%}
+                                {%- endif -%}
+                            {%- endif -%}
+                        {%- endfor -%}  
+
+          {{ megamenu }}
           <li>
             {{ block.id }}<br>
             {% render 'megamenu' with link as megalink %}
