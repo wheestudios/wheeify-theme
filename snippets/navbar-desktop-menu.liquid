@@ -6,10 +6,12 @@
 
 
 {{ items_with_megamenu }}
-
+{{ links }}
 <ul class="nav me-auto">
   {% for link in linklists[section.settings.main_menu].links %}
     <li class="nav-item {% if link.links %}dropdown{% endif %}">
+      
+      {% # SINGLE ITEM MENU LEVEL %}
       {% if link.links == blank %}
         <a
           class="nav-link {% if link.active %}active{% endif %}" 
@@ -18,6 +20,7 @@
           {{ link.title }}
         </a>
       {% else %}
+
         <a 
           class="nav-link dropdown-toggle {% if link.child_active %}active{% endif %}" 
           href="#"
@@ -27,8 +30,6 @@
           role="button">
           {{ link.title }}
         </a>
-
-        
         <ul class="dropdown-menu">
           {% for child_link in link.links %}
             <li>
