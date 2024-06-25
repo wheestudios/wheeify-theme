@@ -7,7 +7,10 @@
 <ul class="nav me-auto">
   {% for link in linklists[section.settings.main_menu].links %}
 
-    <li class="nav-item {% if link.links %}dropdown{% endif %}">
+    <li class="nav-item 
+      {% if link.links %}dropdown{% endif %}
+      {% if items_with_megamenu contains link.handle %}has-megamenu{% endif %}
+      ">
       
       {% # SINGLE ITEM MENU LEVEL %}
       {% if link.links == blank %}
@@ -40,12 +43,10 @@
                             {%- endif -%}
                         {%- endfor -%}  
 
-        <ul class="dropdown-menu">
-          <li class="nav-item ">
+        <div class="dropdown-menu megamenu" role="menu">
             {{ megamenu }}
             {% render 'megamenu' with megamenu as mega_menu_settings %}
-          </li>
-        </ul>
+        </div>
           
         {% else %}
           
