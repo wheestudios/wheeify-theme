@@ -31,7 +31,7 @@
 
         {%- assign megamenu_index = 0 -%}
         {% if items_with_megamenu contains link.handle %}
-          {{ ### MEGA DROPDOWN }}
+ 
                         {%- for block in section.blocks offset: megamenu_index -%}
                             {%- if block.type =='megamenu' -%}
                                 {%- assign for_item_handle = block.settings.for_item | handle -%}
@@ -47,7 +47,7 @@
             {% render 'megamenu' with link as megalink %}
           </div>
         {% else %}
-          {{ ### NORMAL DROPDOWN }}
+
           <ul class="dropdown">
           {% for child_link in link.links %}
             <li>
