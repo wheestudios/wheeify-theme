@@ -32,21 +32,21 @@
         {%- assign megamenu_index = 0 -%}
         {% if items_with_megamenu contains link.handle %}
           {% ### MEGA MENU %}
-                        {%- for block in section.blocks offset: megamenu_index -%}
-                            {%- if block.type =='megamenu' -%}
-                                {%- assign for_item_handle = block.settings.for_item | handle -%}
-                                {%- if for_item_handle == link.handle -%}
-                                    {%- assign megamenu = block.settings -%}
-                                    {%- assign megamenu_index = forloop.index | plus: megamenu_index -%}
-                                    {%- break -%}
-                                {%- endif -%}
-                            {%- endif -%}
-                        {%- endfor -%}  
-{{ megamenu }}
-        <div class="dropdown-menu megamenu" role="menu">
-            {% render 'megamenu' with megamenu as mega_menu_settings %}
-        </div>
-          
+          {%- for block in section.blocks offset: megamenu_index -%}
+              {%- if block.type =='megamenu' -%}
+                  {%- assign for_item_handle = block.settings.for_item | handle -%}
+                  {%- if for_item_handle == link.handle -%}
+                      {%- assign megamenu = block.settings -%}
+                      {%- assign megamenu_index = forloop.index | plus: megamenu_index -%}
+                      {%- break -%}
+                  {%- endif -%}
+              {%- endif -%}
+          {%- endfor -%}
+          {{ block }}
+          <div class="dropdown-menu megamenu" role="menu">
+              {% render 'megamenu' with block as mega_menu_settings %}
+          </div>
+              
         {% else %}
           
           {% ### NORMAL DROPDOWN %}
