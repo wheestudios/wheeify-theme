@@ -4,11 +4,9 @@
 {%- endfor -%}
 {%- assign items_with_megamenu = items_with_megamenu | split: '||' -%}
 
-
-{{ items_with_megamenu }}
 <ul class="nav me-auto">
   {% for link in linklists[section.settings.main_menu].links %}
-    {{ link }}
+    {{ link.handle }}
     <li class="nav-item {% if link.links %}dropdown{% endif %}">
       
       {% # SINGLE ITEM MENU LEVEL %}
