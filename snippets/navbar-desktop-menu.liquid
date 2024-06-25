@@ -25,11 +25,10 @@
           role="button">
           {{ link.title }}
         </a>
-        <ul class="dropdown-menu">
           
         {%- assign megamenu_index = 0 -%}
         {% if items_with_megamenu contains link.handle %}
-          {% ### PROCESS MEGA MENU %}
+          {% ### MEGA MENU %}
                         {%- for block in section.blocks offset: megamenu_index -%}
                             {%- if block.type =='megamenu' -%}
                                 {%- assign for_item_handle = block.settings.for_item | handle -%}
@@ -40,13 +39,15 @@
                                 {%- endif -%}
                             {%- endif -%}
                         {%- endfor -%}  
-          <li class="has-megamenu">
+          <div class="has-megamenu">
             {% render 'megamenu' with megamenu as mega_menu_settings %}
-          </li>
+          </div>
           
         {% else %}
           
-          {% ### PROCESS REGULAR DROP DOWN %}
+          {% ### NORMAL DROPDOWN %}
+		  
+        <ul class="dropdown-menu">
           {% for child_link in link.links %}
             <li>
               {% if child_link.title == '-' %}
@@ -60,9 +61,10 @@
                 </a>
               {% endif %}
             </li>
-          {% endfor %}
-          {% endif %}
+          {% endfor %} 
         </ul>
+		
+        {% endif %}
 
       {% endif %}
     </li>
