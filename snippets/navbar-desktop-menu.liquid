@@ -34,6 +34,7 @@
           {% ### MEGA MENU %}
           {%- for block in section.blocks offset: megamenu_index -%}
               {%- if block.type =='megamenu' -%}
+                  {%- assign blockMegaMenu = block -%}
                   {%- assign for_item_handle = block.settings.for_item | handle -%}
                   {%- if for_item_handle == link.handle -%}
                       {%- assign megamenu = block.settings -%}
@@ -44,7 +45,7 @@
           {%- endfor -%}
           {{ block }}
           <div class="dropdown-menu megamenu" role="menu">
-              {% render 'megamenu' with block as mega_menu_settings %}
+              {% render 'megamenu' with blockMegaMenu as blockMegaMenu %}
           </div>
               
         {% else %}
