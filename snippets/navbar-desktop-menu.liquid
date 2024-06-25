@@ -6,7 +6,7 @@
 
 
 {{ items_with_megamenu }}
-{{ links }}
+{{ linklists[section.settings.main_menu].links }}
 <ul class="nav me-auto">
   {% for link in linklists[section.settings.main_menu].links %}
     <li class="nav-item {% if link.links %}dropdown{% endif %}">
