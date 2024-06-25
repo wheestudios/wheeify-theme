@@ -59,6 +59,17 @@
             "wrapper_grid": 12
           }
         },
+        "megamenu_73tBdA": {
+          "type": "megamenu",
+          "settings": {
+            "for_item": "Shop by Product",
+            "grid": 2,
+            "second_level_column": false,
+            "second_level_column_size": 20,
+            "wrap": false,
+            "wrapper_grid": 12
+          }
+        },
         "megamenu_TKHWQt": {
           "type": "megamenu",
           "settings": {
@@ -73,6 +84,7 @@
       },
       "block_order": [
         "megamenu_wkrVHA",
+        "megamenu_73tBdA",
         "megamenu_TKHWQt"
       ],
       "settings": {
