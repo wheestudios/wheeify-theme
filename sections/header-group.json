@@ -52,33 +52,21 @@
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Pride Flag",
-            "grid": 2,
-            "second_level_column": false,
-            "second_level_column_size": 20,
-            "wrap": false,
-            "wrapper_grid": 12
+            "some_text": "This is the text."
           }
         },
         "megamenu_73tBdA": {
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Product",
-            "grid": 2,
-            "second_level_column": false,
-            "second_level_column_size": 20,
-            "wrap": false,
-            "wrapper_grid": 12
+            "some_text": "A bunch of products"
           }
         },
         "megamenu_TKHWQt": {
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Collection",
-            "grid": 2,
-            "second_level_column": false,
-            "second_level_column_size": 20,
-            "wrap": false,
-            "wrapper_grid": 12
+            "some_text": "Collections"
           }
         }
       },
