@@ -52,21 +52,21 @@
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Pride Flag",
-            "some_text": "This is the text."
+            "link_columns": 5
           }
         },
         "megamenu_73tBdA": {
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Product",
-            "some_text": "A bunch of products"
+            "link_columns": 4
           }
         },
         "megamenu_TKHWQt": {
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Collection",
-            "some_text": "Collections"
+            "link_columns": 4
           }
         }
       },
