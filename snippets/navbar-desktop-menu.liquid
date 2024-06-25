@@ -32,7 +32,7 @@
 
         {% if items_with_megamenu contains link.handle %}
           <li>
-{%- assign selected_mega_menu = section.blocks | where: 'settings.for_item', link.handle -%}
+{%- assign selected_mega_menu = section.block | where: 'settings.for_item', link.handle -%}
             {{ selected_mega_menu }}<br>
             {% render 'megamenu' with link as megalink %}
           </li>
