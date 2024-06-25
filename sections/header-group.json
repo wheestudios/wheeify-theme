@@ -51,29 +51,19 @@
         "megamenu_wkrVHA": {
           "type": "megamenu",
           "settings": {
-            "for_item": "Shop by Pride Flag",
-            "link_columns": 5
+            "for_item": "Shop by Pride Flag"
           }
         },
         "megamenu_73tBdA": {
           "type": "megamenu",
           "settings": {
-            "for_item": "Shop by Product",
-            "link_columns": 4
-          }
-        },
-        "megamenu_TKHWQt": {
-          "type": "megamenu",
-          "settings": {
-            "for_item": "Shop by Collection",
-            "link_columns": 4
+            "for_item": "Shop by Product"
           }
         }
       },
       "block_order": [
         "megamenu_wkrVHA",
-        "megamenu_73tBdA",
-        "megamenu_TKHWQt"
+        "megamenu_73tBdA"
       ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
