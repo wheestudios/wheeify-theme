@@ -18,7 +18,7 @@
           {{ link.title }}
         </a>
       {% else %}
-{% if link.handle in items_with_megamenu %}
+{% if link.handle contains items_with_megamenu %}
 <div class="ws-mega-menu">THIS IS A MEGA MENU</div>
   {% else %}
         <a 
