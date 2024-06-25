@@ -41,11 +41,9 @@
                                 {%- endif -%}
                             {%- endif -%}
                         {%- endfor -%}  
-
-          {{ megamenu }}
           <li>
             {{ block.id }}<br>
-            {% render 'megamenu' with link as megalink %}
+            {% render 'megamenu' with megamenu as mega_menu_settings %}
           </li>
         {% else %}
           
