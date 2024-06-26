@@ -91,39 +91,29 @@
   }
 }
 
-.ws-menu-col-2 {
+.ws-menu-col {
     width: 100%;
     display: grid;
+    grid-auto-flow: row;
+}
+.ws-menu-col-2 {
     grid-template-columns: 1fr 1fr;
-    grid-auto-flow: column;
 }
 
 .ws-menu-col-3 {
-    width: 100%;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: column;
 }
 
 .ws-menu-col-4 {
-    width: 100%;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-flow: column;
 }
 
 .ws-menu-col-5 {
-    width: 100%;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-flow: column;
 }
 
 .ws-menu-col-6 {
-    width: 100%;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-flow: column;
 }
 
 .ws-menu-item {
