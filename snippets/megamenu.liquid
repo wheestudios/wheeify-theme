@@ -10,21 +10,23 @@
   {% if link.handle == mymenu %}
     
     {%- if link.links != blank -%}
-
+<div class="ws-menu-col-3">
         {%- for child_link in link.links -%}
           {%- if child_link.links != blank -%}
-            <div class="">
+            <div class="ws-menu-item">
               <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
                 {{ child_link.title }}
               </a>
             </div>
             {%- for grandchild_link in child_link.links -%}
-              <a href="{{ grandchild_link.url }}" {% if grandchild_link.active %}aria-current="page"{% endif %}>
-                {{ grandchild_link.title }}
-              </a>
+              <div class="ws-menu-item-child">
+                <a href="{{ grandchild_link.url }}" {% if grandchild_link.active %}aria-current="page"{% endif %}>
+                  {{ grandchild_link.title }}
+                </a>
+              </div>
             {%- endfor -%}
           {%- else -%}
-            <div>
+            <div class="ws-menu-item">
               <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>{{ child_link.title }}</a>
             </div>     
           {%- endif -%}
