@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12 col-sm-4 col-md-3 py-4">
           <h5>{{ mmsettings }} </h5>
-{% assign mymenu = 'shop-by-pride-flag' | downcase %}
+{% assign mymenu = mmsettings.for-item | handle %}
 {% for link in linklists[mymenu].links -%}
   {{ link.title | link_to: link.url }}
 {%- endfor %}
