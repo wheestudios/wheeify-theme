@@ -95,6 +95,10 @@
   
 }
 
+.ws-avoid-break {
+  break-inside: avoid;
+}
+
 .ws-menu-col-2 {
   column-count: 2;
 }
