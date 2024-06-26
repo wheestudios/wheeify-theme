@@ -91,10 +91,34 @@
   }
 }
 
+.ws-menu-col-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .ws-menu-col-3 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ws-menu-col-4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.ws-menu-col-5 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ws-menu-col-6 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .ws-menu-item {
