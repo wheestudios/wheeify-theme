@@ -94,6 +94,7 @@
 .ws-menu-col {
     width: 100%;
     display: grid;
+  line-height: 1em;
 }
 .ws-menu-col-2 {
     grid: repeat(12, 40px) / auto-flow 50%;
