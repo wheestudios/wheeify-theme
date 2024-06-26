@@ -95,8 +95,24 @@
   
 }
 
+.ws-menu-col-2 {
+  column-count: 2;
+}
+
+.ws-menu-col-3 {
+  column-count: 3;
+}
+
+.ws-menu-col-4 {
+  column-count: 4;
+}
+
 .ws-menu-col-5 {
   column-count: 5;
+}
+
+.ws-menu-col-6 {
+  column-count: 6;
 }
 
 .ws-menu-item {
