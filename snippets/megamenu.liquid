@@ -9,7 +9,7 @@
   {% if link.handle == mymenu %}
     
     {%- if link.links != blank -%}
-      <div class="ws-menu-col-{{ num_cols }}">
+      <div class="ws-menu-col ws-menu-col-{{ num_cols }}">
         {%- for child_link in link.links -%}
           {%- if child_link.links != blank -%}
             <div class="ws-menu-item">
