@@ -4,11 +4,8 @@
       <div class="row">
         <div class="col-12 col-sm-4 col-md-3 py-4">
           <h5>{{ mmsettings }} </h5>
-<!-- Main menu -->
-{% for link in linklists.main-menu.links -%}
-  {{ link.title | link_to: link.url }}
-{%- endfor %}
-{% for link in linklists['shop-by-pride-flag'].links -%}
+
+{% for link in linklists[shop-by-pride-flag].links -%}
   {{ link.title | link_to: link.url }}
 {%- endfor %}
           
