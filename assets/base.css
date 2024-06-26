@@ -94,7 +94,6 @@
 .ws-menu-col {
     width: 100%;
     display: grid;
-    grid-auto-flow: column;
 }
 .ws-menu-col-2 {
     grid-template-columns: 1fr 1fr;
@@ -113,7 +112,8 @@
 }
 
 .ws-menu-col-6 {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid: repeat(12, 60px) / auto-flow 33%;
 }
 
 .ws-menu-item {
