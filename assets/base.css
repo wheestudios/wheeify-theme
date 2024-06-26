@@ -95,7 +95,7 @@
   width: 100%;
   display: grid;
   line-height: 1em;
-  grid-auto-rows: 40px;
+  grid-auto-rows: 30px;
 }
 .ws-menu-col-2 {
   grid-template-columns: repeat(2, 1fr);
