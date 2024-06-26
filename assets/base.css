@@ -91,30 +91,8 @@
   }
 }
 
-.ws-menu-col {
-  width: 100%;
-  display: grid;
-  line-height: 1em;
-  grid-auto-rows: 30px;
-}
-.ws-menu-col-2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.ws-menu-col-3 {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.ws-menu-col-4 {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.ws-menu-col-5 {
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.ws-menu-col-6 {
-  grid-template-columns: repeat(6, 1fr);
+.ws-menu {
+  
 }
 
 .ws-menu-item {
