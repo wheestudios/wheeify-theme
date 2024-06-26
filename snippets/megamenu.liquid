@@ -5,9 +5,20 @@
         <div class="col-12 col-sm-4 col-md-3 py-4">
           <h5>Columns {{ mmsettings.num_mega_columns }} </h5>
 
-{% for link in linklists['shop-by-pride-flag'].links -%}
-  {{ link.title | link_to: link.url }}
-{%- endfor %}
+          {% for child_link in linklist['shop-by-pride-flag'].links %}
+            <li>
+              {% if child_link.title == '-' %}
+                <hr class="dropdown-divider">
+              {% else %}
+                <a 
+                  class="dropdown-item {% if child_link.active %}active{% endif %}" 
+                  href="{{ child_link.url }}"
+                  aria-current="{% if child_link.active %}page{% endif %}">
+                  {{ child_link.title }}
+                </a>
+              {% endif %}
+            </li>
+          {% endfor %} 
         </div>
         <div class="col-12 col-sm-4 col-md-3 py-4">
 
