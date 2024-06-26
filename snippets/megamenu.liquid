@@ -2,14 +2,14 @@
   <div class="mega-content px-4">
     <div class="container-fluid">
 
-
 {% assign mymenu = mmsettings.for_item | handle %}
+{% assign num_cols = mmsettings.number-of-columns %}
 
 {% for link in linklists[section.settings.main_menu].links %}
   {% if link.handle == mymenu %}
     
     {%- if link.links != blank -%}
-      <div class="ws-menu-col-3">
+      <div class="ws-menu-col-{{ num_cols }}">
         {%- for child_link in link.links -%}
           {%- if child_link.links != blank -%}
             <div class="ws-menu-item">
