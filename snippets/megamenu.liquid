@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 col-sm-4 col-md-3 py-4">
-          <h5>Columns {{ mmsettings.num_mega_columns }} </h5>
+          <h5>{{ mmsettings }} </h5>
 <!-- Footer menu -->
 {% for link in linklists['shop-by-pride-flag'].links -%}
   {{ link.title | link_to: link.url }}
