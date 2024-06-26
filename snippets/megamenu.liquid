@@ -13,7 +13,7 @@
       <div class="ws-menu-col-3">
         {%- for child_link in link.links -%}
           {%- if child_link.links != blank -%}
-            <div class="ws-menu-item bg-primary ">
+            <div class="ws-menu-item">
               <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
                 {{ child_link.title }}
               </a>
