@@ -4,7 +4,7 @@
 
 {% assign mymenu = mmsettings.for_item | handle %}
 {% assign num_cols = mmsettings.num_mega_columns %}
-{{ mmsettings }}
+
 {% for link in linklists[section.settings.main_menu].links %}
   {% if link.handle == mymenu %}
     
