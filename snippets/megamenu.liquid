@@ -5,11 +5,10 @@
         <div class="col-12 col-sm-4 col-md-3 py-4">
           <h5>{{ mmsettings }} </h5>
 {% assign mymenu = mmsettings.for_item | handle %}
-{{ mymenu }}
 
 {% for link in linklists[section.settings.main_menu].links %}
   {% if link.handle == mymenu %}
-    {{ assign thisMenu = link }}
+    {{ assign thisMenu == link }}
   {% endif %}
 {% endfor %}
           
