@@ -6,6 +6,13 @@
           <h5>{{ mmsettings }} </h5>
 {% assign mymenu = mmsettings.for_item | handle %}
           {{ mymenu }}
+
+  {% for link in linklists[section.settings.main_menu].links %}
+    {% if link.handle = mymenu %}
+{{ link.handle }}
+    {% endif %}
+  {% endfor %}
+          
 {% for link in linklists[mymenu].links -%}
   {{ link.title | link_to: link.url }}
 {%- endfor %}
