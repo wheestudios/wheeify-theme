@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12 col-sm-4 col-md-3 py-4">
           <h5>Columns {{ mmsettings.num_mega_columns }} </h5>
-
+{{ linklists['shop-by-pride-flag'] }}
           {% for child_link in linklist['shop-by-pride-flag'].links %}
             <li>
               {% if child_link.title == '-' %}
