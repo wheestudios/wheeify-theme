@@ -92,29 +92,29 @@
 }
 
 .ws-menu-col {
-    width: 100%;
-    display: grid;
+  width: 100%;
+  display: grid;
   line-height: 1em;
+  grid-auto-rows: 40px;
 }
 .ws-menu-col-2 {
-    grid: repeat(12, 40px) / auto-flow 50%;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .ws-menu-col-3 {
-    grid: repeat(12, 40px) / auto-flow 33.3%;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .ws-menu-col-4 {
-    grid: repeat(12, 40px) / auto-flow 25%;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .ws-menu-col-5 {
-    grid: repeat(12, 40px) / auto-flow 20%;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .ws-menu-col-6 {
-
-    grid: repeat(6, 40px) / auto-flow 16.6%;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .ws-menu-item {
