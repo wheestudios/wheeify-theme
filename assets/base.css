@@ -96,24 +96,24 @@
     display: grid;
 }
 .ws-menu-col-2 {
-    grid-template-columns: 1fr 1fr;
+    grid: repeat(12, 40px) / auto-flow 50%;
 }
 
 .ws-menu-col-3 {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid: repeat(12, 40px) / auto-flow 33.3%;
 }
 
 .ws-menu-col-4 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid: repeat(12, 40px) / auto-flow 25%;
 }
 
 .ws-menu-col-5 {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid: repeat(12, 40px) / auto-flow 20%;
 }
 
 .ws-menu-col-6 {
 
-    grid: repeat(12, 60px) / auto-flow 33%;
+    grid: repeat(12, 40px) / auto-flow 16.6%;
 }
 
 .ws-menu-item {
