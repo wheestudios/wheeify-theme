@@ -12,10 +12,11 @@
       <div class="ws-menu-col ws-menu-col-{{ num_cols }}">
         {%- for child_link in link.links -%}
           {%- if child_link.links != blank -%}
-            <div class="ws-menu-item px-2">
-              <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
-                {{ child_link.title }}
-              </a>
+            <div class="ws-avoid-break">
+              <div class="ws-menu-item px-2">
+                <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
+                  {{ child_link.title }}
+                </a>
             </div>
             {%- for grandchild_link in child_link.links -%}
               <div class="ws-menu-item-child px-2">
@@ -24,6 +25,8 @@
                 </a>
               </div>
             {%- endfor -%}
+              
+            </div>
           {%- else -%}
             <div class="ws-menu-item px-2">
               <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>{{ child_link.title }}</a>
