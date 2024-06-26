@@ -140,10 +140,11 @@
 }
 
 
-.ws-menu-item a:hover {
+.ws-menu-item a:hover, .ws-menu-item a:active {
   text-decoration: none;
-  background-color: var(--bs-primary);
+  background-color: rgba(var(--bs-primary-rgb), .5);
 }
+
 /*
   Buttons
 */
