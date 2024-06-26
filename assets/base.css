@@ -114,7 +114,7 @@
 
 .ws-menu-col-6 {
 
-    grid: repeat(12, 40px) / auto-flow 16.6%;
+    grid: repeat(6, 40px) / auto-flow 16.6%;
 }
 
 .ws-menu-item {
