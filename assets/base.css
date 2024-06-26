@@ -120,13 +120,21 @@
 }
 
 .ws-menu-item {
-  text-decoration: none;
+  font-size: 1em;
+}
+
+
+.ws-menu-item-head {
+  font-size: 1.2em
 }
 
 .ws-menu-item-child {
-  text-decoration: none;
+  
 }
 
+.ws-menu-item a {
+  text-decoration: none;
+}
 
 /*
   Buttons
