@@ -9,11 +9,11 @@
 
 {% for link in linklists[section.settings.main_menu].links %}
   {% if link.handle == mymenu %}
-    {{ link.handle }}
+    {{ assign thisMenu = link }}
   {% endif %}
 {% endfor %}
           
-{% for link in linklists[mymenu].links -%}
+{% for link in thisMenu.links -%}
   {{ link.title | link_to: link.url }}
 {%- endfor %}
           
