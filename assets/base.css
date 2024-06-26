@@ -96,7 +96,7 @@
 }
 
 .ws-menu-col-5 {
-  column-width: 20%;
+  column-count: 5;
 }
 
 .ws-menu-item {
