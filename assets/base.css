@@ -127,6 +127,8 @@
 .ws-menu-item-head {
   font-size: 1.2em;
   font-weight: bold;
+  text-transform: uppercase;
+  mergin-bottom: 2px;
 }
 
 .ws-menu-item-child {
