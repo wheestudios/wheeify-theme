@@ -9,17 +9,17 @@
   {% if link.handle == mymenu %}
     
     {%- if link.links != blank -%}
-      <div class="ws-menu-col ws-menu-col-{{ num_cols }} list-group">
+      <div class="ws-menu-col ws-menu-col-{{ num_cols }}">
         {%- for child_link in link.links -%}
           {%- if child_link.links != blank -%}
             <div class="ws-avoid-break">
-              <div class="ws-menu-item px-2 list-group-item">
+              <div class="ws-menu-item px-2 fs-5">
                 <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
                   {{ child_link.title }}
                 </a>
             </div>
             {%- for grandchild_link in child_link.links -%}
-              <div class="ws-menu-item-child px-2 text-muted list-group-item">
+              <div class="ws-menu-item-child px-2 text-muted fs-6">
                 <a href="{{ grandchild_link.url }}" {% if grandchild_link.active %}aria-current="page"{% endif %}>
                   {{ grandchild_link.title }}
                 </a>
@@ -28,7 +28,7 @@
               
             </div>
           {%- else -%}
-            <div class="ws-menu-item px-2 list-group-item">
+            <div class="ws-menu-item px-2 fs-6">
               <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>{{ child_link.title }}</a>
             </div>     
           {%- endif -%}
