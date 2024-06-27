@@ -19,7 +19,7 @@
 		<ul class="navbar-nav me-auto text-light">
 		  {% for link in linklists[section.settings.main_menu].links %}
 
-			<li class="nav-item text-reset
+			<li class="nav-item text-light 
 			  {% if link.links %}dropdown{% endif %}
 			  {% if items_with_megamenu contains link.handle %}has-megamenu{% endif %}
 			  ">
