@@ -645,10 +645,12 @@ hr {
 .nav-link, .nav-link.active {
     color: var( --bs-grey-900) !important;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: var( --bs-gray-300) !important;
 }
+
 .nav-link:focus-visible {
   box-shadow: 0 0 0 0.25rem rgba(var(--ws-body-bg-alt-rgb), .15);
 }
