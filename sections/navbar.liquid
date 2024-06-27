@@ -1,5 +1,6 @@
+
   <header class="py-0 mb-0 border-bottom ws-nav-background">
-    <div class="containerr">
+    <div class="container">
       <a href="{{ routes.root_url }}" class="align-items-center mb-3 mb-lg-0 me-lg-auto ">
 				<img
 				class="img-fluid navbar-logo-default"
@@ -13,14 +14,85 @@
       </button>
     </div>
   </header>
-
+  
   <nav class="py-0 mb-1 navbar navbar-expand-lg bg-gradient bg-dark text-light">
-    <div class="container d-flex flex-wrap">
+    <div class="container-fluid">
+	
+	
       <div class="collapse navbar-collapse" id="wsMainNav">
-{% render 'navbar-desktop-menu' %}
+		<ul class="navbar-nav nav me-auto">
+		  {% for link in linklists[section.settings.main_menu].links %}
+
+			<li class="nav-item 
+			  {% if link.links %}dropdown{% endif %}
+			  {% if items_with_megamenu contains link.handle %}has-megamenu{% endif %}
+			  ">
+			  
+			  {% # SINGLE ITEM MENU LEVEL %}
+			  {% if link.links == blank %}
+				<a class="nav-link {% if link.active %}active{% endif %}" href="{{ link.url }}" aria-current="{% if link.active %}page{% endif %}">
+				  {{ link.title }}
+				</a>
+			  {% else %}
+
+				<a 
+				  class="nav-link dropdown-toggle {% if link.child_active %}active{% endif %}" 
+				  href="#"
+				  data-bs-toggle="dropdown" 
+				  data-bs-display="static"
+				  aria-expanded="false"
+				  role="button">
+				  {{ link.title }}
+				</a>
+				  
+				{%- assign megamenu_index = 0 -%}
+				{% if items_with_megamenu contains link.handle %}
+				  {% ### MEGA MENU %}
+				  {%- for block in section.blocks offset: megamenu_index -%}
+					  {%- if block.type =='megamenu' -%}
+						  {%- assign for_item_handle = block.settings.for_item | handle -%}
+						  {%- if for_item_handle == link.handle -%}
+							  {%- assign megamenu_settings = block.settings -%}
+							  {%- assign megamenu_index = forloop.index | plus: megamenu_index -%}
+							  {%- break -%}
+						  {%- endif -%}
+					  {%- endif -%}
+				  {%- endfor -%}
+				  <div class="dropdown-menu megamenu" role="menu">
+					  {% render 'megamenu' with megamenu_settings as mmsettings %}
+				  </div>
+					  
+				{% else %}
+				  
+				  {% ### NORMAL DROPDOWN %}
+				  
+				<ul class="dropdown-menu">
+				  {% for child_link in link.links %}
+					<li>
+					  {% if child_link.title == '-' %}
+						<hr class="dropdown-divider">
+					  {% else %}
+						<a 
+						  class="dropdown-item {% if child_link.active %}active{% endif %}" 
+						  href="{{ child_link.url }}"
+						  aria-current="{% if child_link.active %}page{% endif %}">
+						  {{ child_link.title }}
+						</a>
+					  {% endif %}
+					</li>
+				  {% endfor %} 
+				</ul>
+				
+				{% endif %}
+
+			  {% endif %}
+			</li>
+		  {% endfor %}
+		</ul>
       </div>
     </div>
-  </nav>
+  </nav> 
+  
 
 {% schema %}
 {
