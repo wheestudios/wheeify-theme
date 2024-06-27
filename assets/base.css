@@ -641,16 +641,13 @@ hr {
 /*
   Navs
 */
-.navbar-toggler {
 
-}
 .nav-link, .nav-link.active {
     color: var( --bs-grey-900) !important;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: var( --bs-gray-300) !important;
-};
 }
 .nav-link:focus-visible {
   box-shadow: 0 0 0 0.25rem rgba(var(--ws-body-bg-alt-rgb), .15);
@@ -706,13 +703,6 @@ hr {
   Navbar
 */
 
-
-.navbar-brand img {
-  transition: all 0.2s ease-out;
-}
-.navbar-brand:hover img, .navbar-brand:focus img {
-  opacity: 0.85;
-}
 
 /*
   Dropdown
