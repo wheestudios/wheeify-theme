@@ -643,7 +643,7 @@ hr {
 */
 
 .nav-link, .nav-link.active {
-    color: var( --bs-grey-900);.
+    color: var( --bs-grey-900) !important;
 }
 .nav-link:hover,
 .nav-link:focus {
