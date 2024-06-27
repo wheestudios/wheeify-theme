@@ -12,6 +12,12 @@
     </div>
   </header>
   
+{%- assign selected_blocks_megamenu = section.blocks | where: 'type', 'megamenu' -%}
+{%- for block in selected_blocks_megamenu -%}
+    {% capture items_with_megamenu %}{{ block.settings.for_item | handle }}||{{ items_with_megamenu }}{% endcapture %}
+{%- endfor -%}
+{%- assign items_with_megamenu = items_with_megamenu | split: '||' -%}
+
   <nav class="py-0 mb-1 navbar navbar-expand-lg bg-gradient bg-dark text-light">
     <div class="container">
 	
