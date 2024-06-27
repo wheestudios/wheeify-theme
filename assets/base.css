@@ -641,7 +641,10 @@ hr {
 /*
   Navs
 */
+.navbar-toggler {
 
+border-color: #000;
+}
 .nav-link, .nav-link.active {
     color: var( --bs-grey-900) !important;
 }
