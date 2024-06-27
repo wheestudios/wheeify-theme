@@ -702,7 +702,7 @@ hr {
 }
 
 .dropdown-menu.show:not([data-popper-placement]) {
-  animation: dropdown-menu-animation 300ms ease-in-out forwards
+  animation: dropdown-menu-animation 200ms ease-in-out forwards
 }
 
 @keyframes dropdown-menu-animation {
