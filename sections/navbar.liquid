@@ -13,12 +13,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   </header>
-  <nav class="py-0 mb-1 navbar bg-gradient bg-dark text-light collapse navbar-collapse">
+  <nav class="py-0 mb-1 navbar bg-gradient bg-dark text-light">
     <div class="container d-flex flex-wrap">
+      <div class="collapse navbar-collapse">
 {% render 'navbar-desktop-menu' %}
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-      </form>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
     </div>
   </nav>
 
