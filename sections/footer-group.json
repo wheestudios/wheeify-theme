@@ -36,19 +36,6 @@
     },
     "footer": {
       "type": "footer",
-      "blocks": {
-        "menu_BVaXJ4": {
-          "type": "menu",
-          "settings": {
-            "menu": "footer",
-            "title_font_size": "fs-lg",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "menu_BVaXJ4"
-      ],
       "settings": {
         "bg_color": "bg-body-2",
         "bg_opacity": 100,
@@ -60,7 +47,7 @@
         "border_opacity": 100,
         "social_icons": true,
         "show_payment_icons": true,
-        "show_powered_by": true,
+        "show_powered_by": false,
         "pt": 10,
         "pb": 7
       }
