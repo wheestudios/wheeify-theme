@@ -642,7 +642,7 @@ hr {
   Navs
 */
 
-.nav-link {
+.nav-link, .navlink active {
     color: var( --bs-grey-800);
 }
 .nav-link:hover,
