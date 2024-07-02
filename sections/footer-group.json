@@ -15,14 +15,10 @@
       "type": "footer",
       "settings": {
         "logo_lt": "shopify:\/\/shop_images\/whee-pride-logo-web-lt.png",
-        "logo_lt_height": 60,
-        "bg_color": "bg-body-2",
-        "bg_opacity": 100,
         "bg_gradient": "bg-gradient",
-        "text_color": "text-color-1",
         "border_top_width": 5,
-        "border_bottom_width": 5,
-        "border_color": "border-primary",
+        "border_bottom_width": 0,
+        "border_color": "border-secondary",
         "border_opacity": 100,
         "pt": 10,
         "pb": 7
