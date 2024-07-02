@@ -20,7 +20,7 @@
             <h5 class="text-uppercase">Whee!</h5>
     		<ul class="list-unstyled">
     		  {% for link in linklists[section.settings.footer_menu_1].links %}
-    			<li>
+    			<li class="mb-1">
     			  {% if link.links == blank %}
     				<a class="nav-link {% if link.active %}active{% endif %}" href="{{ link.url }}" aria-current="{% if link.active %}page{% endif %}">
     				  {{ link.title }}
@@ -34,7 +34,7 @@
             <h5 class="text-uppercase">Support</h5>
     		<ul class="list-unstyled">
     		  {% for link in linklists[section.settings.footer_menu_2].links %}
-    			<li>
+    			<li class="mb-1">
     			  {% if link.links == blank %}
     				<a class="nav-link {% if link.active %}active{% endif %}" href="{{ link.url }}" aria-current="{% if link.active %}page{% endif %}">
     				  {{ link.title }}
