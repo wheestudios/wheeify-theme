@@ -25,6 +25,17 @@
             </ul>
         </div>
         <div class="col-lg-3">
+    		<ul class="navbar-nav">
+    		  {% for link in linklists[section.settings.footer_menu_2].links %}
+    			<li class="nav-item">
+    			  {% if link.links == blank %}
+    				<a class="nav-link {% if link.active %}active{% endif %}" href="{{ link.url }}" aria-current="{% if link.active %}page{% endif %}">
+    				  {{ link.title }}
+    				</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
         </div>
         <div class="col-lg-4">
           <a href="https://wheestudios.com"><img src="https://cdn.shopify.com/s/files/1/0638/3589/8093/files/whee-studios-footer-logo.png?v=1702940203" alt="Patrick Hiller - Whee! Studios" class="img-fluid"></a>
