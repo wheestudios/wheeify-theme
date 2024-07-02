@@ -17,11 +17,11 @@
         "logo_lt": "shopify:\/\/shop_images\/whee-pride-logo-web-lt.png",
         "bg_gradient": "bg-gradient",
         "border_top_width": 5,
-        "border_bottom_width": 0,
         "border_color": "border-primary",
-        "border_opacity": 100,
         "pt": 10,
-        "pb": 7
+        "pb": 7,
+        "footer_menu_1": "footer-menu-1",
+        "footer_menu_2": "footer"
       }
     }
   },
