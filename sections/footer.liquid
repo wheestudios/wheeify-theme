@@ -32,18 +32,24 @@
     <div id="footer-copyright" class="">
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <div class="fs-sm">
-            <a href="{{ routes.root_url }}" class="mb-3">
-              <img class="img-fluid"
-              src="{{ settings.logo | image_url: height: 160 }}" alt="{{ shop.name }}"
-              width="{{ 80 | times: settings.logo.aspect_ratio | round }}" height="60" loading="lazy">
-            </a>            
-            Copyright &copy; {{ 'now' | date: '%Y' }}, Patrick Hiller, Whee! Studios, and Whee! Design®<br>All Rights Reserved<br>
-            <small>Whee! Design is a registered trademark of Patrick Hiller.</small>
-          </div>
-            <div class="social-icons-wrapper text-center text-desktop-start mb-5 mb-desktop-0">
-              {% render 'social-icons', icon_size: 18, show_title: false %}
+          <div class="row">
+            <div class="col-4">
+              <a href="{{ routes.root_url }}" class="mb-3">
+                <img class="img-fluid"
+                src="{{ settings.logo | image_url: height: 160 }}" alt="{{ shop.name }}"
+                width="{{ 80 | times: settings.logo.aspect_ratio | round }}" height="60" loading="lazy">
+              </a>  
             </div>
+            <div class="col-lg-8">
+              <div class="fs-sm">
+                Copyright &copy; {{ 'now' | date: '%Y' }}, Patrick Hiller, Whee! Studios, and Whee! Design®<br>All Rights Reserved<br>
+                <small>Whee! Design is a registered trademark of Patrick Hiller.</small>
+              </div>
+            </div>
+          </div>
+          <div class="social-icons-wrapper text-center text-desktop-start mb-5 mb-desktop-0">
+            {% render 'social-icons', icon_size: 18, show_title: false %}
+          </div>
         </div>
         <div class="col-lg-6">
             <div class="payment-icons-wrapper text-center text-desktop-end mt-5 mt-desktop-0">
