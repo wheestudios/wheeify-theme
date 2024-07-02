@@ -188,7 +188,6 @@
 }
 
 
-:root,
 [data-bs-theme=light] 
 .display-dark {
   display: none;
