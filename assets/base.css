@@ -53,6 +53,8 @@
 .bg-primary { --bg-color-rgb: var(--bs-primary-rgb); }
 .bg-secondary { --bg-color-rgb: var(--bs-secondary-rgb); }
 
+.bg-menu { --bg-color-rgb: var(--bs-grey-200); }
+
 /*
   Border
 */
