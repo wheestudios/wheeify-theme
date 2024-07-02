@@ -16,6 +16,7 @@
 .ws-nav-background {
   background-image: var(--ws-background-image);
 }
+
 .title {
   margin-bottom: .25rem;
 }
