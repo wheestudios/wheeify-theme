@@ -51,12 +51,12 @@
           <div class="social-media d-flex flex-wrap flex-lg-column align-items-lg-start justify-content-center justify-content-lg-start">
             <ul class="list-unstyled">
 {%- if settings.social_facebook != blank -%}
-    <li><a href="{{ settings.social_facebook }}" target="_blank" class="">
+    <li><a href="{{ settings.social_facebook }}" target="_blank" class="nav-link">
         <i{{ icon_class }}>{% render 'icon-social-facebook' %}</i> <span>Facebook</span>
     </a></li>
 {%- endif -%}
 {%- if settings.social_instagram != blank -%}
-    <li><a href="{{ settings.social_instagram }}" target="_blank" class="">
+    <li><a href="{{ settings.social_instagram }}" target="_blank" class="nav-link">
         <i{{ icon_class }}>{% render 'icon-social-instagram' %}</i> <span>Instagram</span>
     </a></li>
 {%- endif -%}
