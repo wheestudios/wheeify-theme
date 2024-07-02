@@ -188,18 +188,17 @@
 }
 
 
-.display-dark {
+[data-bs-theme=light] .display-dark {
   display: none;
 }
-.display-light {
+[data-bs-theme=light] .display-light {
   display: block;
 }
 
-[data-bs-theme=dark]
-.display-dark {
+[data-bs-theme=dark] .display-dark {
   display: block;
 }
-.display-light {
+[data-bs-theme=dark] .display-light {
   display: none;
 }
 
