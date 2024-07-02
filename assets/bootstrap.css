@@ -187,6 +187,20 @@
   --bs-form-invalid-border-color: #ea868f;
 }
 
+
+[data-bs-theme=light] .display-dark {
+  display: none;
+}
+.display-light {
+  display:block;
+}
+[data-bs-theme=dark] .display-dark {
+  display: block;
+}
+.display-light {
+  display: none;
+}
+
 *,
 *::before,
 *::after {
