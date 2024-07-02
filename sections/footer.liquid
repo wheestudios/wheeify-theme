@@ -1,3 +1,11 @@
+{%- if shop.features.follow_on_shop? -%}
+    {%- capture follow_on_shop -%}
+        <div class="">
+            {{ shop | login_button: action: 'follow' }}
+        </div>
+    {%- endcapture -%}
+{%- endif -%}
+
 <footer id="footer"
   class="bg-dark text-light border-primary border-5
     {{ section.settings.bg_gradient }}
