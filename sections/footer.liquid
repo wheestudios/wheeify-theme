@@ -48,6 +48,18 @@
           <a href="https://wheestudios.com"><img src="https://cdn.shopify.com/s/files/1/0638/3589/8093/files/whee-studios-footer-logo.png?v=1702940203" alt="Patrick Hiller - Whee! Studios" class="img-fluid"></a>
         </div>
         <div class="col-lg-2">
+          <div class="social-media d-flex flex-wrap flex-lg-column align-items-lg-start justify-content-center justify-content-lg-start">
+{%- if settings.social_facebook != blank -%}
+    <a href="{{ settings.social_facebook }}" target="_blank" class="social-media__facebook d-flex align-items-center">
+        <i{{ icon_class }}>{% render 'icon-social-facebook' %}</i>{% if type == 'column' %} <span class="d-none d-lg-inline">{{ 'general.social.names.facebook' | t }}</span>{% endif %}
+    </a>
+{%- endif -%}
+{%- if ettings.social_instagram != blank -%}
+    <a href="{{ settings.social_instagram }}" target="_blank" class="social-media__instagram d-flex align-items-center">
+        <i{{ icon_class }}>{% render 'icon-social-instagram' %}</i>{% if type == 'column' %} <span class="d-none d-lg-inline">{{ 'general.social.names.instagram' | t }}</span>{% endif %}
+    </a>
+{%- endif -%}
+          </div>
         </div>
       </div>
     </div>
