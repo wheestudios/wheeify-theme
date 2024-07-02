@@ -31,29 +31,19 @@
 
     <div id="footer-copyright" class="">
       <div class="row align-items-center">
-        <div class="col-desktop-5">
-          {% if section.settings.social_icons %}
-            <div class="social-icons-wrapper text-center text-desktop-start mb-5 mb-desktop-0">
-              {% render 'social-icons', icon_size: 18, show_title: false %}
-            </div>
-          {% endif %}
-        </div>
-        <div class="col-desktop-8">
+        <div class="col-lg-6">
           <div class="fs-sm text-center">
             &copy; {{ 'now' | date: '%Y' }}
             {{ shop.name | replace: ' (', '<span hidden>' | replace: ')', '</span>' }}.
-            {% if section.settings.show_powered_by %}
-              Theme by <a href="https://www.kondasoft.com" target="_blank" rel="sponsored">KondaSoft</a>, Powered by
-              <a href="https://www.shopify.com" target="_blank" rel="sponsored">Shopify</a>
-            {% endif %}
           </div>
+            <div class="social-icons-wrapper text-center text-desktop-start mb-5 mb-desktop-0">
+              {% render 'social-icons', icon_size: 18, show_title: false %}
+            </div>
         </div>
-        <div class="col-desktop-5">
-          {% if section.settings.show_payment_icons %}
+        <div class="col-lg-6">
             <div class="payment-icons-wrapper text-center text-desktop-end mt-5 mt-desktop-0">
               {% render 'payment-icons' %}
-            </div>
-          {% endif %}
+            </div>         
         </div>
       </div>
     </div>
@@ -159,24 +149,6 @@
     {
       "type": "header",
       "content": "General"
-    },
-    {
-      "type": "checkbox",
-      "id": "social_icons",
-      "label": "Show social icons",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "show_payment_icons",
-      "label": "Show payment icons",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "show_powered_by",
-      "label": "Show powered by",
-      "default": true
     },
     {
       "type": "header",
