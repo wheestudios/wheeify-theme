@@ -27,9 +27,9 @@
 
     <div id="footer-copyright" class="">
       <div class="row align-items-center">
-        <div class="col-lg-7">
+        <div class="col-lg-7 align-top">
           <div class="row">
-            <div class="col-lg-2">
+            <div class="col-lg-2 align">
               <a href="{{ routes.root_url }}" class="mb-3">
                 <img class="img-fluid"
                 src="{{ section.settings.logo_lt | image_url: height: 160 }}" alt="{{ shop.name }}"
@@ -47,7 +47,7 @@
             {% render 'social-icons', icon_size: 18, show_title: false %}
           </div>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 align-top">
             <div class="payment-icons-wrapper text-center text-desktop-end mt-5 mt-desktop-0">
               {% render 'payment-icons' %}
             </div>         
