@@ -1,10 +1,6 @@
-<footer
-  id="footer"
-  class="
-    small
-    {{ section.settings.bg_color }} 
+<footer id="footer"
+  class="bg-dark text-light
     {{ section.settings.bg_gradient }}
-    {{ section.settings.text_color }} 
     {{ section.settings.border_top_width | prepend: 'border-top-' }}
     {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
     {{ section.settings.border_color }} 
@@ -17,38 +13,7 @@
   "
 >
   <div class="container">
-    <div
-      id="footer-mobile"
-      class="d-desktop-none"
-    >
-      <div class="mb-8" role="list">
-        {% for block in section.blocks %}
-          <div class="collapse-wrapper" role="listitem" {{ block.shopify_attributes }}>
-            <button
-              id="footer-mobile-collapse-btn-{{ forloop.index }}"
-              class="heading {{ block.settings.title_font_size }}"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#footer-mobile-collapse-{{ forloop.index }}"
-              aria-expanded="false"
-              aria-controls="footer-mobile-collapse-{{ forloop.index }}"
-            >
-              {{ block.settings.title }}
-              {% render 'svg-icons', icon: 'chevron-down', size: 18 %}
-            </button>
-            <div id="footer-mobile-collapse-{{ forloop.index }}" class="collapse">
-              <div class="collapse-inner">
-                {% render 'footer-block', block: block %}
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-    <div
-      id="footer-desktop"
-      class="d-none d-desktop-block"
-    >
+    <div id="footer-menu" class="">
       <div class="row" role="list">
         {% for block in section.blocks %}
           <div class="footer-block col" role="listitem" {{ block.shopify_attributes }}>
