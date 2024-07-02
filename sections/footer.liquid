@@ -32,7 +32,7 @@
             <div class="col-lg-3">
               <a href="{{ routes.root_url }}" class="mb-3">
                 <img class="img-fluid"
-                src="{{ section_settings.logo_lt | image_url: height: 160 }}" alt="{{ shop.name }}"
+                src="{{ section.settings.logo_lt | image_url: height: 160 }}" alt="{{ shop.name }}"
                 width="{{ 80 | times: settings.logo.aspect_ratio | round }}" height="60" loading="lazy">
               </a>  
             </div>
