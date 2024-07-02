@@ -16,7 +16,7 @@
       "settings": {
         "logo_lt": "shopify:\/\/shop_images\/whee-pride-logo-web-lt.png",
         "bg_gradient": "bg-gradient",
-        "border_top_width": 5,
+        "border_top_width": 12,
         "border_color": "border-primary",
         "pt": 18,
         "pb": 7,
