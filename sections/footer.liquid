@@ -13,7 +13,7 @@
   "
 >
   <div class="container">
-    <div id="footer-menu" class="">
+    <div id="footer-menu" class="{{ section.settings.bg_gradient }}">
       <div class="row" role="list">
         {% for block in section.blocks %}
           <div class="footer-block col" role="listitem" {{ block.shopify_attributes }}>
@@ -29,7 +29,7 @@
       <hr class="my-8">
     </div>
 
-    <div id="footer-copyright" class="bg-dark text-light">
+    <div id="footer-copyright" class="">
       <div class="row align-items-center">
         <div class="col-desktop-5">
           {% if section.settings.social_icons %}
