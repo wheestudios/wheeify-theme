@@ -188,13 +188,17 @@
 }
 
 
-[data-bs-theme=light] .display-dark {
+:root,
+[data-bs-theme=light] 
+.display-dark {
   display: none;
 }
 .display-light {
-  display:block;
+  display: block;
 }
-[data-bs-theme=dark] .display-dark {
+
+[data-bs-theme=dark]
+.display-dark {
   display: block;
 }
 .display-light {
