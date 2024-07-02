@@ -57,7 +57,7 @@
       },
       {
         "type": "image_picker",
-        "id": "logo",
+        "id": "logo-light",
         "label": "Logo",
         "info": "Can be used in structured data markup [Learn more](https:\/\/developers.google.com\/search\/docs\/appearance\/structured-data\/intro-structured-data)"
       },
