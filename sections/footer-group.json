@@ -11,29 +11,6 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
-    "newsletter_fL4LWF": {
-      "type": "newsletter",
-      "settings": {
-        "bg_color": "bg-body-2",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 1,
-        "border_bottom_width": 0,
-        "border_color": "border-secondary",
-        "border_opacity": 10,
-        "container_max_width": "600",
-        "header_title": "Newsletter Subscribe",
-        "header_title_font_size": "h3",
-        "header_description": "<p>Add on optional description for this section<\/p>",
-        "header_description_font_size": "fs-md",
-        "btn_color": "btn-primary",
-        "btn_size": "",
-        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
-        "pt": 11,
-        "pb": 11
-      }
-    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -54,7 +31,6 @@
     }
   },
   "order": [
-    "newsletter_fL4LWF",
     "footer"
   ]
 }

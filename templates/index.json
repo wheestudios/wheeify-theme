@@ -20,37 +20,9 @@
         "pt": 0,
         "pb": 0
       }
-    },
-    "richtext_AtYwxr": {
-      "type": "richtext",
-      "settings": {
-        "bg_color": "bg-primary",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-white",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 100,
-        "container_max_width": "900",
-        "text_align": "text-center",
-        "title": "Richtext",
-        "title_font_size": "h2",
-        "description": "<p>Add on optional description for this section<\/p>",
-        "description_font_size": "fs-md",
-        "btn_primary_text": "Primary button",
-        "btn_primary_url": "",
-        "btn_primary_color": "btn-white",
-        "btn_secondary_text": "Secondary button",
-        "btn_secondary_url": "",
-        "btn_secondary_color": "btn-light-white",
-        "pt": 11,
-        "pb": 11
-      }
     }
   },
   "order": [
-    "separator_pMbxtB",
-    "richtext_AtYwxr"
+    "separator_pMbxtB"
   ]
 }
