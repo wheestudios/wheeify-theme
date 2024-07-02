@@ -26,10 +26,10 @@
     </div>
 
     <div id="footer-copyright" class="">
-      <div class="row align-items-center">
+      <div class="row">
         <div class="col-lg-7 align-top">
           <div class="row">
-            <div class="col-lg-2 align">
+            <div class="col-lg-2">
               <a href="{{ routes.root_url }}" class="mb-3">
                 <img class="img-fluid"
                 src="{{ section.settings.logo_lt | image_url: height: 160 }}" alt="{{ shop.name }}"
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="col-lg-5 align-top">
-            <div class="payment-icons-wrapper text-center">
+            <div class="payment-icons-wrapper text-right">
               {% render 'payment-icons' %}
             </div>         
         </div>
