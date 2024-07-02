@@ -7,7 +7,7 @@
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
   "
->{{ section.settings }}
+>{{ section.settings.border_top_width | prepend: 'border-top-' }}
   <div class="container">
     <div id="footer-menu" class="mt-4">
       <div class="row">
