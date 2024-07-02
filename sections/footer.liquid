@@ -7,10 +7,6 @@
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
   "
-  style="
-    --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
-    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
-  "
 >
   <div class="container">
     <div id="footer-menu" class="{{ section.settings.bg_gradient }}">
@@ -34,7 +30,7 @@
         <div class="col-lg-6">
           <div class="row">
             <div class="col-lg-3">
-              <a href="{{ routes.root_url }}" class="mb-3">{{ settings.logo_lt | image_url: height: 160 }}
+              <a href="{{ routes.root_url }}" class="mb-3">{{ settings.logo_lt }}
                 <img class="img-fluid"
                 src="{{ settings.logo_lt | image_url: height: 160 }}" alt="{{ shop.name }}"
                 width="{{ 80 | times: settings.logo.aspect_ratio | round }}" height="60" loading="lazy">
