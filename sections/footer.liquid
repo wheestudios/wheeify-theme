@@ -54,7 +54,7 @@
         <i{{ icon_class }}>{% render 'icon-social-facebook' %}</i>{% if type == 'column' %} <span>Facebook</span>{% endif %}
     </a>
 {%- endif -%}
-{%- if ettings.social_instagram != blank -%}
+{%- if settings.social_instagram != blank -%}
     <a href="{{ settings.social_instagram }}" target="_blank" class="social-media__instagram d-flex align-items-center">
         <i{{ icon_class }}>{% render 'icon-social-instagram' %}</i>{% if type == 'column' %} <span>Instagram</span>{% endif %}
     </a>
