@@ -12,9 +12,9 @@
     <div id="footer-menu" class="">
       <div class="row">
         <div class="col-lg-3">
-    		<ul class="navbar-nav me-auto text-light">
+    		<ul class="list-unstyled">
     		  {% for link in linklists[section.settings.footer_menu_1].links %}
-    			<li class="nav-item text-light">
+    			<li>
     			  {% if link.links == blank %}
     				<a class="nav-link {% if link.active %}active{% endif %}" href="{{ link.url }}" aria-current="{% if link.active %}page{% endif %}">
     				  {{ link.title }}
