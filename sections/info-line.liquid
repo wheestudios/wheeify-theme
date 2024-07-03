@@ -10,7 +10,7 @@
                     {%- for block in section.blocks -%}
                         <{% if block.settings.url != blank %}a href="{{ block.settings.url }}"{% else %}div{% endif %} class="col-12 col-lg-{{ 12 | divided_by: section.blocks.size }}">
                           <div class="d-flex align-items-start justify-content-start py-10">
-                              <i class="mr-15 text-primary">{% include 'load-icon' with name: block.settings.icon %}</i>
+                              <i class="mr-3 text-primary">{% include 'load-icon' with name: block.settings.icon %}</i>
                               <div>
                                   {%- if block.settings.title != blank -%}
                                       <h5 class="text-primary mb-0">{{ block.settings.title }}</h5>
