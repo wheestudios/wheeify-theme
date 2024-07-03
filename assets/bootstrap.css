@@ -188,20 +188,6 @@
 }
 
 
-[data-bs-theme=light] .display-dark {
-  display: none;
-}
-[data-bs-theme=light] .display-light {
-  display: block;
-}
-
-[data-bs-theme=dark] .display-dark {
-  display: block;
-}
-[data-bs-theme=dark] .display-light {
-  display: none;
-}
-
 *,
 *::before,
 *::after {
