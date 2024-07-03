@@ -52,21 +52,25 @@
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Pride Flag",
-            "num_mega_columns": 4
+            "num_mega_columns": 4,
+            "imgColumn1": "shopify:\/\/shop_images\/lgbtq-baker.png",
+            "urlColumn1": "shopify:\/\/collections\/lgbtq-gilbert-baker-pride"
           }
         },
         "megamenu_73tBdA": {
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Product",
-            "num_mega_columns": 4
+            "num_mega_columns": 4,
+            "urlColumn1": ""
           }
         },
         "megamenu_LTwdCb": {
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Collection",
-            "num_mega_columns": 3
+            "num_mega_columns": 3,
+            "urlColumn1": ""
           }
         }
       },
@@ -78,8 +82,6 @@
       "settings": {
         "logo": "shopify:\/\/shop_images\/whee-pride-logo-web.png",
         "logo_height": 100,
-        "logo_lt": "shopify:\/\/shop_images\/whee-pride-logo-web-lt.png",
-        "logo_lt_height": 72,
         "main_menu": "main-menu"
       }
     }
