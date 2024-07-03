@@ -30,6 +30,14 @@
   
   --bs-primary: {{ settings.lm_color_primary }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  
+  --bs-primary-subtle: {{ settings.lm_color_primary | color_lighten: 60 }};
+
+  --bs-light: #faf9fa;
+  --bs-light-subtle: #cecacf;
+  --bs-dark: #242025;  
+  --bs-dark-subtle: #121012;
+  
   --bs-secondary: {{ settings.lm_color_secondary }};
   --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
