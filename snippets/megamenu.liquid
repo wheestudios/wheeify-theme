@@ -5,6 +5,7 @@
 {% assign mymenu = mmsettings.for_item | handle %}
 {% assign num_cols = mmsettings.num_mega_columns %}
 {% assign imgColumn1 = mmsettings.imgColumn1 %}
+{% assign txtColumn1 = mmsettings.txtColumn1 %}
 {% assign urlColumn1 = mmsettings.urlColumn1 %}
 
 {% for link in linklists[section.settings.main_menu].links %}
@@ -15,6 +16,7 @@
         
         {%- if imgColumn1 != blank -%}
           <a href="{{ urlColumn1 }}">
+            <div class="fs-1">{{ txtColumn1 }}</div>
             {% render 'image-url' img: imgColumn1, size: 200, orientation: 'square', loading: 'lazy', scale: false, class: "img-fluid img-thumbnail mx-1 my-1"  %}
           </a>
         {%- endif -%}
