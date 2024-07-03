@@ -2,22 +2,11 @@
   id="newsletter-{{ section.id }}" 
   class="
     newsletter 
-    {{ section.settings.bg_color }} 
+    bg-dark
     {{ section.settings.bg_gradient }}
-    {{ section.settings.text_color }}
-    {{ section.settings.border_top_width | prepend: 'border-top-' }}
-    {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
-    {{ section.settings.border_color }} 
-    {{ section.settings.pt | prepend: 'pt-' }} 
-    {{ section.settings.pb | prepend: 'pb-' }}
-  "
-  style="
-    --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
-    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
+    text-light
   ">
-  <div 
-    class="container"
-    style="max-width: {{ section.settings.container_max_width }}px;">
+  <div class="container">
     {% render 'section-header' %}
     {% form 'customer', class: 'newsletter-form' %}
       <input type="hidden" name="contact[tags]" value="newsletter">
