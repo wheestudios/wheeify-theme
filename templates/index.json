@@ -43,7 +43,7 @@
         "content_rzkh9Q": {
           "type": "content",
           "settings": {
-            "icon": "theme-116",
+            "icon": "shippingbox",
             "title": "Free Shipping.",
             "paragraph": "All orders in the United States qualify for FREE SHIPPING.",
             "url": ""
@@ -52,7 +52,7 @@
         "content_W4ihzB": {
           "type": "content",
           "settings": {
-            "icon": "theme-125",
+            "icon": "creditcard",
             "title": "Payment Methods.",
             "paragraph": "Visa, Mastercard, American Express, Discover, Diners Club, Shop Pay, Apple Pay, Google Pay, Facebook Pay",
             "url": ""
