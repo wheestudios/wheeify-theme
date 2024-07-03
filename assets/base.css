@@ -80,11 +80,11 @@
 }
 
 .bg-light-subtle {
-  background-color: var(--bs-light-bg-subtle) !important;
+  background-color: #cecacf !important;
 }
 
 .bg-dark-subtle {
-  background-color: var(--bs-dark-bg-subtle) !important;
+  background-color: #121012 !important;
 }
 
 /*
