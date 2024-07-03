@@ -15,9 +15,9 @@
       <div class="ws-menu-col ws-menu-col-{{ num_cols }} py-2">
         
         {%- if imgColumn1 != blank -%}
-          <div class="ws-break-after text-center py-2 mt-1 bg-light-subtle ws-menu-item ws-menu-item-head">
+          <div class="ws-break-after text-center mt-1 bg-light-subtle ws-menu-item ws-menu-item-head">
             <div class="ws-avoid-break">
-              <a href="{{ urlColumn1 }}">
+              <a href="{{ urlColumn1 }}" class="py-2">
                 <div class="h6">{{ txtColumn1 }}</div>
                 {% render 'image-url' img: imgColumn1, size: 180, orientation: 'square', loading: 'lazy', scale: false, class: "img-fluid img-thumbnail mx-1 my-1"  %}
               </a>
