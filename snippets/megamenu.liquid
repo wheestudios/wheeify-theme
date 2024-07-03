@@ -4,12 +4,21 @@
 
 {% assign mymenu = mmsettings.for_item | handle %}
 {% assign num_cols = mmsettings.num_mega_columns %}
+{% assign imgColumn1 = mmsettings.imgColumn1 %}
+{% assign urlColumn1 = mmsettings.urlColumn1 %}
 
 {% for link in linklists[section.settings.main_menu].links %}
   {% if link.handle == mymenu %}
     
     {%- if link.links != blank -%}
       <div class="ws-menu-col ws-menu-col-{{ num_cols }}">
+        
+        {%- if imgColumn1 != blank -%}
+          <a href="{{ urlColumn1 }}">
+            {% render 'image-url' img: imgColumn1, size: 300, orientation: 'square', loading: 'lazy', scale: false, class: "img-fluid mx-1 my-1"  %}
+          </a>
+        {%- endif -%}
+        
         {%- for child_link in link.links -%}
           {%- if child_link.links != blank -%}
             <div class="ws-avoid-break">
@@ -17,12 +26,13 @@
                 <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
                   {{ child_link.title }}
                 </a>
-            </div>
+              </div>
+          
             {%- for grandchild_link in child_link.links -%}
               <div class="ws-menu-item ws-menu-item-child">
                 <a href="{{ grandchild_link.url }}" {% if grandchild_link.active %}aria-current="page"{% endif %}>
                   {{ grandchild_link.title }}
-                  </a>
+                </a>
               </div>
             {%- endfor -%}
               
@@ -34,7 +44,7 @@
           {%- endif -%}
 
         {%- endfor -%}
- 
+      </div>
     {%- endif -%}
     
   {% endif %}
