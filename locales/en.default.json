@@ -1,10 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "accessibility": {
       "skip_content": "Skip to content",
       "skip_product_content": "Skip to product content",
       "menu": "Menu",
-      "cart": "Cart",
+      "cart": "Bag",
       "search": "Search",
       "wishlist": "Wishlist",
       "recently_viewed": "Recently viewed",
@@ -93,7 +102,7 @@
     "newsletter": {
       "input_label": "Enter your email address...",
       "confirmation_text": "Thanks for subscribing, you'll hear from us soon.",
-      "submit_button": "Subscribe"
+      "submit_button": "Subscribe  and SaVE 10%"
     },
     "404_page": {
       "title": "404 - Page not found",
