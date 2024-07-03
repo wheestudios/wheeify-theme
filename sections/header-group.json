@@ -54,6 +54,7 @@
             "for_item": "Shop by Pride Flag",
             "num_mega_columns": 4,
             "imgColumn1": "shopify:\/\/shop_images\/lgbtq-baker.png",
+            "txtColumn1": "DESIGN SPOTLIGHT<br>Gilbert Baker Pride Flag",
             "urlColumn1": "shopify:\/\/collections\/lgbtq-gilbert-baker-pride"
           }
         },
@@ -62,6 +63,7 @@
           "settings": {
             "for_item": "Shop by Product",
             "num_mega_columns": 4,
+            "txtColumn1": "",
             "urlColumn1": ""
           }
         },
@@ -70,6 +72,7 @@
           "settings": {
             "for_item": "Shop by Collection",
             "num_mega_columns": 3,
+            "txtColumn1": "",
             "urlColumn1": ""
           }
         }
