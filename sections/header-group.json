@@ -52,7 +52,7 @@
           "type": "megamenu",
           "settings": {
             "for_item": "Shop by Pride Flag",
-            "num_mega_columns": 4,
+            "num_mega_columns": 5,
             "imgColumn1": "shopify:\/\/shop_images\/lgbtq-baker.png",
             "txtColumn1": "DESIGN SPOTLIGHT<br>Gilbert Baker Pride Flag",
             "urlColumn1": "shopify:\/\/collections\/lgbtq-gilbert-baker-pride"
