@@ -29,9 +29,9 @@
   --ws-body-fg-alt-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-primary: {{ settings.lm_color_primary }};
+  --bs-primary-subtle: {{ settings.lm_color_primary | color_lighten: 60 }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-  --bs-primary-subtle: {{ settings.lm_color_primary | color_lighten: 60 }};
 
   --bs-light: #faf9fa;
   --bs-light-subtle: #cecacf;
@@ -39,6 +39,7 @@
   --bs-dark-subtle: #121012;
   
   --bs-secondary: {{ settings.lm_color_secondary }};
+  --bs-secondary-subtle: {{ settings.lm_color_secondary | color_lighten: 60 }};
   --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-white: {{ "#faf9fa" }};
