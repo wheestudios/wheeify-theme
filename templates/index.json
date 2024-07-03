@@ -36,10 +36,51 @@
         "pt": 10,
         "pb": 10
       }
+    },
+    "info_line_PdJ4V4": {
+      "type": "info-line",
+      "blocks": {
+        "content_rzkh9Q": {
+          "type": "content",
+          "settings": {
+            "icon": "theme-116",
+            "title": "Free Shipping.",
+            "paragraph": "All orders in the United States qualify for FREE SHIPPING.",
+            "url": ""
+          }
+        },
+        "content_W4ihzB": {
+          "type": "content",
+          "settings": {
+            "icon": "theme-125",
+            "title": "Payment Methods.",
+            "paragraph": "Visa, Mastercard, American Express, Discover, Diners Club, Shop Pay, Apple Pay, Google Pay, Facebook Pay",
+            "url": ""
+          }
+        },
+        "content_FTwGLJ": {
+          "type": "content",
+          "settings": {
+            "icon": "theme-022",
+            "title": "Quality Guarantee.",
+            "paragraph": "We pride ourselves in quality products. If there are any issues with your order, we'll make it right!",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_rzkh9Q",
+        "content_W4ihzB",
+        "content_FTwGLJ"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
     "separator_pMbxtB",
-    "newsletter_yVTDYR"
+    "newsletter_yVTDYR",
+    "info_line_PdJ4V4"
   ]
 }
