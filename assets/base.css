@@ -102,6 +102,10 @@
   break-inside: avoid;
 }
 
+.ws-break-after {
+  break-after: always;
+}
+
 .ws-menu-col-2 {
   column-count: 2;
 }
