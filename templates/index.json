@@ -21,9 +21,33 @@
         "pt": 0,
         "pb": 0
       }
+    },
+    "html_qVDEbU": {
+      "type": "html",
+      "settings": {
+        "liquid": "<p class=\"alert alert-primary text-center\">Current time is: {{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}<\/p>",
+        "bg_color": "bg-primary",
+        "bg_opacity": 54,
+        "bg_gradient": "bg-gradient",
+        "text_color": "text-body",
+        "border_top_width": 11,
+        "border_bottom_width": 11,
+        "border_color": "border-secondary",
+        "border_opacity": 100,
+        "container": "container",
+        "container_max_width": "",
+        "text_align": "text-center",
+        "header_title": "HTML and Liquid",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Add on optional description for this section<\/p>",
+        "header_description_font_size": "fs-sm",
+        "pt": 10,
+        "pb": 10
+      }
     }
   },
   "order": [
-    "separator_pMbxtB"
+    "separator_pMbxtB",
+    "html_qVDEbU"
   ]
 }
