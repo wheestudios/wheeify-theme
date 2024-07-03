@@ -4,15 +4,14 @@
 {%- endfor -%}
 {%- assign items_with_megamenu = items_with_megamenu | split: '||' -%}
 
-   <header class="py-0 mb-0 border-bottom ws-nav-background">
+  <header class="py-0 mb-0 border-bottom ws-nav-background">
     <div class="container container-fluid">
       <a href="{{ routes.root_url }}" class="mb-1 display-light">
-				<img class="img-fluid navbar-logo-default"
-				src="{{ settings.logo-light | image_url: height: 160 }}" alt="{{ shop.name }}" height="80" loading="lazy">
+        {% render 'image-url' img: settings.logo-light, size: 80, orientation: '', loading: 'lazy', scale: false, class: "img-fluid img-thumbnail mx-1 my-1"  %}
       </a>
       <a href="{{ routes.root_url }}" class="mb-1 display-dark">
-				<img class="img-fluid navbar-logo-default"
-				src="{{ settings.logo-dark | image_url: height: 160 }}" alt="{{ shop.name }}" height="80" loading="lazy">
+                <img class="img-fluid navbar-logo-default"
+                src="{{ settings.logo-dark | image_url: height: 160 }}" alt="{{ shop.name }}" height="80" loading="lazy">
       </a>
     </div>
   </header>
