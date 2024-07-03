@@ -9,6 +9,21 @@
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
 
+.bg-primary-subtle {
+  background-color: var(--bs-primary-bg-subtle) !important;
+}
+
+.bg-secondary-subtle {
+  background-color: var(--bs-secondary-bg-subtle) !important;
+}
+
+.bg-light-subtle {
+  background-color: var(--bs-light-bg-subtle) !important;
+}
+
+.bg-dark-subtle {
+  background-color: var(--bs-dark-bg-subtle) !important;
+}
 
 [data-bs-theme=light] .display-dark {
   display: none;
