@@ -9,7 +9,7 @@
 {% endcomment %}
 
 {% if section.settings.header_title != blank or section.settings.header_description != blank %}
-  <header class="section-header text-center {{ class }}">
+  <header class="section-header {{ class }}">
     {% unless section.settings.header_title == blank %}
       <h2 class="title {{ section.settings.header_title_font_size }}">
         {{ section.settings.header_title }}
