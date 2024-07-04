@@ -1,10 +1,3 @@
-/*
-  © 2024 KondaSoft
-  https://www.kondasoft.com
-*/
-
-console.log('KS BootShop - Free Shopify Theme by KondaSoft.com | Learn more at https://www.kondasoft.com')
-
 // Init Bootstrap tooltips
 document.querySelectorAll('[data-bs-toggle="tooltip"]')
   .forEach((el) => new window.bootstrap.Tooltip(el))
@@ -176,68 +169,6 @@ document.querySelectorAll('.viewport-detect').forEach((el) => {
   observer.observe(el)
 })
 
-// Swiper Slider
-class SwiperSlider extends HTMLElement {
-  constructor () {
-    super()
-
-    this.init()
-
-    document.addEventListener('shopify:section:load', (event) => {
-      if (event.detail.sectionId === this.dataset.sectionId) {
-        this.init()
-      }
-    })
-  }
-
-  init () {
-    this.slider = new window.Swiper(this.querySelector('.swiper'), {
-      speed: this.speed,
-      autoplay: this.autoplay,
-      navigation: this.navigation,
-      pagination: this.pagination,
-      scrollbar: this.scrollbar,
-      breakpoints: this.breakpoints,
-      rewind: true
-    })
-  }
-
-  speed = Number(this.dataset.sliderSpeed)
-
-  autoplay = this.dataset.sliderAutoplay === '0'
-    ? undefined
-    : { delay: Number(this.dataset.sliderAutoplay) * 1000 }
-
-  navigation = {
-    enabled: this.dataset.sliderNavigation === 'true',
-    prevEl: '.swiper-button-prev',
-    nextEl: '.swiper-button-next'
-  }
-
-  pagination = {
-    enabled: this.dataset.sliderPagination === 'true',
-    el: '.swiper-pagination',
-    type: 'bullets',
-    dynamicBullets: true,
-    dynamicMainBullets: 2,
-    renderFraction: function (currentClass, totalClass) {
-      return `<span class="${currentClass}"></span>/<span class="${totalClass}"></span>`
-    }
-  }
-
-  scrollbar = {
-    enabled: this.dataset.sliderScrollbar === 'true',
-    el: this.querySelector('.swiper-scrollbar'),
-    draggable: true
-  }
-
-  breakpoints = {
-    0: { slidesPerView: Number(this.dataset.breakpointMobile) },
-    600: { slidesPerView: Number(this.dataset.breakpointTablet) },
-    1200: { slidesPerView: Number(this.dataset.breakpointDesktop) }
-  }
-}
-customElements.define('swiper-slider', SwiperSlider)
 
 /*
   Localization form
