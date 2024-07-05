@@ -63,8 +63,7 @@
 /* TYPOGRAPHY */
 
 h1, hg2, h3, h4, h5, h6 {
-    font-weight: 900;
-  
+  font: var(--bs-headings-font-family);
 }
 
 /* FIXED COLORS */
