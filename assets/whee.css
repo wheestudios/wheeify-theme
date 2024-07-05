@@ -805,7 +805,7 @@ hr {
 .btn-icon:hover,
 .btn-icon:focus {
   color: var( --bs-gray-300) !important;
-  background-color: rgba(var(--text-color-rgb, var(--bs-body-color-rgb)), .05);
+  background-color: var( --bs-gray-600) !important;
 }
 
 .nav-link-icon:active,
