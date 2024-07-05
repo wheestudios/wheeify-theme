@@ -11,12 +11,12 @@
 {% if section.settings.header_title != blank or section.settings.header_description != blank %}
   <header class="section-header {{ class }}">
     {% unless section.settings.header_title == blank %}
-      <h2 class="title text-uppercase {{ section.settings.header_title_font_size }}">
+      <h3 class="title text-uppercase">
         {{ section.settings.header_title }}
-      </h2>
+      </h3>
     {% endunless %}
     {% unless section.settings.header_description == blank %}
-      <div class="description rte opacity-70 {{ section.settings.header_description_font_size }}">
+      <div class="description rte opacity-70">
         {{ section.settings.header_description }}
       </div>
     {% endunless %}
