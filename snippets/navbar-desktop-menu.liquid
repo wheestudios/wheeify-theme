@@ -7,7 +7,7 @@
 <ul class="nav me-auto">
   {% for link in linklists[section.settings.main_menu].links %}
 
-    <li class="nav-item 
+    <li class="nav-item text-uppercase
       {% if link.links %}dropdown{% endif %}
       {% if items_with_megamenu contains link.handle %}has-megamenu{% endif %}
       ">
