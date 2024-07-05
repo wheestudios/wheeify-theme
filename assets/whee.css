@@ -693,7 +693,7 @@ hr {
 .form-floating>.form-control:focus~label::after,
 .form-floating>.form-control:not(:placeholder-shown)~label::after,
 .form-floating>.form-select~label::after {
-  background-color: var(--bs-gray-200);
+  background-color: var(--bs-gray-100);
 }
 
 .form-control,
