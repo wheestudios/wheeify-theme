@@ -690,7 +690,7 @@ hr {
   Forms
 */
 .form-floating label {
-  color: var(--bs-grey-800);
+  color: var(--bs-gray-800);
 }
 
 .form-floating>.form-control-plaintext~label::after,
