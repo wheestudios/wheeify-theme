@@ -692,13 +692,13 @@ hr {
 .form-control,
 .form-select {
   color: var(--bs-grey-900);
-  border-color: var(--bs-grey-600);
+  border-color: var(--bs-grey-700);
   border-radius: var(--bs-border-radius);
-  background-color: var(--bs-gray-400);
+  background-color: var(--bs-gray-200);
 }
 
 .form-control:focus {
-  background-color: var(--bs-gray-400);
+  background-color: var(--bs-gray-100);
 }
 
 .form-select {
@@ -710,8 +710,8 @@ hr {
 .form-select:focus,
 .form-select:focus {
   color: var(--bs-grey-900);
-  background-color: var(--bs-gray-400);
-  border-color: rgba(var(--bs-primary-rgb), 1);
+  background-color: var(--bs-gray-100);
+  border-color: var(--bs-yellow-500);
   box-shadow: var(--bs-focus-box-shadow);
 }
 
