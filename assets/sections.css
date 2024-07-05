@@ -416,7 +416,7 @@ body.navbar-dropdown-open #footer-group::after {
 
 .newsletter-form .form-floating input:focus + label {
   transform: scale(.85) translateY(-0.5rem) translateX(0.5rem);
-  color: var(--bs-gray-600);
+  color: var(--bs-gray-500);
 }
 
 .newsletter-form .form-floating button {
