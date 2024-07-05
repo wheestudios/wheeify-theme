@@ -836,6 +836,7 @@ hr {
 
 .navbar-nav .dropdown-menu svg:hover{
   fill: red;
+  stroke: red;
 }
 
 
