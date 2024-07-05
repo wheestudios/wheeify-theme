@@ -187,7 +187,6 @@
   font-size: 1em;
 }
 
-
 .ws-menu-item-head {
   font-size: 1.2em;
   font-weight: bold;
@@ -206,7 +205,6 @@
   height:100%;
   padding: .1em .2em;
 }
-
 
 .ws-menu-item a:hover, .ws-menu-item a:active {
   text-decoration: none;
@@ -770,7 +768,7 @@ hr {
 */
 
 .nav-link, .nav-link.active {
-    color: var( --bs-gray-900) !important;
+    color: var( --bs-gray-100) !important;
 }
 
 .nav-link:hover,
