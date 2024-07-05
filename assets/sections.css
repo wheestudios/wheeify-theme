@@ -402,7 +402,7 @@ body.navbar-dropdown-open #footer-group::after {
   transform: translateY(-50%);
   opacity: 0.5;
   z-index: 3;
-  color: var(--bs-grey-800);
+  color: var(--bs-gray-800);
 }
 
 .newsletter-form .form-floating input {
@@ -411,7 +411,7 @@ body.navbar-dropdown-open #footer-group::after {
 
 .newsletter-form .form-floating label {
   padding-left: 3rem;
-  color: var(--bs-grey-800);
+  color: var(--bs-gray-800);
 }
 
 .newsletter-form .form-floating input:focus + label {
