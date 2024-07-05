@@ -29,7 +29,7 @@
           {%- if child_link.links != blank -%}
             <div class="ws-avoid-break">
               <div class="ws-menu-item ws-menu-item-head">
-                <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %} class="small">
+                <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %} class="small :hover">
                   {{ child_link.title }}
                 </a>
               </div>
