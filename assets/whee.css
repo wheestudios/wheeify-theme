@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700 !important;
 }
 
+a.navlink {
+  font-size: .8em;
+}
+
 /* FIXED COLORS */
 .bg-whee-100 { background-color: #f3eaf3; }
 .bg-whee-200 { background-color: #dcb8de; }
