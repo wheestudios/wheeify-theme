@@ -364,6 +364,9 @@ body.navbar-dropdown-open #footer-group::after {
   border-radius: var(--bs-border-radius);
 }
 
+.wsNewletter h2 {
+  fdont-size: 1.25em;
+}
 
 /*
   Information Line
