@@ -221,7 +221,7 @@
   font-weight: var(--bs-btn-font-weight);
   text-transform: var(--bs-btn-text-transform);
   letter-spacing: var(--bs-btn-letter-spacing);
-  background-image: linear-gradient("#fff282", "#f4c300");
+  background-image: linear-gradient(180deg, rgba(71, 66, 72, 5), rgba(16, 16, 19, 0));
 }
 
 .btn-primary {
