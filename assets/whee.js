@@ -172,14 +172,14 @@ document.querySelectorAll('.viewport-detect').forEach((el) => {
 
 /*
   Localization form
-*/
+
 document.querySelectorAll('.shopify-localization-form button').forEach(btn => {
   btn.addEventListener('click', () => {
     btn.closest('form').querySelector('[name="country_code"]').value = btn.dataset.isoCode
     btn.closest('form').submit()
   })
 })
-
+*/
   
 /*!
  * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
