@@ -83,7 +83,7 @@
 .bg-yellow-900 { background-color: #1f1d16; }
 
 .bg-grey-800 { background-color: var(--bs-gry-8000); }
-
+ 
 /* COLORS FROM SETTINGS */
 
 .body-bg { background-color: var(--ws-body-bg); }
