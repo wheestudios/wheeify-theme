@@ -60,6 +60,30 @@
 /*
   Background/Text
 */
+
+/* FIXED COLORS */
+.bg-whee-100 { background-color: #f3eaf3; }
+.bg-whee-200 { background-color: #dcb8de; }
+.bg-whee-300 { background-color: #bd7bc2; }
+.bg-whee-400 { background-color: #9a3ea3; }
+.bg-whee-500 { background-color: #7b0085; }
+.bg-whee-600 { background-color: #5e0066; }
+.bg-whee-700 { background-color: #430148; }
+.bg-whee-800 { background-color: #242025; }
+.bg-whee-900 { background-color: #181119; }
+
+.bg-yellow-100 { background-color: #fbf9f1; }
+.bg-yellow-200 { background-color: #fffbcd; }
+.bg-yellow-300 { background-color: #fffc9a; }
+.bg-yellow-400 { background-color: #fffb61; }
+.bg-yellow-500 { background-color: #ffe500; }
+.bg-yellow-600 { background-color: #d1ba00; }
+.bg-yellow-700 { background-color: #8f7f0c; }
+.bg-yellow-800 { background-color: #4f471c; }
+.bg-yellow-900 { background-color: #1f1d16; }
+
+/* COLORS FROM SETTINGS */
+
 .body-bg { background-color: var(--ws-body-bg); }
 .body-bg-alt { background-color: var(--ws-body-bg-alt); }
 
@@ -71,7 +95,6 @@
 
 .bg-menu { background-color: var(--bs-gray-700); }
 
-.bg-whee-dark { background-color: #2b0e2d; }
 
 .bg-primary-subtle {
   background-color: var(--bs-primary-bg-subtle) !important;
