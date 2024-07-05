@@ -834,7 +834,7 @@ hr {
     left: auto;
 }
 
-.navbar-nav .dropdown-menu svg:hover{
+svg:hover{
   fill: red;
   stroke: red;
 }
