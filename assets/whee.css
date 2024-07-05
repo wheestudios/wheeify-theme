@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 .bg-yellow-900 { background-color: #1f1d16; }
 
 .bg-gray-800 { background-color: var(--bs-gray-800); }
+.fg-gray-800 { color: var(--bs-gray-800); }
  
 /* COLORS FROM SETTINGS */
 
