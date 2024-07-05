@@ -225,9 +225,9 @@
 }
 
 .btn-primary {
-  --bs-btn-color: var(--bs-white);
-  --bs-btn-bg: rgba(var(--bs-primary-rgb), 1);
-  --bs-btn-border-color: rgba(var(--bs-primary-rgb), 1);
+  --bs-btn-color: #474248;
+  --bs-btn-bg: linear-gradient(180deg, rgba(71, 66, 72, 5), rgba(16, 16, 19, 0));
+  --bs-btn-border-color: #ada8ae;
   --bs-btn-hover-color: var(--bs-white);
   --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), .9);
   --bs-btn-hover-border-color: rgba(var(--bs-primary-rgb), .9);
