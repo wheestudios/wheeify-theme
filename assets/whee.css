@@ -165,10 +165,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.nav-desktop-icons > a {
-  color: var(-ws-body-fg-alt);
-}
-
 
 .ws-menu-col {
   
@@ -798,7 +794,8 @@ hr {
 .nav-link:focus-visible {
   box-shadow: 0 0 0 0.25rem rgba(var(--ws-body-bg-alt-rgb), .15);
 }
-/*
+
+
 
 .nav-link-icon,
 .btn-icon {
@@ -822,7 +819,7 @@ hr {
   background-color: rgba(var(--text-color-rgb, var(--bs-body-color-rgb)), .1);
   border-color: transparent;
 }
-*/
+
 
 .information-line .icon {
   width: 30px;
