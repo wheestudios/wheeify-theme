@@ -694,7 +694,7 @@ hr {
   color: var(--bs-grey-900);
   border-color: var(--bs-grey-900);
   border-radius: var(--bs-border-radius);
-  background-color: var(--bs-grey-200);
+  background-color: var(--bs-grey-400);
 }
 
 .form-select {
