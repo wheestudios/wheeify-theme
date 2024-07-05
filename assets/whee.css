@@ -805,13 +805,13 @@ hr {
 .btn-icon:focus {
   color: var( --bs-gray-300) !important;
   background-color: rgba(0, 0, 0, 0.1);
-  background-color:  rgba(var(--ws-body-bg-alt-rgb), .5) !important;
+  background-color:  rgba(var(--ws-body-bg-alt-rgb), .1) !important;
 }
 
 .nav-link-icon:active,
 .btn-icon:active,
 :not(.btn-check) + .btn-icon:active {
-  background-color:  rgba(var(--ws-body-bg-alt-rgb), .5);
+  background-color:  rgba(var(--ws-body-bg-alt-rgb), .1);
   border-color: transparent;
 }
 
