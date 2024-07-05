@@ -411,7 +411,6 @@ body.navbar-dropdown-open #footer-group::after {
 
 .newsletter-form .form-floating label {
   padding-left: 3rem;
-  color: var(--bs-grey-900);
 }
 
 .newsletter-form .form-floating input:focus + label {
