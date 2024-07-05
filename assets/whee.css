@@ -834,7 +834,7 @@ hr {
     left: auto;
 }
 
-svg:hover{
+.nav-item > svg {
   fill: red;
   stroke: red;
 }
