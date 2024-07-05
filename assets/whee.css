@@ -689,6 +689,11 @@ hr {
 /* 
   Forms
 */
+.form-floating label {
+  color: var(--bs-grey-900);
+  background-color: var(--bs-gray-200);
+}
+
 .form-control,
 .form-select {
   color: var(--bs-grey-900);
