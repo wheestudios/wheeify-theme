@@ -402,7 +402,6 @@ body.navbar-dropdown-open #footer-group::after {
   transform: translateY(-50%);
   opacity: 0.5;
   z-index: 3;
-  color: var(--bs-body-color);
 }
 
 .newsletter-form .form-floating input {
