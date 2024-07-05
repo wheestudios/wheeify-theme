@@ -4,14 +4,7 @@
     announcement-bar 
     bg-primary
     {{ section.settings.text_color }}
-    {{ section.settings.border_top_width | prepend: 'border-top-' }}
-    {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
-    {{ section.settings.border_color }} 
     {{ section.settings.letter_spacing | prepend: 'ls-' }} 
-  "
-  style="
-    --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
-    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
   ">
   <div class="container">
     <div 
