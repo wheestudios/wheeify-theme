@@ -165,11 +165,11 @@ const observer = new IntersectionObserver((entries) => {
   })
 }, { threshold: 0.4 })
 
-document.querySelectorAll('.viewport-detect').forEach((el) => {
-  observer.observe(el)
-})
 
+const vpdetect = document.querySelectorAll('..viewport-detect');
+vpdetect.forEach(el => observer.observe(el));
 
+  
 /*
   Localization form
 
