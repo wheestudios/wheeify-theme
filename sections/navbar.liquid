@@ -33,20 +33,20 @@
 		<ul class="navbar-nav me-auto text-light">
 		  {% for link in linklists[section.settings.main_menu].links %}
 
-			<li class="nav-item text-light 
+			<li class="nav-item
 			  {% if link.links %}dropdown{% endif %}
 			  {% if items_with_megamenu contains link.handle %}has-megamenu{% endif %}
 			  ">
 			  
 			  {% # SINGLE ITEM MENU LEVEL %}
 			  {% if link.links == blank %}
-				<a class="nav-link text-uppercase {% if link.active %}active{% endif %}" href="{{ link.url }}" aria-current="{% if link.active %}page{% endif %}">
+				<a class="nav-link text-light text-uppercase {% if link.active %}active{% endif %}" href="{{ link.url }}" aria-current="{% if link.active %}page{% endif %}">
 				  {{ link.title }}
 				</a>
 			  {% else %}
 
 				<a 
-				  class="nav-link text-uppercase dropdown-toggle {% if link.child_active %}active{% endif %}" 
+				  class="nav-link text-light text-uppercase dropdown-toggle {% if link.child_active %}active{% endif %}" 
 				  href="#"
 				  data-bs-toggle="dropdown" 
 				  data-bs-display="static"
