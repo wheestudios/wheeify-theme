@@ -221,12 +221,12 @@
   font-weight: var(--bs-btn-font-weight);
   text-transform: var(--bs-btn-text-transform);
   letter-spacing: var(--bs-btn-letter-spacing);
-  background-image: linear-gradient(180deg, rgba(71, 66, 72, 5), rgba(16, 16, 19, 0));
+  background-image: var(--bs-btn-gradient);
 }
 
 .btn-primary {
   --bs-btn-color: #474248;
-  background-image: linear-gradient(rgba(255, 242, 130, 1), rgba(255, 228, 0, 1), rgba(244, 195, 0, 1));
+  --bs-btn-gradient: linear-gradient(rgba(255, 242, 130, 1), rgba(255, 228, 0, 1), rgba(244, 195, 0, 1));
   --bs-btn-border-color: #ada8ae;
   --bs-btn-hover-color: var(--bs-white);
   --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), .9);
