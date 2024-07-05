@@ -797,6 +797,7 @@ hr {
   display: inline-flex;
   padding: .65rem;
   border-radius: 50rem;
+  color: rgba(var(--ws-body-fg-alt-rgb), 1) !important;
 }
 
 .nav-link-icon:hover,
