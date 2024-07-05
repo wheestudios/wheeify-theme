@@ -784,7 +784,7 @@ hr {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: rgba(var(--ws-body-fg-alt-rgb), .7) !important;
+  color: rgba(var(--ws-body-fg-alt-rgb), 1) !important;
 }
 
 .nav-link:focus-visible {
