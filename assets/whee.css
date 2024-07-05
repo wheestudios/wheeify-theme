@@ -710,6 +710,7 @@ hr {
 .form-select:focus,
 .form-select:focus {
   color: var(--bs-grey-900);
+  background-color: var(--bs-gray-400);
   border-color: rgba(var(--bs-primary-rgb), 1);
   box-shadow: var(--bs-focus-box-shadow);
 }
