@@ -66,8 +66,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700 !important;
 }
 
-.navlink {
-  font-size: .8em;
+.nav-link {
+  font-size: .5em;
 }
 
 /* FIXED COLORS */
