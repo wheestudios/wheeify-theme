@@ -6,12 +6,19 @@
 
   <header class="py-0 mb-0 border-bottom ws-nav-background">
     <div class="container container-fluid">
-      <a href="{{ routes.root_url }}" class="mb-1 display-light">
-        {% render 'image-url' img: settings.logo-light, size: 160, orientation: '', loading: 'lazy', scale: false, class: "img-fluid" %}
-      </a>
-      <a href="{{ routes.root_url }}" class="mb-1 display-dark">
-        {% render 'image-url' img: settings.logo-dark, size: 160, orientation: '', loading: 'lazy', scale: false, class: "img-fluid" %}
-      </a>
+      <div class="row">
+        <div class="col-4-lg">
+          <a href="{{ routes.root_url }}" class="mb-1 display-light">
+            {% render 'image-url' img: settings.logo-light, size: 160, orientation: '', loading: 'lazy', scale: false, class: "img-fluid" %}
+          </a>
+          <a href="{{ routes.root_url }}" class="mb-1 display-dark">
+            {% render 'image-url' img: settings.logo-dark, size: 160, orientation: '', loading: 'lazy', scale: false, class: "img-fluid" %}
+          </a>
+        </div>
+        <div class="col-8-lg">
+{% render 'navbar-icons' %}
+        </div>
+      </div>
     </div>
   </header>
   
