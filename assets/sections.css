@@ -400,7 +400,6 @@ body.navbar-dropdown-open #footer-group::after {
   top: 50%;
   left: 0.75rem;
   transform: translateY(-50%);
-  opacity: 0.5;
   z-index: 3;
   color: var(--bs-gray-800);
 }
