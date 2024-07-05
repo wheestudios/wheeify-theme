@@ -784,7 +784,7 @@ hr {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: ws-gray-300 !important;
+  color: var(--ws-gray-300) !important;
 }
 
 .nav-link:focus-visible {
