@@ -87,6 +87,9 @@ h1, h2, h3, h4, h5, h6 {
 .bg-yellow-800 { background-color: #4f471c; }
 .bg-yellow-900 { background-color: #1f1d16; }
 
+.bg-gray-300 { background-color: var(--bs-gray-300); }
+.fg-gray-300 { color: var(--bs-gray-300); }
+
 .bg-gray-800 { background-color: var(--bs-gray-800); }
 .fg-gray-800 { color: var(--bs-gray-800); }
  
