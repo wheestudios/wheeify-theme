@@ -226,7 +226,7 @@
 
 .btn-primary {
   --bs-btn-color: #474248;
-  --bs-btn-bg: var(--ws-gold-gradient);
+  background-image: linear-gradient(red, yellow);
   --bs-btn-border-color: #ada8ae;
   --bs-btn-hover-color: var(--bs-white);
   --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), .9);
