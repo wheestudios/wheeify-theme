@@ -689,6 +689,10 @@ hr {
 /* 
   Forms
 */
+.form-floating label {
+  color: var(--bs-grey-900);
+}
+
 .form-floating>.form-control-plaintext~label::after,
 .form-floating>.form-control:focus~label::after,
 .form-floating>.form-control:not(:placeholder-shown)~label::after,
