@@ -694,11 +694,11 @@ hr {
   color: var(--bs-grey-900);
   border-color: var(--bs-grey-600);
   border-radius: var(--bs-border-radius);
-  background-color: var(--bs-grey-400);
+  background-color: var(--bs-gray-400);
 }
 
 .form-control:focus {
-  background-color: var(--bs-grey-400);
+  background-color: var(--bs-gray-400);
 }
 
 .form-select {
