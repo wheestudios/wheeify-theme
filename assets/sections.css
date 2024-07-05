@@ -439,7 +439,7 @@ body.navbar-dropdown-open #footer-group::after {
 /*
   Information Line
 */
-.information-line p {
+.information-line>p {
   color: #990000;
 }
 
