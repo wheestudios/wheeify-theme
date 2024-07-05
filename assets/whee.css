@@ -797,14 +797,14 @@ hr {
   display: inline-flex;
   padding: .65rem;
   border-radius: 50rem;
-  color: rgba(var(--ws-body-fg-alt-rgb), 1) !important;
+  color: rgba(var(--ws-body-fg-rgb), 1) !important;
 }
 
 .nav-link-icon:hover,
 .nav-link-icon:focus,
 .btn-icon:hover,
 .btn-icon:focus {
-  color: rgba(var(--ws-body-fg-alt-rgb), .7) !important;
+  color: rgba(var(--ws-body-fg-rgb), .7) !important;
   background-color: rgba(0, 0, 0, 0.1);
   background-color:  rgba(var(--ws-body-bg-alt-rgb), .1) !important;
 }
