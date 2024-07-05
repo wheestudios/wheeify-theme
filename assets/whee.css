@@ -834,7 +834,7 @@ hr {
     left: auto;
 }
 
-.nav-item > svg {
+svg.wsSVGMode {
   fill: red;
   stroke: red;
 }
