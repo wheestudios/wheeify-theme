@@ -166,7 +166,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.4 })
 
 
-const vpdetect = document.querySelectorAll('..viewport-detect');
+const vpdetect = document.querySelectorAll('.viewport-detect');
 vpdetect.forEach(el => observer.observe(el));
 
   
