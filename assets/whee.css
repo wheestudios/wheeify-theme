@@ -825,11 +825,8 @@ hr {
 /*
   Dropdown
 */
-
-@media (min-width: 992px) {
-    .dropdown-menu {
-        position: absolute;
-    }
+.navbar-nav .dropdown-menu {
+  position: absolute;
 }
 
 .dropdown-menu-end[data-bs-popper] {
