@@ -690,8 +690,8 @@ hr {
   Forms
 */
 .form-floating label {
-  color: var(--bs-grey-900);
-  background-color: var(--bs-gray-200);
+  color: var(--bs-grey-700);
+  background-color: transparent;
 }
 
 .form-control,
