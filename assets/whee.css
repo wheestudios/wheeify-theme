@@ -691,7 +691,7 @@ hr {
 */
 .form-control,
 .form-select {
-  color: var(--bs-body-color);
+  color: var(--bs-grey-200);
   border-color: var(--bs-border-color);
   border-radius: var(--bs-border-radius);
 }
