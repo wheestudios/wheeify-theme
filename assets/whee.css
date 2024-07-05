@@ -806,7 +806,7 @@ hr {
 .btn-icon:focus {
   color: var( --bs-gray-300) !important;
   background-color: rgba(0, 0, 0, 0.1);
-  background-color:  rgba(var(--ws-body-bg-alt), .5);
+  background-color:  rgba(var(--ws-body-bg-alt), .5) !important;
 }
 
 .nav-link-icon:active,
