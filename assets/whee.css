@@ -780,12 +780,12 @@ hr {
 
 /*
   Navbar
-*/
+
 
 .nav-link, .nav-link.active {
     color: var( --bs-gray-100) !important;
 }
-
+*/
 .nav-link:hover,
 .nav-link:focus {
   color: var( --bs-gray-300) !important;
