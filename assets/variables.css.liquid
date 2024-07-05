@@ -6,8 +6,10 @@
 
 {% unless settings.font_body.system %}
   {{ settings.font_body | font_face: font_display: 'swap' }}
+  {{ settings.font_body | font_modify: 'weight', '300' | font_face: font_display: 'swap' }}
   {{ settings.font_body | font_modify: 'weight', '500' | font_face: font_display: 'swap' }}
   {{ settings.font_body | font_modify: 'weight', '700' | font_face: font_display: 'swap' }}
+  {{ settings.font_body | font_modify: 'weight', '900' | font_face: font_display: 'swap' }}
   {{ settings.font_body | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
 {% endunless %}
  
