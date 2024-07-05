@@ -2,7 +2,7 @@
   {% if localization.available_countries.size > 1 %}
     <li class="nav-item me-1">
       <a
-        class="nav-link nav-link-icon"
+        class="nav-link nav-link-icon body-fg-alt"
         href="#modal-localization"
         data-bs-toggle="modal"
         aria-controls="modal-localization" 
@@ -15,7 +15,7 @@
   {% if shop.customer_accounts_enabled %}
     <li class="nav-item">
       <a 
-        class="nav-link nav-link-icon {% if template.name == 'login' or template.name == 'account' %}active{% endif %}" 
+        class="nav-link nav-link-icon body-fg-alt {% if template.name == 'login' or template.name == 'account' %}active{% endif %}" 
         aria-current="{% if template.name == 'login' or template.name == 'account' %}page{% endif %}" 
         href="{{ routes.account_url }}"
         aria-label="{{ 'general.accessibility.account' | t }}">
@@ -26,7 +26,7 @@
   {% if settings.search %}
     <li class="nav-item">
       <a
-        class="nav-link nav-link-icon" 
+        class="nav-link nav-link-icon body-fg-alt" 
         href="#offcanvas-search" 
         data-bs-toggle="offcanvas"
         aria-controls="offcanvas-search" 
@@ -38,7 +38,7 @@
   {% endif %}
   <li class="nav-item">
     <a 
-      class="nav-link nav-link-icon" 
+      class="nav-link nav-link-icon body-fg-alt" 
       href="#offcanvas-cart" 
       data-bs-toggle="offcanvas" 
       aria-controls="offcanvas-cart" 
