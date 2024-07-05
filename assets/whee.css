@@ -274,9 +274,9 @@ fieldset:disabled .btn {
   --bs-btn-active-bg: rgba(var(--bs-primary-rgb), .8);
   --bs-btn-active-border-color: rgba(var(--bs-primary-rgb), .8);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(var(--bs-body-color-rgb), 0.125);
-  --bs-btn-disabled-color: var(--bs-white);
-  --bs-btn-disabled-bg: rgba(var(--bs-primary-rgb), 1);
-  --bs-btn-disabled-border-color: rgba(var(--bs-primary-rgb), 1);
+  --bs-btn-disabled-color: #8b868c;
+  --bs-btn-disabled-gradient: linear-gradient(rgba(250, 244, 198, 1), rgba(250, 237, 147, 1), rgba(236, 222, 170, 1));
+  --bs-btn-disabled-border-color: #cecacf;
 }
 
 .btn-secondary {
