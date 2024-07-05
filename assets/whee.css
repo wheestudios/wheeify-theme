@@ -835,8 +835,8 @@ hr {
 }
 
 svg.wsSVGMode {
-  fill: red;
-  stroke: red;
+  fill: rgba(var(--ws-body-bg-alt-rgb), .1);
+  stroke: rgba(var(--ws-body-bg-alt-rgb), .1);
 }
 
 
