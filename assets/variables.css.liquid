@@ -142,7 +142,7 @@
   --bs-btn-font-family-new: {{ settings.btn_font_family }};
   --bs-btn-font-weight: {{ settings.btn_font_weight }};
   --bs-btn-letter-spacing: {{ settings.btn_letter_spacing | times: 0.05 | append: 'rem' }};
-  --bs-btn-bg-gradient: {% if settings.btn_bg_gradient %}var(--bs-gradient){% endif %};
+  --bs-btn-bg-gradient: var(--ws-gold-gradient);
   --bs-btn-padding-x: {{ settings.btn_padding_x | append: 'rem' }};
   --bs-btn-padding-y: {{ settings.btn_padding_y | append: 'rem' }};
 }
