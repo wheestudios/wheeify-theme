@@ -440,7 +440,7 @@ body.navbar-dropdown-open #footer-group::after {
   Information Line
 */
 .information-line p {
-  color: var (--bs-gray-700);
+  color: #990000;
 }
 
 /* 
