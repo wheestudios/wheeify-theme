@@ -27,10 +27,10 @@
     "separator_pMbxtB": {
       "type": "separator",
       "settings": {
-        "bg_color": "bg-secondary",
-        "bg_opacity": 36,
+        "bg_color": "body-fg",
+        "bg_opacity": 100,
         "height": 9,
-        "container": "",
+        "container": "container",
         "pt": 2,
         "pb": 2
       }
