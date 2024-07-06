@@ -9,17 +9,26 @@
 */
 {
   "sections": {
-    "newsletter_yVTDYR": {
-      "type": "newsletter",
+    "html_UPfj4R": {
+      "type": "html",
       "settings": {
+        "usePage": "pride-flag-collection",
+        "liquid": "<p class=\"alert alert-primary text-center\">Current time is: {{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}<\/p>",
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
         "bg_gradient": "",
-        "header_title": "Newsletter Signup",
-        "header_title_font_size": "h4",
-        "header_description": "<p>Get 10% off your first order and be the first to hear about our exclusive offers and latest arrivals.<\/p>",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container": "",
+        "container_max_width": "",
+        "text_align": "text-center",
+        "header_title": "HTML and Liquid",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Add on optional description for this section<\/p>",
         "header_description_font_size": "fs-md",
-        "btn_color": "btn-primary",
-        "btn_size": "",
-        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
         "pt": 10,
         "pb": 10
       }
@@ -33,6 +42,21 @@
         "container": "container",
         "pt": 2,
         "pb": 2
+      }
+    },
+    "newsletter_yVTDYR": {
+      "type": "newsletter",
+      "settings": {
+        "bg_gradient": "",
+        "header_title": "Newsletter Signup",
+        "header_title_font_size": "h4",
+        "header_description": "<p>Get 10% off your first order and be the first to hear about our exclusive offers and latest arrivals.<\/p>",
+        "header_description_font_size": "fs-md",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
+        "pt": 10,
+        "pb": 10
       }
     },
     "info_line_PdJ4V4": {
@@ -77,8 +101,9 @@
     }
   },
   "order": [
-    "newsletter_yVTDYR",
+    "html_UPfj4R",
     "separator_pMbxtB",
+    "newsletter_yVTDYR",
     "info_line_PdJ4V4"
   ]
 }
