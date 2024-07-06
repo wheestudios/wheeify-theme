@@ -737,6 +737,11 @@ fieldset:disabled .btn {
   Separator (hr)
 */
 
+hr {
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
 /* 
   Forms
 */
