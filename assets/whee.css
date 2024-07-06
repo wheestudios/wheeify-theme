@@ -100,8 +100,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .body-fg { color: var(--ws-body-fg); }
 .body-fg-alt { color: var(--ws-body-fg-alt); }
-.border-fg { border-color: var(--ws-body-fg) !important; }
-.border-fg-alt { border-color: var(--ws-body-fg-alt) !important; }
+//.border-fg { border-color: var(--ws-body-fg) !important; }
+.border-fg {border-color: rgba(var(--ws-body-fg), var(--bs-border-opacity)) !important; }
+.border-fg-alt {border-color: rgba(var(--ws-body-fg-alt), var(--bs-border-opacity)) !important; }
+
 
 .bg-primary { background-color: var(--bs-primary-rgb); }
 .bg-secondary { background-color: var(--bs-secondary-rgb); }
