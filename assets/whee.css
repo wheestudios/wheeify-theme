@@ -689,13 +689,7 @@ fieldset:disabled .btn {
 /*
   Separator (hr)
 */
-hr {
-  opacity: .1;
-  background-color: currentColor;
-  border: none;
-  height: 1px;
-  margin: 0;
-}
+
 
 
 /* 
