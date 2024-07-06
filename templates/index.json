@@ -27,7 +27,7 @@
     "separator_pMbxtB": {
       "type": "separator",
       "settings": {
-        "border_color": "fg-primary",
+        "border_color": "fg-secondary",
         "bg_opacity": 100,
         "height": 4,
         "container": "container",
