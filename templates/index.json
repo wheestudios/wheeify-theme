@@ -13,24 +13,18 @@
       "type": "html",
       "settings": {
         "usePage": "pride-flag-collection",
-        "liquid": "<p class=\"alert alert-primary text-center\">Current time is: {{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}<\/p>",
+        "liquid": "",
         "bg_color": "bg-body",
         "bg_opacity": 100,
-        "bg_gradient": "",
         "text_color": "text-body",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 100,
         "container": "",
-        "container_max_width": "",
-        "text_align": "text-center",
+        "text_align": "text-start",
         "header_title": "HTML and Liquid",
         "header_title_font_size": "h2",
         "header_description": "<p>Add on optional description for this section<\/p>",
         "header_description_font_size": "fs-md",
-        "pt": 10,
-        "pb": 10
+        "pt": 2,
+        "pb": 2
       }
     },
     "separator_pMbxtB": {
