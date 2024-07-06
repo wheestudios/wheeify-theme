@@ -100,6 +100,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .body-fg { color: var(--bs-body-fg); }
 .body-fg-alt { color: var(--bs-body-fg-alt); }
+.border-fg { color: var(--bs-body-fg); }
+.border-fg-alt { color: var(--bs-body-fg-alt); }
 
 .bg-primary { background-color: var(--bs-primary-rgb); }
 .bg-secondary { background-color: var(--bs-secondary-rgb); }
