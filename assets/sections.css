@@ -317,10 +317,6 @@ body.navbar-dropdown-open #footer-group::after {
 /*
   Newsletter
 */
-.newsletter {
-  border-top-style: solid;
-  border-bottom-style: solid;
-}
 
 .newsletter-form .form-floating .form-floating-icon {
   position: absolute;
