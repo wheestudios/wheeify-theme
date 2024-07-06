@@ -6,7 +6,6 @@
   --bs-link-color-rgb: currentColor;
   --bs-link-hover-color: currentColor;
   --bs-link-hover-color-rgb: currentColor;
-  --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
 
 [data-bs-theme=light] .display-dark {
