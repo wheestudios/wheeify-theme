@@ -5,8 +5,7 @@
     {{ section.settings.pb | prepend: 'pb-' }}
   ">
   <div 
-    class="{{ section.settings.container }}" 
-    style="max-width: {{ section.settings.max_width }}px;">
+    class="{{ section.settings.container }}>
     <hr 
       class="separator my-0 {{ section.settings.bg_color }}" 
       style="
@@ -70,12 +69,6 @@
       { "value": "container", "label": "Yes" },
       { "value": "", "label": "No" }
     ]
-  },
-  {
-    "type": "text",
-    "id": "container_max_width",
-    "label": "Container max-width (px)",
-    "info": "Leave empty to use the global container width"
   },
   {
     "type": "header",
