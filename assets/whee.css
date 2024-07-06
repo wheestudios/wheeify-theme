@@ -133,31 +133,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .border-opacity-20 {
-  --bs-border-opacity: 0.20
+  --bs-border-opacity: 0.20 !important;
 }
 
 .border-opacity-30 {
-  --bs-border-opacity: 0.30
+  --bs-border-opacity: 0.30 !important;
 }
 
 .border-opacity-40 {
-  --bs-border-opacity: 0.40
+  --bs-border-opacity: 0.40 !important;
 }
 
 .border-opacity-60 {
-  --bs-border-opacity: 0.60
+  --bs-border-opacity: 0.60 !important;
 }
 
 .border-opacity-70 {
-  --bs-border-opacity: 0.70
+  --bs-border-opacity: 0.70 !important;
 }
 
 .border-opacity-80 {
-  --bs-border-opacity: 0.80
+  --bs-border-opacity: 0.80 !important;
 }
 
 .border-opacity-90 {
-  --bs-border-opacity: 0.90
+  --bs-border-opacity: 0.90 !important;
 }
 
 /*
