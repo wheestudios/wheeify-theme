@@ -5,9 +5,9 @@
     {{ section.settings.pb | prepend: 'pb-' }}
   ">
   <div 
-    class="{{ section.settings.container }}">
+    class="{{ section.settings.container }} {{ section.settings.border_color }} ">
     <hr 
-      class="separator my-0 {{ section.settings.bg_color }}" 
+      class="separator my-0" 
       style="
         opacity: 1;
         --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
@@ -26,8 +26,8 @@
   },
   {
     "type": "select",
-    "id": "bg_color",
-    "label": "Background color",
+    "id": "border_color",
+    "label": "Border color",
     "default": "fg-primary",
     "options": [
       { "value": "fg-primary", "label": "Primary" },
