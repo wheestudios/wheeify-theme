@@ -132,40 +132,44 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #121012 !important;
 }
 
-.border-opacity-20 {
-  --bs-border-opacity: 0.20 !important;
+.border-opacity-10 {
+  opacity: 0.10 !important;
 }
 
 .border-opacity-20 {
-  --bs-border-opacity: 0.20 !important;
+  opacity: 0.20 !important;
 }
 
 .border-opacity-30 {
-  --bs-border-opacity: 0.30 !important;
+  opacity: 0.30 !important;
 }
 
 .border-opacity-40 {
-  --bs-border-opacity: 0.40 !important;
+  opacity: 0.40 !important;
+}
+
+.border-opacity-50 {
+  opacity: 0.50 !important;
 }
 
 .border-opacity-60 {
-  --bs-border-opacity: 0.60 !important;
+  opacity: 0.60 !important;
 }
 
 .border-opacity-70 {
-  --bs-border-opacity: 0.70 !important;
+  opacity: 0.70 !important;
 }
 
 .border-opacity-80 {
-  --bs-border-opacity: 0.80 !important;
+  opacity: 0.80 !important;
 }
 
 .border-opacity-90 {
-  --bs-border-opacity: 0.90 !important;
+  opacity: 0.90 !important;
 }
 
 .border-opacity-100 {
-  --bs-border-opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 /*
