@@ -136,6 +136,10 @@ h1, h2, h3, h4, h5, h6 {
   --bs-border-opacity: 0.20 !important;
 }
 
+.border-opacity-20 {
+  --bs-border-opacity: 0.20 !important;
+}
+
 .border-opacity-30 {
   --bs-border-opacity: 0.30 !important;
 }
@@ -158,6 +162,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-opacity-90 {
   --bs-border-opacity: 0.90 !important;
+}
+
+.border-opacity-100 {
+  --bs-border-opacity: 1 !important;
 }
 
 /*
