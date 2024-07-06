@@ -29,7 +29,7 @@
       "settings": {
         "border_color": "fg",
         "opacity": 20,
-        "height": 0,
+        "height": 1,
         "container": "container",
         "pt": 2,
         "pb": 2
