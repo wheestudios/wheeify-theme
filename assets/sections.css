@@ -59,8 +59,6 @@
 */
 #navbar-wrapper {
   display: block;
-  border-top-style: solid;
-  border-bottom-style: solid;
   transition: background-color .2s ease-out;
 }
 
