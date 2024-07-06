@@ -28,7 +28,7 @@
       "type": "separator",
       "settings": {
         "border_color": "primary",
-        "opacity": 100,
+        "opacity": 80,
         "height": 5,
         "container": "container",
         "pt": 2,
