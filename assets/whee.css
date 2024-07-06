@@ -105,8 +105,8 @@ h1, h2, h3, h4, h5, h6 {
 .bg-primary { background-color: var(--bs-primary-rgb); }
 .bg-secondary { background-color: var(--bs-secondary-rgb); }
 
-.fg-primary { text-color: rgba(var(--bs-primary-rgb), 1); }
-.fg-secondary { text-color: rgba(var(--bs-secondary-rgb), 1); }
+.fg-primary { text-color: rgba(var(--bs-primary), 1); }
+.fg-secondary { text-color: rgba(var(--bs-secondary), 1); }
 
 .bg-menu { background-color: var(--bs-gray-700); }
 
