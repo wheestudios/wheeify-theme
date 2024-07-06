@@ -17,7 +17,7 @@
         "bg_color": "bg-body",
         "bg_opacity": 100,
         "text_color": "text-body",
-        "container": "",
+        "container": "container",
         "text_align": "text-start",
         "header_title": "HTML and Liquid",
         "header_title_font_size": "h2",
