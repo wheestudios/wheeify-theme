@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .border-opacity-10 {
+  --bs-border-opacity: 1;
   opacity: 0.10 !important;
 }
 
