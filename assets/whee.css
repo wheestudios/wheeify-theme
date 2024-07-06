@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 .body-bg { background-color: var(--ws-body-bg); }
 .body-bg-alt { background-color: var(--ws-body-bg-alt); }
 
-.body-fg { textcolor: var(--bs-body-fg); }
+.body-fg { text-color: var(--bs-body-fg); }
 .body-fg-alt { text-color: var(--bs-body-fg-alt); }
 
 .bg-primary { background-color: var(--bs-primary-rgb); }
