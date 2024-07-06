@@ -27,9 +27,9 @@
     "separator_pMbxtB": {
       "type": "separator",
       "settings": {
-        "border_color": "fg",
-        "opacity": 1,
-        "height": 14,
+        "border_color": "primary",
+        "opacity": 80,
+        "height": 5,
         "container": "container",
         "pt": 2,
         "pb": 2
