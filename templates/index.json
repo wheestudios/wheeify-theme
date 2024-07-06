@@ -9,17 +9,6 @@
 */
 {
   "sections": {
-    "separator_pMbxtB": {
-      "type": "separator",
-      "settings": {
-        "bg_color": "bg-primary",
-        "bg_opacity": 36,
-        "height": 3,
-        "container": "",
-        "pt": 2,
-        "pb": 2
-      }
-    },
     "newsletter_yVTDYR": {
       "type": "newsletter",
       "settings": {
@@ -33,6 +22,17 @@
         "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
         "pt": 10,
         "pb": 10
+      }
+    },
+    "separator_pMbxtB": {
+      "type": "separator",
+      "settings": {
+        "bg_color": "bg-secondary",
+        "bg_opacity": 36,
+        "height": 9,
+        "container": "",
+        "pt": 2,
+        "pb": 2
       }
     },
     "info_line_PdJ4V4": {
@@ -77,8 +77,8 @@
     }
   },
   "order": [
-    "separator_pMbxtB",
     "newsletter_yVTDYR",
+    "separator_pMbxtB",
     "info_line_PdJ4V4"
   ]
 }
