@@ -6,7 +6,7 @@
   ">
   <div 
     class="{{ section.settings.container }}">
-    <hr class="separator border my-0 border-{{ section.settings.height }} border-{{ section.settings.border_color }} opacity-{{ section.settings.opacity }}">
+    <hr class="separator border my-0 border-{{ section.settings.height }} border-{{ section.settings.border_color }}" style="-bs-text-opacity: {{ section.settings.opacity }}">
   </div>
 </div>
 
@@ -35,10 +35,9 @@
     "id": "opacity",
     "label": "Background opacity",
     "min": 0,
-    "max": 100,
-    "step": 1,
-    "default": 10,
-    "unit": "%"
+    "max": 1,
+    "step": 0.1,
+    "default": 0.5
   },
   {
     "type": "range",
