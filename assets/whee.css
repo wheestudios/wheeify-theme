@@ -544,7 +544,7 @@ fieldset:disabled .btn {
 }
 
 .wsOverlay:hover {
-  display:block;
+  display:none;
 }
 
 /*
