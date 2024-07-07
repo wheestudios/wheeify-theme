@@ -50,7 +50,7 @@
                 -}}
               </div>
             {% elsif block.settings.img != blank %}
-              {% render 'image-url', img: block.settings.img, size: 900, orientation: block.settings.img_orientation, class: block.settings.media_border %}
+              {% render 'image-url', img: block.settings.img, size: 1296, orientation: block.settings.img_orientation, class: block.settings.media_border %}
             {% else %}
               {{ 'image' | placeholder_svg_tag: 'img-thumbnail' }}
             {% endif %}
