@@ -1933,3 +1933,13 @@ a:hover .article-card-img-wrapper img {
   border-bottom-style: dashed;
   border-bottom-width: 1px;
 }
+
+
+/* EXTERNAL APPS */
+
+/* Judge.me */
+
+.jdgm-carousel-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
