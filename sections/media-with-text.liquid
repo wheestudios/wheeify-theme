@@ -9,15 +9,8 @@
         {{ block.settings.bg_color }} 
         {{ section.settings.bg_gradient }}
         {{ block.settings.text_color }}
-        {{ block.settings.border_top_width | prepend: 'border-top-' }}
-        {{ block.settings.border_bottom_width | prepend: 'border-bottom-' }}
-        {{ block.settings.border_color }}
         {{ block.settings.pb | prepend: 'pb-' }} 
         {{ block.settings.pt | prepend: 'pt-' }}
-      "
-      style="
-        --bs-bg-opacity: {{ block.settings.bg_opacity | append: '%' }};
-        --bs-border-opacity: {{ block.settings.border_opacity | append: '%' }};
       "
       {{ block.shopify_attributes }}>
       <div 
@@ -173,48 +166,6 @@
             { "value": "text-body", "label": "Body" },
             { "value": "text-white", "label": "White" }
           ]
-        },
-        {
-          "type": "range",
-          "id": "border_top_width",
-          "label": "Border top width",
-          "default": 0,
-          "min": 0,
-          "max": 16,
-          "step": 1,
-          "unit": "px"
-        },
-        {
-          "type": "range",
-          "id": "border_bottom_width",
-          "label": "Border bottom width",
-          "default": 0,
-          "min": 0,
-          "max": 16,
-          "step": 1,
-          "unit": "px"
-        },
-        {
-          "type": "select",
-          "id": "border_color",
-          "label": "Border color",
-          "default": "border-body",
-          "options": [
-            { "value": "border-primary", "label": "Primary" },
-            { "value": "border-secondary", "label": "Secondary" },
-            { "value": "border-body", "label": "Body" },
-            { "value": "border-white", "label": "White" }
-          ]
-        },
-        {
-          "type": "range",
-          "id": "border_opacity",
-          "label": "Border opacity",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "default": 100,
-          "unit": "%"
         },
         {
           "type": "header",
