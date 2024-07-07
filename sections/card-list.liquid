@@ -1,3 +1,7 @@
+{% assign col-sm = 12 | divided_by: section.settings.breakpoint_mobile %}
+{% assign col-md = 12 | divided_by: section.settings.breakpoint_tablet %}
+{% assign col-lg = 12 | divided_by: section.settings.breakpoint_desktop %}
+
 <div
   id="card-list-{{ section.id }}" 
   class="
@@ -19,7 +23,7 @@
     <div class="row">
       {% for block in section.blocks %}
         <div 
-          class="p-4 p-desktop-5"
+          class="col-sm-{{ col-sm }} col-md-{{ col-md }} col-lg-{{ col-lg }}"
           {{ block.shopify_attributes }}>
           <div 
             class="
