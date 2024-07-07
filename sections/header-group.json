@@ -22,6 +22,7 @@
         },
         "slide_mwF4Tk": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "announcement": "<a href=\"https:\/\/wheepride.shop\/pages\/special-offers\" title=\"Special Offer Details at Whee! Pride\">Use Code: <strong>PRIDE2024 <\/strong>for 15% Off Orders of $40 or More!<\/a>"
           }
