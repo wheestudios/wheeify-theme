@@ -77,6 +77,7 @@
         "text_color": "body-fg",
         "container_max_width": "",
         "header_title": "Gear Up for Summer Fun with our Aloha Pride Collection!!",
+        "button-overlay": "yes",
         "header_title_font_size": "h4",
         "header_description": "<p>Hawaiian Shirts, Swimsuits, and More!<\/p>",
         "header_description_font_size": "fs-md",
