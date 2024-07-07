@@ -216,8 +216,8 @@ body.navbar-dropdown-open #footer-group::after {
 */
 .featured-products {
   display: block;
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
@@ -226,8 +226,8 @@ body.navbar-dropdown-open #footer-group::after {
 */
 .featured-collections {
   display: block;
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
@@ -235,8 +235,8 @@ body.navbar-dropdown-open #footer-group::after {
   Media with text
 */
 .media-with-text {
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 .media-with-text img {
@@ -253,8 +253,8 @@ body.navbar-dropdown-open #footer-group::after {
   FAQ
 */
 .faq {
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
@@ -262,8 +262,8 @@ body.navbar-dropdown-open #footer-group::after {
   Richtext
 */
 .richtext {
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
@@ -271,8 +271,8 @@ body.navbar-dropdown-open #footer-group::after {
   Contact form
 */
 .contact-form-section {
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
@@ -280,8 +280,8 @@ body.navbar-dropdown-open #footer-group::after {
   Page content
 */
 .page-content {
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
@@ -289,8 +289,8 @@ body.navbar-dropdown-open #footer-group::after {
   Cart list
 */
 .card-list {
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
@@ -299,8 +299,8 @@ body.navbar-dropdown-open #footer-group::after {
 */
 .card-slider {
   display: block;
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
@@ -309,8 +309,8 @@ body.navbar-dropdown-open #footer-group::after {
 */
 .html-section {
   display: block;
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 
