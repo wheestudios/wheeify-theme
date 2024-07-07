@@ -32,6 +32,39 @@
     </div>
   </a>
 </div>
+
+<div class="card">
+  {% render 'image-url', img: block.settings.img, orientation: section.settings.item_img_orientation, class: '' %}
+  <div class="card-img-overlay">
+            {% unless block.settings.img == blank %}
+              <div class="card-img-top overflow-hidden">
+                {% render 'image-url', img: block.settings.img, orientation: section.settings.item_img_orientation, class: '' %}
+              </div>
+            {% endunless %}
+            {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
+            <div class="card-body">
+              {% unless block.settings.title == blank %}
+                <h3 class="title mb-2 {{ section.settings.item_title_font_size }}">
+                  {{ block.settings.title }}
+                </h3>
+              {% endunless %}
+              {% unless block.settings.description == blank %}
+                <div class="description rte mb-0 {{ section.settings.item_description_font_size }}">
+                  {{ block.settings.description }}
+                </div>
+              {% endunless %}
+              {% unless block.settings.btn_text == blank %}
+                <a 
+                  class="btn w-80 {{ section.settings.item_btn_color }} {{ section.settings.item_btn_size }}" 
+                  href="{{ block.settings.btn_url }}">
+                  {{ block.settings.btn_text }}
+                </a>
+              {% endunless %}
+            </div>
+            {% endunless %}
+  </div>
+</div>
+  
 {% else %}
           <div 
             class="
