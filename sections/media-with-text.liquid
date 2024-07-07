@@ -127,12 +127,12 @@
           "type": "select",
           "id": "bg_color",
           "label": "Background color",
-          "default": "bg-body",
+          "default": "body-bg",
           "options": [
             { "value": "bg-primary", "label": "Primary" },
             { "value": "bg-secondary", "label": "Secondary" },
-            { "value": "bg-body", "label": "Body" },
-            { "value": "bg-white", "label": "White" }
+            { "value": "body-bg", "label": "Body Background" },
+            { "value": "body-bg-alt", "label": "Body Background Alt" }
           ]
         },
         {
@@ -159,12 +159,12 @@
           "type": "select",
           "id": "text_color",
           "label": "Text color",
-          "default": "text-body",
+          "default": "body-fg",
           "options": [
             { "value": "text-primary", "label": "Primary" },
             { "value": "text-secondary", "label": "Secondary" },
-            { "value": "text-body", "label": "Body" },
-            { "value": "text-white", "label": "White" }
+            { "value": "body-fg", "label": "Body Foreground" },
+            { "value": "body-fg-alt", "label": "Body Foreground Alt" }
           ]
         },
         {
@@ -185,10 +185,9 @@
           "type": "select",
           "id": "media_border",
           "label": "Media border",
-          "default": "img-thumbnail",
+          "default": "",
           "options": [
             { "value": "", "label": "None" },
-            { "value": "rounded",  "label": "Rounded" },
             { "value": "img-thumbnail", "label": "Thumbnail" }
           ]
         },
@@ -426,18 +425,18 @@
           "id": "pt",
           "label": "Top",
           "min": 0,
-          "max": 20,
+          "max": 5,
           "step": 1,
-          "default": 5
+          "default": 2
         },
         {
           "type": "range",
           "id": "pb",
           "label": "Bottom",
           "min": 0,
-          "max": 20,
+          "max": 5,
           "step": 1,
-          "default": 5
+          "default": 2
         }
       ]
     }
