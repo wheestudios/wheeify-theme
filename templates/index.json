@@ -90,8 +90,8 @@
         "header_title_font_size": "h2",
         "header_description": "<p>Add on optional description for this section<\/p>",
         "header_description_font_size": "fs-md",
-        "pt": 2,
-        "pb": 2
+        "pt": 5,
+        "pb": 3
       }
     },
     "separator_pMbxtB": {
