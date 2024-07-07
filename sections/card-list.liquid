@@ -44,6 +44,7 @@
                 {% render 'image-url', img: block.settings.img, orientation: section.settings.item_img_orientation, class: '' %}
               </div>
             {% endunless %}
+            {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
             <div class="card-body">
               {% unless block.settings.title == blank %}
                 <h3 class="title mb-2 {{ section.settings.item_title_font_size }}">
@@ -63,6 +64,7 @@
                 </a>
               {% endunless %}
             </div>
+            {% endunless %}
           </div>
         </div>
       {% endfor %}
