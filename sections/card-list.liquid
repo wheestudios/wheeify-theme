@@ -58,7 +58,7 @@
               {% endunless %}
               {% unless block.settings.btn_text == blank %}
                 <a 
-                  class="btn w-100 mt-5 {{ section.settings.item_btn_color }} {{ section.settings.item_btn_size }}" 
+                  class="btn w-80 {{ section.settings.item_btn_color }} {{ section.settings.item_btn_size }}" 
                   href="{{ block.settings.btn_url }}">
                   {{ block.settings.btn_text }}
                 </a>
@@ -401,6 +401,16 @@
           "type": "image_picker",
           "id": "img",
           "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "button-overlay",
+          "label": "Button Overlay",
+          "default": "yes",
+          "options": [
+            { "value": "yes", "label": "Yes" },
+            { "value": "no", "label": "No" }
+          ]
         },
         {
           "type": "text",
