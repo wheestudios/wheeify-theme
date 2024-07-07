@@ -16,13 +16,7 @@
     class="container" 
     style="max-width: {{ section.settings.container_max_width }}px">
     {% render 'section-header' %}
-    <div 
-      class="
-        m-n4 m-desktop-n5 align-items-desktop-center row
-        {{ section.settings.breakpoint_mobile | prepend: 'row-cols-' }}
-        {{ section.settings.breakpoint_tablet | prepend: 'row-cols-tablet-' }}
-        {{ section.settings.breakpoint_desktop | prepend: 'row-cols-desktop-' }}
-      ">
+    <div class="row">
       {% for block in section.blocks %}
         <div 
           class="p-4 p-desktop-5"
