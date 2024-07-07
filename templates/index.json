@@ -59,9 +59,9 @@
       "settings": {
         "usePage": "pride-flag-collection",
         "liquid": "",
-        "bg_color": "bg-body",
+        "bg_color": "body-bg",
         "bg_opacity": 100,
-        "text_color": "text-body",
+        "text_color": "body-fg",
         "container": "container",
         "text_align": "text-start",
         "header_title": "HTML and Liquid",
