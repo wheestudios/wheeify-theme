@@ -20,6 +20,82 @@
         "pb": 2
       }
     },
+    "card_list_XMHT87": {
+      "type": "card-list",
+      "blocks": {
+        "item_VaWRJ4": {
+          "type": "item",
+          "settings": {
+            "title": "First Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_PdrUgr": {
+          "type": "item",
+          "settings": {
+            "title": "Second Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_wKYRYN": {
+          "type": "item",
+          "settings": {
+            "title": "Third Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_Kgiqyn": {
+          "type": "item",
+          "settings": {
+            "title": "Fourth Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_VaWRJ4",
+        "item_PdrUgr",
+        "item_wKYRYN",
+        "item_Kgiqyn"
+      ],
+      "settings": {
+        "bg_color": "body-bg",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "body-fg",
+        "container_max_width": "",
+        "header_title": "Gear Up for Summer Fun with our Aloha Pride Collection!!",
+        "header_title_font_size": "h4",
+        "header_description": "<p>Hawaiian Shirts, Swimsuits, and More!<\/p>",
+        "header_description_font_size": "fs-md",
+        "item_bg_color": "body-bg",
+        "item_bg_opacity": 100,
+        "item_text_color": "text-body",
+        "item_border_width": 1,
+        "item_border_color": "border-body",
+        "item_border_opacity": 100,
+        "item_shadow": "shadow-none",
+        "item_text_align": "text-start",
+        "item_img_orientation": "ratio-4x3",
+        "item_title_font_size": "h5",
+        "item_description_font_size": "fs-md",
+        "item_btn_color": "btn-outline-primary",
+        "item_btn_size": "btn-sm",
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 2,
+        "breakpoint_desktop": 4,
+        "pt": 10,
+        "pb": 10
+      }
+    },
     "media_with_text_F3VJ6L": {
       "type": "media-with-text",
       "blocks": {
@@ -179,6 +255,7 @@
   },
   "order": [
     "separator_3gMF7n",
+    "card_list_XMHT87",
     "media_with_text_F3VJ6L",
     "separator_nwEqn8",
     "html_UPfj4R",
