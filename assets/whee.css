@@ -22,7 +22,10 @@
   display: none;
 }
 
-
+body {
+  background-color: var(--ws-body-bg);
+  color: var(--ws-body-fg);
+}
 /*
   Various classes
 */
