@@ -11,11 +11,7 @@
     {{ section.settings.text_color }}
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
-  "
-  style="
-    --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
-    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
-  ">
+">
   <div 
     class="container" 
     style="max-width: {{ section.settings.container_max_width }}px">
