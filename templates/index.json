@@ -15,16 +15,12 @@
         "row_7LmBpy": {
           "type": "row",
           "settings": {
-            "bg_color": "bg-body",
+            "bg_color": "body-bg",
             "bg_opacity": 100,
             "bg_gradient": "",
-            "text_color": "text-body",
-            "border_top_width": 0,
-            "border_bottom_width": 0,
-            "border_color": "border-body",
-            "border_opacity": 100,
+            "text_color": "body-fg",
             "media_align_desktop": "",
-            "media_border": "img-thumbnail",
+            "media_border": "",
             "img": "shopify:\/\/shop_images\/ownedwithpride.jpg",
             "img_orientation": "adapt",
             "video_ratio": "adapt",
@@ -32,6 +28,7 @@
             "video_loop": true,
             "video_muted": true,
             "video_controls": true,
+            "external_video": "",
             "text_align_mobile": "text-center",
             "text_align_desktop": "text-desktop-start",
             "subtitle": "",
@@ -45,8 +42,8 @@
             "btn_secondary_text": "",
             "btn_secondary_url": "",
             "btn_secondary_color": "btn-secondary",
-            "pt": 2,
-            "pb": 2
+            "pt": 0,
+            "pb": 0
           }
         }
       },
