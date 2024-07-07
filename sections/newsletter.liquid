@@ -46,7 +46,9 @@
           </div>
           {% unless section.settings.notice == blank %}
             <div class="newsletter-notice rte mt-1 lh-sm small text-center fst-italic fg-gray-300">
+              <small>
               {{ section.settings.notice }}
+              </small>
             </div>
           {% endunless %}
         {% endform %}
