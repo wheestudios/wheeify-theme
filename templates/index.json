@@ -38,6 +38,22 @@
         "pb": 2
       }
     },
+    "1720385455a99418d3": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_hj8dVw": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_hj8dVw"
+      ],
+      "settings": {
+      }
+    },
     "newsletter_yVTDYR": {
       "type": "newsletter",
       "settings": {
@@ -97,6 +113,7 @@
   "order": [
     "html_UPfj4R",
     "separator_pMbxtB",
+    "1720385455a99418d3",
     "newsletter_yVTDYR",
     "info_line_PdJ4V4"
   ]
