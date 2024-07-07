@@ -54,6 +54,17 @@
         "container_max_width": ""
       }
     },
+    "separator_nwEqn8": {
+      "type": "separator",
+      "settings": {
+        "border_color": "fg",
+        "opacity": 50,
+        "height": 1,
+        "container": "container",
+        "pt": 1,
+        "pb": 2
+      }
+    },
     "html_UPfj4R": {
       "type": "html",
       "settings": {
@@ -157,6 +168,7 @@
   },
   "order": [
     "media_with_text_F3VJ6L",
+    "separator_nwEqn8",
     "html_UPfj4R",
     "separator_pMbxtB",
     "1720385455a99418d3",
