@@ -81,8 +81,8 @@
       "settings": {
         "usePage": "pride-flag-collection",
         "liquid": "",
-        "bg_color": "body-bg",
-        "bg_opacity": 100,
+        "bg_color": "bg-primary",
+        "bg_opacity": 10,
         "text_color": "body-fg",
         "container": "container",
         "text_align": "text-start",
