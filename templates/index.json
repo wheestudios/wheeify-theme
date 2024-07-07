@@ -9,6 +9,17 @@
 */
 {
   "sections": {
+    "separator_3gMF7n": {
+      "type": "separator",
+      "settings": {
+        "border_color": "fg",
+        "opacity": 20,
+        "height": 1,
+        "container": "container",
+        "pt": 2,
+        "pb": 2
+      }
+    },
     "media_with_text_F3VJ6L": {
       "type": "media-with-text",
       "blocks": {
@@ -167,6 +178,7 @@
     }
   },
   "order": [
+    "separator_3gMF7n",
     "media_with_text_F3VJ6L",
     "separator_nwEqn8",
     "html_UPfj4R",
