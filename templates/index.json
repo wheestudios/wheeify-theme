@@ -71,8 +71,8 @@
         "item_Kgiqyn"
       ],
       "settings": {
-        "bg_color": "bg-secondary",
-        "bg_opacity": 50,
+        "bg_color": "body-bg",
+        "bg_opacity": 47,
         "bg_gradient": "",
         "text_color": "body-fg",
         "container_max_width": "",
