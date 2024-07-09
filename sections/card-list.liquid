@@ -28,7 +28,7 @@
 {% if block.settings.button-overlay == 'yes' %}
   
 <div class="card h-100 align-items-center border-0" style=" border: none !important;">     
-  {{ block.settings }}
+
   {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'img-fluid display-light' %}
   {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', loading: 'lazy', class: 'img-fluid display-dark' %}
     
@@ -77,7 +77,7 @@
               --bs-bg-opacity: {{ section.settings.item_bg_opacity | append: '%' }};
               --bs-border-opacity: {{ section.settings.item_border_opacity | append: '%' }};
             ">
-            {% unless block.settings.img == blank %}
+            {% unless block.settings.img_light_mode == blank %}
               <div class="card-img-top overflow-hidden">
   {% render 'image-url', img: block.settings.img_light_mode, orientation: '', '', class: 'img-fluid display-light' %}
   {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', '', class: 'img-fluid display-dark' %}
