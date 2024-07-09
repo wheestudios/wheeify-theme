@@ -304,6 +304,11 @@ body.navbar-dropdown-open #footer-group::after {
   color: var(--bs-link-hover-color) !important;
 }
 
+.card-list .btn {
+  font-size: .75em;
+  
+}
+
 
 /*
   Card slider
