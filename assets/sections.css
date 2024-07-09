@@ -293,6 +293,10 @@ body.navbar-dropdown-open #footer-group::after {
   border-bottom-style: none;
 }
 
+.card-list ul li a {
+  text-decoration: none;
+}
+
 
 /*
   Card slider
