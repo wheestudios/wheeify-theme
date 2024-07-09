@@ -33,7 +33,7 @@
   
     
 {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
-    <div class="card-img-overlay wsOverlay bg-body h-100 align-items-center" style="--bs-bg-opacity: .7;">              
+    <div class="card-img-overlay wsOverlay bg-body align-items-center" style="--bs-bg-opacity: .7;">              
             <div class="card-body text-center flex-column align-items-center">
               {% unless block.settings.title == blank %}
                 <h3 class="title mb-2 {{ section.settings.item_title_font_size }}">
@@ -45,9 +45,6 @@
                   {{ block.settings.description }}
                 </div>
               {% endunless %}
-            </div>
-      <div class="card-footer texts-center">
-        
               {% unless block.settings.btn_text == blank %}
            
                 <a 
@@ -57,7 +54,7 @@
                 </a>
         
               {% endunless %}
-      </div>
+            </div>
     </div>    
 {% endunless %}
     
