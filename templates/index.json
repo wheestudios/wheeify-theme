@@ -370,11 +370,12 @@
         "item_dQNegg": {
           "type": "item",
           "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/flag-agender.png",
             "button-overlay": "yes",
-            "title": "Second Card",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
-            "btn_text": "Learn more",
-            "btn_url": ""
+            "title": "",
+            "description": "",
+            "btn_text": "Agender Pride Flag",
+            "btn_url": "shopify:\/\/collections\/agender-pride"
           }
         },
         "item_hAHk38": {
