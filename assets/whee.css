@@ -98,28 +98,50 @@ h1, h2, h3, h4, h5, h6 {
  
 /* COLORS FROM SETTINGS */
 
-.body-bg { background-color: var(--ws-body-bg-rgb); }
-.body-bg-alt { background-color: var(--ws-body-bg-alt-rgb); }
+.body-bg {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--ws-body-bg-rgb), var(--bs-bg-opacity)) !important
+}
+
 .body-bg-alt {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--ws-body-bg-alt-rgb), var(--bs-bg-opacity)) !important
 }
 
-.body-fg { color: var(--ws-body-fg-rgb); }
+.body-fg {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--ws-body-fg-rgb), var(--bs-bg-opacity)) !important
+}
+
 .body-fg-alt { color: var(--ws-body-fg-alt-rgb); }
 
-.border-fg-alt { border-color: var(--ws-body-fg-alt) !important; }
+.body-fg-alt {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--ws-body-fg-alt-rgb), var(--bs-bg-opacity)) !important
+}
 
 .border-fg {
   --bs-border-opacity: 1;
   border-color: rgba(var(--ws-body-fg-rgb), var(--bs-border-opacity)) !important
 }
 
+.border-fg-alt {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--ws-body-fg-alt), var(--bs-border-opacity)) !important
+}
+
 .bg-primary { background-color: var(--bs-primary-rgb); }
 .bg-secondary { background-color: var(--bs-secondary-rgb); }
 
-.fg-primary { color: var(--bs-primary-rgb) !important; }
-.fg-secondary { color: var(--bs-secondary-rgb) !important; }
+.fg-primary {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important
+}
+
+.fg-secondary {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important
+}
 
 .bg-menu { background-color: var(--bs-gray-700); }
 
@@ -137,34 +159,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-dark-subtle {
   background-color: #121012 !important;
-}
-
-.opacity-10 {
-  opacity: 0.1 !important
-}
-
-.opacity-20 {
-  opacity: .2 !important
-}
-
-.opacity-40 {
-  opacity: .4 !important
-}
-
-.opacity-60 {
-  opacity: .6 !important
-}
-
-.opacity-70 {
-  opacity: .7 !important
-}
-
-.opacity-80 {
-  opacity: .8 !important
-}
-
-.opacity-90 {
-  opacity: .9 !important
 }
 
 .border-opacity-10 {
