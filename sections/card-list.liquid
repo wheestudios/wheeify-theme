@@ -11,9 +11,11 @@
     {{ section.settings.text_color }}
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
+    {{ section.settings.border_color }} 
 " 
   style="
     --bs-bg-opacity: {{ section.settings.item_bg_opacity | append: '%' }};
+    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
 ">
   <div 
     class="container" 
@@ -27,7 +29,7 @@
           
 {% if block.settings.button-overlay == 'yes' %}
   
-<div class="card h-100 align-items-center border-0" style=" border: none !important;">     
+<div class="card h-100 align-items-center">     
 {% if block.settings.img_dark_mode == blank %}
   {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: '' %}
 {% else %}
