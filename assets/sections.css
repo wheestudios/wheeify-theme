@@ -299,7 +299,7 @@ body.navbar-dropdown-open #footer-group::after {
 
 .card-list ul li a:hover {
   text-decoration: none;
-  color: var(--bs-primary-rgb);
+  color: var(--bs-primary-rgb) !important;
 }
 
 
