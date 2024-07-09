@@ -107,7 +107,7 @@
               {% endunless %}
               {% unless block.settings.btn_text == blank %}
                 <a 
-                  class="btn w-80 {{ section.settings.item_btn_color }} {{ section.settings.item_btn_size }}" 
+                  class="btn {{ section.settings.item_btn_width }} {{ section.settings.item_btn_color }} {{ section.settings.item_btn_size }}" 
                   href="{{ block.settings.btn_url }}">
                   {{ block.settings.btn_text }}
                 </a>
@@ -216,13 +216,13 @@
       "type": "select",
       "id": "header_description_font_size",
       "label": "Description font-size",
-      "default": "fs-md",
+      "default": "fs-4",
       "options": [
-        { "value": "fs-sm", "label": "sm" },
-        { "value": "fs-md", "label": "md" },
-        { "value": "fs-lg", "label": "lg" },
-        { "value": "fs-xl", "label": "xl" },
-        { "value": "fs-xxl", "label": "xxl" }
+        { "value": "fs-6", "label": "sm" },
+        { "value": "fs-5", "label": "md" },
+        { "value": "fs-4", "label": "lg" },
+        { "value": "fs-3", "label": "xl" },
+        { "value": "fs-2", "label": "xxl" }
       ]
     },
     {
@@ -255,12 +255,12 @@
       "type": "select",
       "id": "item_text_color",
       "label": "Text color",
-      "default": "text-body",
+      "default": "body-fg",
       "options": [
         { "value": "text-primary", "label": "Primary" },
         { "value": "text-secondary", "label": "Secondary" },
-        { "value": "text-body", "label": "Body" },
-        { "value": "text-white", "label": "White" }
+        { "value": "body-fg", "label": "Body Foreground" },
+        { "value": "body-fg-alt", "label": "Body Foreground Alt" }
       ]
     },
     {
@@ -308,13 +308,13 @@
       "type": "select",
       "id": "item_description_font_size",
       "label": "Description font-size",
-      "default": "fs-md",
+      "default": "fs-6",
       "options": [
-        { "value": "fs-sm", "label": "sm" },
-        { "value": "fs-md", "label": "md" },
-        { "value": "fs-lg", "label": "lg" },
-        { "value": "fs-xl", "label": "xl" },
-        { "value": "fs-xxl", "label": "xxl" }
+        { "value": "small", "label": "sm" },
+        { "value": "fs-6", "label": "md" },
+        { "value": "fs-5", "label": "lg" },
+        { "value": "fs-4", "label": "xl" },
+        { "value": "fs-3", "label": "xxl" }
       ]
     },
     {
@@ -357,7 +357,7 @@
       "default": "btn-sm",
       "options": [
         { "value": "btn-sm", "label": "Small" },
-        { "value": "btn-md", "label": "Medium" },
+        { "value": "", "label": "Medium" },
         { "value": "btn-lg", "label": "Large" }
       ]
     }, 
@@ -369,7 +369,7 @@
     {
       "type": "range",
       "id": "breakpoint_mobile",
-      "label": "Mobile (<600px)",
+      "label": "Mobile (<576px)",
       "min": 1,
       "max": 3,
       "step": 1,
@@ -402,18 +402,18 @@
       "id": "pt",
       "label": "Top",
       "min": 0,
-      "max": 20,
+      "max": 5,
       "step": 1,
-      "default": 10
+      "default": 2
     },
     {
       "type": "range",
       "id": "pb",
       "label": "Bottom",
       "min": 0,
-      "max": 20,
+      "max": 5,
       "step": 1,
-      "default": 10
+      "default": 2
     }
   ],
   "blocks": [
@@ -487,27 +487,6 @@
           "type": "item",
           "settings": {
             "title": "First Card",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>"
-          }
-        },
-        {
-          "type": "item",
-          "settings": {
-            "title": "Second Card",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>"
-          }
-        },
-        {
-          "type": "item",
-          "settings": {
-            "title": "Third Card",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>"
-          }
-        },
-        {
-          "type": "item",
-          "settings": {
-            "title": "Fourth Card",
             "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>"
           }
         }
