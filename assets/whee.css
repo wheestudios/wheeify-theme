@@ -548,12 +548,9 @@ fieldset:disabled .btn {
 }
 
 .wsOverlay:hover {
-  opacity: 0.8;
-}
-
-.wsOverlay:hover>.wsOverlay-btn {
   opacity: 1;
 }
+
 
 /*
   Carousel
