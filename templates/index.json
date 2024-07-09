@@ -27,6 +27,7 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/banner-bear-floral-hawaiian-shirt-2.jpg",
+            "button-overlay": "yes",
             "title": "",
             "description": "",
             "btn_text": "Aloha Pride Button Down Shirts",
@@ -37,6 +38,7 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/banner-bisexual-one-piece.jpg",
+            "button-overlay": "yes",
             "title": "",
             "description": "",
             "btn_text": "Aloha Pride One-Piece Swimsuits",
@@ -47,6 +49,7 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/banner-baker-boardshorts.jpg",
+            "button-overlay": "yes",
             "title": "",
             "description": "",
             "btn_text": "Aloha Pride Boardshorts",
@@ -57,6 +60,7 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/banner-rainbow-string-bikini.jpg",
+            "button-overlay": "yes",
             "title": "",
             "description": "",
             "btn_text": "Aloha Pride String Bikini",
@@ -152,7 +156,8 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/whee-plus-community-collaborations-whee-pride.jpg",
-            "title": "Whee+ Collaborations",
+            "button-overlay": "no",
+            "title": "",
             "description": "<ul><li><a href=\"\/collections\/aging-with-pride\" title=\"Whee! Pride PLUS Aging with Pride\">Aging with Pride<\/a><\/li><li><a href=\"\/collections\/erie-gay-news\" title=\"Whee! Pride PLUS Erie Gay News\">Erie Gay News<\/a><\/li><li><a href=\"\/collections\/wheeplus-nwpapride\" title=\"Whee! Pride PLUS NWPA Pride Alliance\">NWPA Pride Alliance<\/a><\/li><li><a href=\"\/collections\/wheeplus-zonedanceclub\" title=\"Whee! Pride Plus The Zone Dance Club\">The Zone Dance Club<\/a><\/li><li><a href=\"\/collections\/drag-performers\" title=\"Slay All Day: Our Drag Queen & King Collaborations\">Drag Performers<\/a><\/li><\/ul>",
             "btn_text": "",
             "btn_url": ""
@@ -162,6 +167,7 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/banner-queer-def.jpg",
+            "button-overlay": "yes",
             "title": "",
             "description": "",
             "btn_text": "Queer Definition Collection",
@@ -172,6 +178,7 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/banner-support-local-drag_32886e74-3afe-4eae-89bd-643bff441c39.jpg",
+            "button-overlay": "yes",
             "title": "",
             "description": "",
             "btn_text": "Support Local Drag Collection",
