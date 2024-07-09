@@ -416,6 +416,18 @@
             "btn_text": "Bisexual Pride Flag",
             "btn_url": "shopify:\/\/collections\/bisexual-pride"
           }
+        },
+        "item_jBKMcH": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/demisexual.png",
+            "button-overlay": "yes",
+            "use_thumbnail": "img-thumbnail",
+            "title": "",
+            "description": "",
+            "btn_text": "Demisexual Pride Flag",
+            "btn_url": "shopify:\/\/collections\/demisexual-pride"
+          }
         }
       },
       "block_order": [
@@ -424,7 +436,8 @@
         "item_DfCJ4p",
         "item_q7CBWQ",
         "item_qccbch",
-        "item_7BxkBJ"
+        "item_7BxkBJ",
+        "item_jBKMcH"
       ],
       "settings": {
         "bg_color": "body-bg",
