@@ -27,13 +27,13 @@
           
 {% if block.settings.button-overlay == 'yes' %}
   
-<div class="card h-100 align-items-center">
+<div class="card h-100 align-items-center border-0" style=" border: none !important;">
   
   {% render 'image-url', img: block.settings.img, orientation: section.settings.item_img_orientation, class: '' %}
   
     
 {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
-    <div class="card-img-overlay wsOverlay bg-body align-items-center" style="--bs-bg-opacity: .7; border: none !important;">              
+    <div class="card-img-overlay wsOverlay bg-body align-items-center" style="--bs-bg-opacity: .7;">              
             <div class="card-body text-center flex-column align-items-center w-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
               {% unless block.settings.title == blank %}
                 <h3 class="title mb-2 {{ section.settings.item_title_font_size }}">
