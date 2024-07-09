@@ -24,7 +24,13 @@
     <div class="row">
       {% for block in section.blocks %}
         <div 
-          class="col-sm-{{ col-sm }} col-md-{{ col-md }} col-lg-{{ col-lg }}"
+          class="
+            col-sm-{{ col-sm }} col-md-{{ col-md }} col-lg-{{ col-lg }} 
+            {{ section.settings.item_border_color }}"
+          style="
+            --bs-bg-opacity: {{ section.settings.item_bg_opacity | append: '%' }};
+            --bs-border-opacity: {{ section.settings.item_border_opacity | append: '%' }};
+          "
           {{ block.shopify_attributes }}>
           
 {% if block.settings.button-overlay == 'yes' %}
