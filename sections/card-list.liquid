@@ -34,7 +34,7 @@
   
 <div class="card h-100 align-items-center} border-0">     
 {% if block.settings.img_dark_mode == blank %}
-  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'img-thumbnail ' %}
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'img-thumbnail' %}
 {% else %}
   {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'display-light' %}
   {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', loading: 'lazy', class: 'display-dark' %}
@@ -262,49 +262,6 @@
       ]
     },
     {
-      "type": "range",
-      "id": "item_border_width",
-      "label": "Border width",
-      "min": 0,
-      "max": 5,
-      "step": 1,
-      "default": 0
-    },
-    {
-      "type": "select",
-      "id": "item_border_color",
-      "label": "Border Color",
-      "options": [
-        { "value": "border-primary", "label": "Primary" },
-        { "value": "border-secondary", "label": "Secondary" },
-        { "value": "border-fg", "label": "Body Foreground" },
-        { "value": "border-fg-alt", "label": "Body Foreground Alt" }
-      ],
-      "default": "border-fg"
-    },
-    {
-      "type": "range",
-      "id": "item_border_opacity",
-      "label": "Border opacity",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 100,
-      "unit": "%"
-    },
-    {
-      "type": "select",
-      "id": "item_shadow",
-      "label": "Shadow",
-      "options": [
-        { "value": "shadow-none", "label": "None" },
-        { "value": "shadow-sm", "label": "sm" },
-        { "value": "shadow-md", "label": "md" },
-        { "value": "shadow-lg", "label": "lg" }
-      ],
-      "default": "shadow-sm"
-    },
-    {
       "type": "select",
       "id": "item_text_align",
       "label": "Text align",
@@ -465,6 +422,16 @@
             { "value": "yes", "label": "Yes" },
             { "value": "no", "label": "No" }
           ]
+        },
+        {
+          "type": "select",
+          "id": "use_thumbnail",
+          "label": "Use .img-thumbnail",
+          "options": [
+            { "value": "img-thumbnail", "label": "Yes" },
+            { "value": "", "label": "No" }
+          ],
+          "default": ""
         },
         {
           "type": "text",
