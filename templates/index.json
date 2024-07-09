@@ -26,6 +26,8 @@
         "item_VaWRJ4": {
           "type": "item",
           "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-bear-floral-hawaiian-shirt-2.jpg",
+            "img_dark_mode": "shopify:\/\/shop_images\/banner-bear-floral-hawaiian-shirt-2.jpg",
             "button-overlay": "yes",
             "title": "",
             "description": "",
@@ -36,6 +38,8 @@
         "item_PdrUgr": {
           "type": "item",
           "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-bisexual-one-piece.jpg",
+            "img_dark_mode": "shopify:\/\/shop_images\/banner-bisexual-one-piece.jpg",
             "button-overlay": "yes",
             "title": "",
             "description": "",
@@ -46,6 +50,8 @@
         "item_wKYRYN": {
           "type": "item",
           "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-baker-boardshorts.jpg",
+            "img_dark_mode": "shopify:\/\/shop_images\/banner-baker-boardshorts.jpg",
             "button-overlay": "yes",
             "title": "",
             "description": "",
@@ -56,6 +62,8 @@
         "item_Kgiqyn": {
           "type": "item",
           "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-rainbow-string-bikini.jpg",
+            "img_dark_mode": "shopify:\/\/shop_images\/banner-rainbow-string-bikini.jpg",
             "button-overlay": "yes",
             "title": "",
             "description": "",
@@ -185,6 +193,8 @@
         "item_KQ7yK4": {
           "type": "item",
           "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-queer-def_d4a3da1b-2f82-4a71-b664-13e14b768484.jpg",
+            "img_dark_mode": "shopify:\/\/shop_images\/banner-queer-def_d4a3da1b-2f82-4a71-b664-13e14b768484.jpg",
             "button-overlay": "yes",
             "title": "",
             "description": "",
@@ -195,6 +205,8 @@
         "item_rNVGYG": {
           "type": "item",
           "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-support-local-drag_32886e74-3afe-4eae-89bd-643bff441c39.jpg",
+            "img_dark_mode": "shopify:\/\/shop_images\/banner-support-local-drag_32886e74-3afe-4eae-89bd-643bff441c39.jpg",
             "button-overlay": "yes",
             "title": "",
             "description": "",
