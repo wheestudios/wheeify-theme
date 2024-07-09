@@ -382,17 +382,6 @@
             "btn_url": "shopify:\/\/collections\/asexual-pride"
           }
         },
-        "item_WxGBJN": {
-          "type": "item",
-          "settings": {
-            "img_light_mode": "shopify:\/\/shop_images\/puppy-flag_03c9cdf7-6b70-491a-b639-dff5584728ee.jpg",
-            "button-overlay": "yes",
-            "title": "",
-            "description": "",
-            "btn_text": "Pup Pride Flag",
-            "btn_url": "shopify:\/\/collections\/puppy-pride"
-          }
-        },
         "item_q7CBWQ": {
           "type": "item",
           "settings": {
@@ -403,14 +392,26 @@
             "btn_text": "Bear Pride Flag",
             "btn_url": "shopify:\/\/collections\/bear-pride"
           }
+        },
+        "item_qccbch": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/bigender.png",
+            "button-overlay": "yes",
+            "use_thumbnail": "img-thumbnail",
+            "title": "",
+            "description": "",
+            "btn_text": "Bigender Pride Flag",
+            "btn_url": "shopify:\/\/collections\/bigender-pride"
+          }
         }
       },
       "block_order": [
         "item_dQNegg",
         "item_hAHk38",
         "item_DfCJ4p",
-        "item_WxGBJN",
-        "item_q7CBWQ"
+        "item_q7CBWQ",
+        "item_qccbch"
       ],
       "settings": {
         "bg_color": "body-bg",
