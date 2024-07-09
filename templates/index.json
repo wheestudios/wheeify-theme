@@ -381,6 +381,18 @@
             "btn_url": "shopify:\/\/collections\/puppy-pride"
           }
         },
+        "item_DfCJ4p": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/asexual-flag.png",
+            "button-overlay": "yes",
+            "use_thumbnail": "img-thumbnail",
+            "title": "",
+            "description": "",
+            "btn_text": "Asexual Pride Flag",
+            "btn_url": "shopify:\/\/collections\/asexual-pride"
+          }
+        },
         "item_q7CBWQ": {
           "type": "item",
           "settings": {
@@ -396,6 +408,7 @@
         "item_dQNegg",
         "item_hAHk38",
         "item_WxGBJN",
+        "item_DfCJ4p",
         "item_q7CBWQ"
       ],
       "settings": {
