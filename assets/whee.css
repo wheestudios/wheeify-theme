@@ -100,24 +100,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .body-bg {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--ws-body-bg-rgb), var(--bs-bg-opacity)) !important
+  background-color: rgba(var(--ws-body-bg-rgb), var(--bs-bg-opacity));
 }
 
 .body-bg-alt {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--ws-body-bg-alt-rgb), var(--bs-bg-opacity)) !important
+  background-color: rgba(var(--ws-body-bg-alt-rgb), var(--bs-bg-opacity));
 }
 
 .body-fg {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--ws-body-fg-rgb), var(--bs-bg-opacity)) !important
+  background-color: rgba(var(--ws-body-fg-rgb), var(--bs-bg-opacity));
 }
-
-.body-fg-alt { color: var(--ws-body-fg-alt-rgb); }
 
 .body-fg-alt {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--ws-body-fg-alt-rgb), var(--bs-bg-opacity)) !important
+  background-color: rgba(var(--ws-body-fg-alt-rgb), var(--bs-bg-opacity));
 }
 
 .border-fg {
