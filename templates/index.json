@@ -77,7 +77,6 @@
         "text_color": "body-fg",
         "container_max_width": "",
         "header_title": "Gear Up for Summer Fun with our Aloha Pride Collection!!",
-        "button-overlay": "yes",
         "header_title_font_size": "h4",
         "header_description": "<p>Hawaiian Shirts, Swimsuits, and More!<\/p>",
         "header_description_font_size": "fs-md",
@@ -165,7 +164,7 @@
             "img": "shopify:\/\/shop_images\/banner-queer-def.jpg",
             "title": "",
             "description": "",
-            "btn_text": "Learn more",
+            "btn_text": "Queer Definition Collection",
             "btn_url": ""
           }
         },
@@ -175,7 +174,7 @@
             "img": "shopify:\/\/shop_images\/banner-support-local-drag_32886e74-3afe-4eae-89bd-643bff441c39.jpg",
             "title": "",
             "description": "",
-            "btn_text": "Learn more",
+            "btn_text": "Support Local Drag Collection",
             "btn_url": ""
           }
         }
@@ -192,7 +191,6 @@
         "text_color": "body-fg",
         "container_max_width": "",
         "header_title": "",
-        "button-overlay": "no",
         "header_title_font_size": "h2",
         "header_description": "",
         "header_description_font_size": "fs-md",

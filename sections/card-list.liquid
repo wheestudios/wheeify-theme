@@ -25,7 +25,7 @@
           class="col-sm-{{ col-sm }} col-md-{{ col-md }} col-lg-{{ col-lg }}"
           {{ block.shopify_attributes }}>
           
-{% if section.settings.button-overlay == 'yes' %}
+{% if block.settings.button-overlay == 'yes' %}
   
 <div class="card h-100 align-items-center">
   
@@ -180,16 +180,6 @@
       "id": "header_title",
       "label": "Title",
       "default": "Card List"
-    },
-    {
-      "type": "select",
-      "id": "button-overlay",
-      "label": "Button Overlay",
-      "default": "yes",
-      "options": [
-        { "value": "yes", "label": "Yes" },
-        { "value": "no", "label": "No" }
-      ]
     },
     {
       "type": "select",
@@ -451,6 +441,16 @@
           "type": "image_picker",
           "id": "img",
           "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "button-overlay",
+          "label": "Button Overlay",
+          "default": "yes",
+          "options": [
+            { "value": "yes", "label": "Yes" },
+            { "value": "no", "label": "No" }
+          ]
         },
         {
           "type": "text",
