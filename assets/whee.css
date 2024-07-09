@@ -110,12 +110,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .body-fg {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--ws-body-fg-rgb), var(--bs-bg-opacity));
+  color: rgba(var(--ws-body-fg-rgb), var(--bs-bg-opacity));
 }
 
 .body-fg-alt {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--ws-body-fg-alt-rgb), var(--bs-bg-opacity));
+  color: rgba(var(--ws-body-fg-alt-rgb), var(--bs-bg-opacity));
 }
 
 .border-fg {
