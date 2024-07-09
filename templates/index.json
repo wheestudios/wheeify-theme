@@ -163,7 +163,7 @@
         "usePage": "pride-flag-collection",
         "liquid": "",
         "bg_color": "body-bg-alt",
-        "bg_opacity": 50,
+        "bg_opacity": 12,
         "text_color": "body-fg",
         "container": "container",
         "text_align": "text-start",
