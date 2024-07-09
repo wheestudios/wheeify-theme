@@ -11,11 +11,9 @@
     {{ section.settings.text_color }}
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
-    {{ section.settings.border_color }} 
 " 
   style="
     --bs-bg-opacity: {{ section.settings.item_bg_opacity | append: '%' }};
-    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
 ">
   <div 
     class="container" 
@@ -25,11 +23,10 @@
       {% for block in section.blocks %}
         <div 
           class="
-            col-sm-{{ col-sm }} col-md-{{ col-md }} col-lg-{{ col-lg }} 
-            {{ section.settings.item_border_color }}"
+            col-sm-{{ col-sm }} col-md-{{ col-md }} col-lg-{{ col-lg }} border-0"
           style="
             --bs-bg-opacity: {{ section.settings.item_bg_opacity | append: '%' }};
-            --bs-border-opacity: {{ section.settings.item_border_opacity | append: '%' }};
+            border: none !important;
           "
           {{ block.shopify_attributes }}>
           
