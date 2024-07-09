@@ -31,20 +31,20 @@
     
 {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
     <div class="card-img-overlay wsOverlay bg-body" style="--bs-bg-opacity: .8;">              
-            <div class="card-body">
+            <div class="card-body text-center">
               {% unless block.settings.title == blank %}
                 <h3 class="title mb-2 {{ section.settings.item_title_font_size }}">
                   {{ block.settings.title }}
                 </h3>
               {% endunless %}
               {% unless block.settings.description == blank %}
-                <div class="description rte mb-0 {{ section.settings.item_description_font_size }}">
+                <div class="description rte mb-0 text-center {{ section.settings.item_description_font_size }}">
                   {{ block.settings.description }}
                 </div>
               {% endunless %}
               {% unless block.settings.btn_text == blank %}
                 <a 
-                  class="btn w-75 stretched-link wsOverlay-btn  {{ section.settings.item_btn_color }} {{ section.settings.item_btn_size }}" 
+                  class="btn w-75 stretched-link wsOverlay-btn text-center {{ section.settings.item_btn_color }} {{ section.settings.item_btn_size }}" 
                   href="{{ block.settings.btn_url }}">
                   {{ block.settings.btn_text }}
                 </a>
