@@ -359,11 +359,12 @@
         "item_WxGBJN": {
           "type": "item",
           "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/puppy-flag_03c9cdf7-6b70-491a-b639-dff5584728ee.jpg",
             "button-overlay": "yes",
-            "title": "First Card",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
-            "btn_text": "Learn more",
-            "btn_url": ""
+            "title": "",
+            "description": "",
+            "btn_text": "Pup Pride Flag",
+            "btn_url": "shopify:\/\/collections\/puppy-pride"
           }
         },
         "item_dQNegg": {
