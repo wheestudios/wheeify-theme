@@ -78,8 +78,8 @@
   --bs-white: {{ "#faf9fa" }};
   --bs-white-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-  --bs-link-color: {{ settings.lm_color_primary }};
-  --bs-link-hover-color: {{ settings.lm_color_primary }};
+  --bs-link-color: {{ --bs-primary-rgb }};
+  --bs-link-hover-color:rgba(var(--bs-primary-rgb), .5);
     
   {% comment -%} 
     General
