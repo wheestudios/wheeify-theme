@@ -296,6 +296,7 @@ body.navbar-dropdown-open #footer-group::after {
 .card-list ul li a {
   text-decoration: none;
   color: var(--ws-fg-body) !important;
+  font-weight: 500;
 }
 
 .card-list ul li a:hover {
