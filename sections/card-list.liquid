@@ -21,11 +21,18 @@
         <div 
           class="col-sm-{{ col-sm }} col-md-{{ col-md }} col-lg-{{ col-lg }}"
           {{ block.shopify_attributes }}>
+          
 {% if section.settings.button-overlay == 'yes' %}
+  
 <div class="card">
+  
   {% render 'image-url', img: block.settings.img, orientation: section.settings.item_img_orientation, class: '' %}
+  
   <div class="card-img-overlay wsOverlay bg-light">
-            {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
+
+    
+{% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
+    <div class="card-img-overlay wsOverlay bg-light">              
             <div class="card-body">
               {% unless block.settings.title == blank %}
                 <h3 class="title mb-2 {{ section.settings.item_title_font_size }}">
@@ -45,8 +52,11 @@
                 </a>
               {% endunless %}
             </div>
-            {% endunless %}
-  </div>
+    </div>    
+{% endunless %}
+    
+    
+
 </div>
   
 {% else %}
