@@ -404,6 +404,18 @@
             "btn_text": "Bigender Pride Flag",
             "btn_url": "shopify:\/\/collections\/bigender-pride"
           }
+        },
+        "item_7BxkBJ": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/bisexual.png",
+            "button-overlay": "yes",
+            "use_thumbnail": "img-thumbnail",
+            "title": "",
+            "description": "",
+            "btn_text": "Bisexual Pride Flag",
+            "btn_url": "shopify:\/\/collections\/bisexual-pride"
+          }
         }
       },
       "block_order": [
@@ -411,7 +423,8 @@
         "item_hAHk38",
         "item_DfCJ4p",
         "item_q7CBWQ",
-        "item_qccbch"
+        "item_qccbch",
+        "item_7BxkBJ"
       ],
       "settings": {
         "bg_color": "body-bg",
