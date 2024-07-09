@@ -37,7 +37,7 @@
   
 <div class="card h-100 align-items-center">     
 {% if block.settings.img_dark_mode == blank %}
-  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: '' %}
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'img-thumbnail ' %}
 {% else %}
   {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'display-light' %}
   {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', loading: 'lazy', class: 'display-dark' %}
