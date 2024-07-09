@@ -295,11 +295,12 @@ body.navbar-dropdown-open #footer-group::after {
 
 .card-list ul li a {
   text-decoration: none;
+  color: var(--bs-link-color) !important;
 }
 
 .card-list ul li a:hover {
   text-decoration: none;
-  color: var(--bs-primary-rgb) !important;
+  color: var(--bs-link-hover-color) !important;
 }
 
 
