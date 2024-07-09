@@ -98,11 +98,11 @@ h1, h2, h3, h4, h5, h6 {
  
 /* COLORS FROM SETTINGS */
 
-.body-bg { background-color: var(--ws-body-bg); }
-.body-bg-alt { background-color: var(--ws-body-bg-alt); }
+.body-bg { background-color: var(--ws-body-bg-rgb); }
+.body-bg-alt { background-color: var(--ws-body-bg-alt-rgb); }
 
-.body-fg { color: var(--ws-body-fg); }
-.body-fg-alt { color: var(--ws-body-fg-alt); }
+.body-fg { color: var(--ws-body-fg-rgb); }
+.body-fg-alt { color: var(--ws-body-fg-alt-rgb); }
 
 .border-fg-alt { border-color: var(--ws-body-fg-alt) !important; }
 
