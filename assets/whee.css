@@ -2,9 +2,9 @@
   Variables
 */
 :root {
-  --bs-link-color: currentColor;
+  --bs-link-color: var(--bs-link-color);
   --bs-link-color-rgb: currentColor;
-  --bs-link-hover-color: currentColor;
+  --bs-link-hover-color: var(--bs-link-hover-color);
   --bs-link-hover-color-rgb: currentColor;
 }
 
