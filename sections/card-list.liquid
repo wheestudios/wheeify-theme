@@ -28,10 +28,13 @@
 {% if block.settings.button-overlay == 'yes' %}
   
 <div class="card h-100 align-items-center border-0" style=" border: none !important;">     
-
+{% if block.settings.img_dark_mode == blank %}
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: '' %}
+{% else %}
   {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'display-light' %}
   {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', loading: 'lazy', class: 'display-dark' %}
-    
+{% endif %} 
+  
 {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
     <div class="card-img-overlay wsOverlay bg-body align-items-center" style="--bs-bg-opacity: .7;">              
             <div class="card-body text-center flex-column align-items-center w-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
