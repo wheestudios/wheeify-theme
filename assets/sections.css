@@ -297,6 +297,11 @@ body.navbar-dropdown-open #footer-group::after {
   text-decoration: none;
 }
 
+.card-list ul li a:hover {
+  text-decoration: none;
+  color: var(--bs-primary-rgb);
+}
+
 
 /*
   Card slider
