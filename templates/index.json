@@ -146,6 +146,76 @@
         "container_max_width": ""
       }
     },
+    "card_list_8eB99f": {
+      "type": "card-list",
+      "blocks": {
+        "item_z4axPX": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/whee-plus-community-collaborations-whee-pride.jpg",
+            "title": "Whee+ Collaborations",
+            "description": "<ul><li><a href=\"\/collections\/aging-with-pride\" title=\"Whee! Pride PLUS Aging with Pride\">Aging with Pride<\/a><\/li><li><a href=\"\/collections\/erie-gay-news\" title=\"Whee! Pride PLUS Erie Gay News\">Erie Gay News<\/a><\/li><li><a href=\"\/collections\/wheeplus-nwpapride\" title=\"Whee! Pride PLUS NWPA Pride Alliance\">NWPA Pride Alliance<\/a><\/li><li><a href=\"\/collections\/wheeplus-zonedanceclub\" title=\"Whee! Pride Plus The Zone Dance Club\">The Zone Dance Club<\/a><\/li><li><a href=\"\/collections\/drag-performers\" title=\"Slay All Day: Our Drag Queen & King Collaborations\">Drag Performers<\/a><\/li><\/ul>",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        },
+        "item_KQ7yK4": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/banner-queer-def.jpg",
+            "title": "",
+            "description": "",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_rNVGYG": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/banner-support-local-drag_32886e74-3afe-4eae-89bd-643bff441c39.jpg",
+            "title": "",
+            "description": "",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_z4axPX",
+        "item_KQ7yK4",
+        "item_rNVGYG"
+      ],
+      "settings": {
+        "bg_color": "body-bg",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "body-fg",
+        "container_max_width": "",
+        "header_title": "",
+        "button-overlay": "no",
+        "header_title_font_size": "h2",
+        "header_description": "",
+        "header_description_font_size": "fs-md",
+        "item_bg_color": "body-bg",
+        "item_bg_opacity": 100,
+        "item_text_color": "text-body",
+        "item_border_width": 0,
+        "item_border_color": "border-body",
+        "item_border_opacity": 100,
+        "item_shadow": "shadow-sm",
+        "item_text_align": "text-start",
+        "item_img_orientation": "ratio-4x3",
+        "item_title_font_size": "h5",
+        "item_description_font_size": "fs-md",
+        "item_btn_color": "btn-outline-primary",
+        "item_btn_size": "btn-sm",
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 1,
+        "breakpoint_desktop": 3,
+        "pt": 10,
+        "pb": 10
+      }
+    },
     "separator_nwEqn8": {
       "type": "separator",
       "settings": {
@@ -262,6 +332,7 @@
     "separator_3gMF7n",
     "card_list_XMHT87",
     "media_with_text_F3VJ6L",
+    "card_list_8eB99f",
     "separator_nwEqn8",
     "html_UPfj4R",
     "separator_pMbxtB",
