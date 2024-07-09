@@ -8,6 +8,8 @@
     {{ section.settings.text_align }}
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
+    {{ section.settings.mt | prepend: 'mt-' }} 
+    {{ section.settings.mb | prepend: 'mb-' }}
   "
   style="
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
@@ -157,7 +159,7 @@
     {
       "type": "range",
       "id": "pt",
-      "label": "Top",
+      "label": "Padding Top",
       "min": 0,
       "max": 5,
       "step": 1,
@@ -166,7 +168,25 @@
     {
       "type": "range",
       "id": "pb",
-      "label": "Bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "mt",
+      "label": "Margin Top",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "mb",
+      "label": "Margin Bottom",
       "min": 0,
       "max": 5,
       "step": 1,
