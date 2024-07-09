@@ -34,10 +34,10 @@
   
 <div class="card h-100 align-items-center} border-0">     
 {% if block.settings.img_dark_mode == blank %}
-  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'img-thumbnail' %}
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: '{{ block.settings.use_thumbnail }}' %}
 {% else %}
-  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'display-light' %}
-  {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', loading: 'lazy', class: 'display-dark' %}
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'display-light {{ block.settings.use_thumbnail }}' %}
+  {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', loading: 'lazy', class: 'display-dark {{ block.settings.use_thumbnail }}' %}
 {% endif %} 
   
 {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
@@ -87,8 +87,12 @@
             ">
             {% unless block.settings.img_light_mode == blank %}
               <div class="card-img-top overflow-hidden">
-  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'display-light' %}
-  {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', loading: 'lazy', class: 'display-dark' %}
+{% if block.settings.img_dark_mode == blank %}
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: '{{ block.settings.use_thumbnail }}' %}
+{% else %}
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', loading: 'lazy', class: 'display-light {{ block.settings.use_thumbnail }}' %}
+  {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', loading: 'lazy', class: 'display-dark {{ block.settings.use_thumbnail }}' %}
+{% endif %} 
               </div>
             {% endunless %}
             {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
