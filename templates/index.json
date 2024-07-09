@@ -258,11 +258,14 @@
         "header_description": "<p>Add on optional description for this section<\/p>",
         "header_description_font_size": "fs-md",
         "pt": 5,
-        "pb": 3
+        "pb": 3,
+        "mt": 5,
+        "mb": 0
       }
     },
     "separator_pMbxtB": {
       "type": "separator",
+      "disabled": true,
       "settings": {
         "border_color": "fg",
         "opacity": 20,
