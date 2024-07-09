@@ -359,17 +359,6 @@
             "btn_url": "shopify:\/\/collections\/agender-pride"
           }
         },
-        "item_WxGBJN": {
-          "type": "item",
-          "settings": {
-            "img_light_mode": "shopify:\/\/shop_images\/puppy-flag_03c9cdf7-6b70-491a-b639-dff5584728ee.jpg",
-            "button-overlay": "yes",
-            "title": "",
-            "description": "",
-            "btn_text": "Pup Pride Flag",
-            "btn_url": "shopify:\/\/collections\/puppy-pride"
-          }
-        },
         "item_hAHk38": {
           "type": "item",
           "settings": {
@@ -379,6 +368,17 @@
             "description": "",
             "btn_text": "Aromantic Pride Flag",
             "btn_url": "shopify:\/\/collections\/aromantic-pride"
+          }
+        },
+        "item_WxGBJN": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/puppy-flag_03c9cdf7-6b70-491a-b639-dff5584728ee.jpg",
+            "button-overlay": "yes",
+            "title": "",
+            "description": "",
+            "btn_text": "Pup Pride Flag",
+            "btn_url": "shopify:\/\/collections\/puppy-pride"
           }
         },
         "item_q7CBWQ": {
@@ -394,8 +394,8 @@
       },
       "block_order": [
         "item_dQNegg",
-        "item_WxGBJN",
         "item_hAHk38",
+        "item_WxGBJN",
         "item_q7CBWQ"
       ],
       "settings": {
@@ -418,7 +418,7 @@
         "item_btn_color": "btn-primary",
         "item_btn_size": "btn-sm",
         "breakpoint_mobile": 2,
-        "breakpoint_tablet": 4,
+        "breakpoint_tablet": 3,
         "breakpoint_desktop": 6,
         "pt": 10,
         "pb": 10
