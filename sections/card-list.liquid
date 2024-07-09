@@ -27,10 +27,9 @@
           
 {% if block.settings.button-overlay == 'yes' %}
   
-<div class="card h-100 align-items-center border-0" style=" border: none !important;">
-  
-  {% render 'image-url', img: block.settings.img, orientation: section.settings.item_img_orientation, class: '' %}
-  
+<div class="card h-100 align-items-center border-0" style=" border: none !important;">      
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', '', class: 'img-fluid display-light' %}
+  {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', '', class: 'img-fluid display-dark' %}
     
 {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
     <div class="card-img-overlay wsOverlay bg-body align-items-center" style="--bs-bg-opacity: .7;">              
@@ -79,7 +78,8 @@
             ">
             {% unless block.settings.img == blank %}
               <div class="card-img-top overflow-hidden">
-                {% render 'image-url', img: block.settings.img, orientation: section.settings.item_img_orientation, class: '' %}
+  {% render 'image-url', img: block.settings.img_light_mode, orientation: '', '', class: 'img-fluid display-light' %}
+  {% render 'image-url', img: block.settings.img_dark_mode, orientation: '', '', class: 'img-fluid display-dark' %}
               </div>
             {% endunless %}
             {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
