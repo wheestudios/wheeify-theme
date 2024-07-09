@@ -419,7 +419,7 @@
         "item_btn_size": "btn-sm",
         "breakpoint_mobile": 2,
         "breakpoint_tablet": 3,
-        "breakpoint_desktop": 6,
+        "breakpoint_desktop": 5,
         "pt": 10,
         "pb": 10
       }
