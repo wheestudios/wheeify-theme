@@ -253,7 +253,7 @@
     "html_UPfj4R": {
       "type": "html",
       "settings": {
-        "usePage": "pride-flag-collection",
+        "usePage": "pride-flag-collection-2",
         "liquid": "",
         "bg_color": "body-bg-alt",
         "bg_opacity": 12,
@@ -352,6 +352,86 @@
       "settings": {
         "title": ""
       }
+    },
+    "card_list_g4C9NX": {
+      "type": "card-list",
+      "blocks": {
+        "item_WxGBJN": {
+          "type": "item",
+          "settings": {
+            "button-overlay": "yes",
+            "title": "First Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_dQNegg": {
+          "type": "item",
+          "settings": {
+            "button-overlay": "yes",
+            "title": "Second Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_hAHk38": {
+          "type": "item",
+          "settings": {
+            "button-overlay": "yes",
+            "title": "Third Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_q7CBWQ": {
+          "type": "item",
+          "settings": {
+            "button-overlay": "yes",
+            "title": "Fourth Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.<\/p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_WxGBJN",
+        "item_dQNegg",
+        "item_hAHk38",
+        "item_q7CBWQ"
+      ],
+      "settings": {
+        "bg_color": "body-bg",
+        "bg_opacity": 20,
+        "bg_gradient": "",
+        "text_color": "body-fg",
+        "container_max_width": "",
+        "header_title": "Card List",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Add on optional description for this section<\/p>",
+        "header_description_font_size": "fs-md",
+        "item_bg_color": "body-bg",
+        "item_bg_opacity": 100,
+        "item_text_color": "text-body",
+        "item_border_width": 1,
+        "item_border_color": "border-body",
+        "item_border_opacity": 100,
+        "item_shadow": "shadow-sm",
+        "item_text_align": "text-center",
+        "item_img_orientation": "adapt",
+        "item_title_font_size": "h5",
+        "item_description_font_size": "fs-md",
+        "item_btn_color": "btn-outline-primary",
+        "item_btn_size": "btn-sm",
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 3,
+        "breakpoint_desktop": 6,
+        "pt": 10,
+        "pb": 10
+      }
     }
   },
   "order": [
@@ -365,6 +445,7 @@
     "separator_pMbxtB",
     "1720385455a99418d3",
     "newsletter_yVTDYR",
-    "info_line_PdJ4V4"
+    "info_line_PdJ4V4",
+    "card_list_g4C9NX"
   ]
 }
