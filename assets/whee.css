@@ -109,13 +109,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .body-fg {
-  --bs-bg-opacity: 1;
-  color: rgba(var(--ws-body-fg-rgb), var(--bs-bg-opacity));
+  --bs-fg-opacity: 1;
+  color: rgba(var(--ws-body-fg-rgb), var(--bs-fg-opacity));
 }
 
 .body-fg-alt {
-  --bs-bg-opacity: 1;
-  color: rgba(var(--ws-body-fg-alt-rgb), var(--bs-bg-opacity));
+  --bs-fg-opacity: 1;
+  color: rgba(var(--ws-body-fg-alt-rgb), var(--bs-fg-opacity));
 }
 
 .border-fg {
