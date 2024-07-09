@@ -30,15 +30,15 @@
   
     
 {% unless block.settings.title == blank and block.settings.description == blank and block.settings.btn_text == blank %}
-    <div class="card-img-overlay wsOverlay bg-body align-items-center" style="--bs-bg-opacity: .8;">              
-            <div class="card-body text-center flex-column align-items-center">
+    <div class="card-img-overlay wsOverlay bg-body" style="--bs-bg-opacity: .8;">              
+            <div class="card-body flex-column">
               {% unless block.settings.title == blank %}
                 <h3 class="title mb-2 {{ section.settings.item_title_font_size }}">
                   {{ block.settings.title }}
                 </h3>
               {% endunless %}
               {% unless block.settings.description == blank %}
-                <div class="description rte mb-0 text-center {{ section.settings.item_description_font_size }}">
+                <div class="description rte mb-0 {{ section.settings.item_description_font_size }}">
                   {{ block.settings.description }}
                 </div>
               {% endunless %}
