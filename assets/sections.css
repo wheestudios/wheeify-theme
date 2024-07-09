@@ -304,7 +304,7 @@ body.navbar-dropdown-open #footer-group::after {
   color: var(--bs-link-hover-color) !important;
 }
 
-.card-list .btn {
+.card-list .btn-sm {
   font-size: .75em;
   
 }
