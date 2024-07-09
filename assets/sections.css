@@ -306,7 +306,7 @@ body.navbar-dropdown-open #footer-group::after {
 
 .card-list .btn-sm {
   font-size: .75em;
-  
+  width: 90%;
 }
 
 
