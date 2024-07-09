@@ -28,7 +28,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/banner-bear-floral-hawaiian-shirt-2.jpg",
             "button-overlay": "yes",
-            "title": "TEST Title",
+            "title": "",
             "description": "",
             "btn_text": "Aloha Pride Button Down Shirts",
             "btn_url": "shopify:\/\/collections\/hawaiian-shirts"
