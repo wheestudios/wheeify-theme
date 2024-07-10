@@ -73,19 +73,21 @@
   --ws-body-fg-alt-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 
   --bs-light-subtle: #cecacf;
-  --bs-dark-subtle: #121012;
+  --bs-dark-subtle: #12101;
   
   --bs-primary: {{ settings.lm_color_primary }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-primary-hsl: {{ settings.lm_color_primary | color_to_hsl }};
   
-  --bs-secondary: {{ settings.lm_color_secondary }};
+  --bs-secondary: {{ settings.lm_color_secondary }};2
   --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-secondary-hsl: {{ settings.lm_color_secondary | color_to_hsl }};
   
   --bs-white: {{ "#faf9fa" }};
   --bs-white-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-  --bs-link-color: rgba(var(--bs-primary-rgb), 1);
-  --bs-link-hover-color: rgba(var(--bs-primary-rgb), .8);
+  --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
+  --bs-link-hover-color: rgba(var(--bs-primary-rgb), 1);
 
   --bs-heading-color: rgba(var(--bs-primary-rgb), 1);
   
@@ -146,6 +148,11 @@
 
 
   --bs-body-color: var(--ws-body-fg);
+
+  --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
+  --bs-link-hover-color: rgba(var(--bs-primary-rgb), 1);
+
+  --bs-heading-color: rgba(var(--bs-primary-rgb), 1);
 }
 
 {%- comment -%} 
