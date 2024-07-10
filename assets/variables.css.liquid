@@ -91,7 +91,9 @@
   --bs-white-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
+  {% assign uselink = settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier %}
   --bs-text-link-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
+  --bs-text-link-color-rgb: {{ uselink | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 
   --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   
