@@ -292,10 +292,35 @@
             "btn_text": "",
             "btn_url": ""
           }
+        },
+        "item_69FVBp": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-queer-def_d4a3da1b-2f82-4a71-b664-13e14b768484.jpg",
+            "button-overlay": "yes",
+            "use_thumbnail": "",
+            "title": "",
+            "description": "",
+            "btn_text": "Queer Definition Collection",
+            "btn_url": "shopify:\/\/collections\/wheeplus-nwpapride"
+          }
+        },
+        "item_7knEnr": {
+          "type": "item",
+          "settings": {
+            "button-overlay": "yes",
+            "use_thumbnail": "",
+            "title": "",
+            "description": "",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
         }
       },
       "block_order": [
-        "item_TEhEpz"
+        "item_TEhEpz",
+        "item_69FVBp",
+        "item_7knEnr"
       ],
       "settings": {
         "bg_color": "body-bg",
@@ -305,7 +330,7 @@
         "container_max_width": "",
         "header_title": "",
         "header_title_font_size": "h2",
-        "header_description": "<p>Add on optional description for this section<\/p>",
+        "header_description": "",
         "header_description_font_size": "fs-4",
         "item_bg_color": "body-bg",
         "item_bg_opacity": 100,
