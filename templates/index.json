@@ -163,15 +163,87 @@
         "container_max_width": ""
       }
     },
+    "card_list_LyGLbC": {
+      "type": "card-list",
+      "blocks": {
+        "item_TEhEpz": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/whee-plus-community-collaborations-ltmode.png",
+            "img_dark_mode": "shopify:\/\/shop_images\/whee-plus-community-collaborations-dkmode.png",
+            "button-overlay": "no",
+            "use_thumbnail": "",
+            "title": "",
+            "description": "<ul><li><a href=\"\/collections\/aging-with-pride\" title=\"Whee! Pride PLUS Aging with Pride\">Aging with Pride<\/a><\/li><li><a href=\"\/collections\/erie-gay-news\" title=\"Whee! Pride PLUS Erie Gay News\">Erie Gay News<\/a><\/li><li><a href=\"\/collections\/wheeplus-zonedanceclub\" title=\"Whee! Pride Plus The Zone Dance Club\">The Zone Dance Club<\/a><\/li><li><a href=\"\/collections\/wheeplus-nwpapride\" title=\"Whee! Pride PLUS NWPA Pride Alliance\">NWPA Pride Alliance<\/a><\/li><li><a href=\"\/collections\/drag-performers\" title=\"Slay All Day: Our Drag Queen & King Collaborations\">Drag Performers<\/a><\/li><\/ul>",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        },
+        "item_69FVBp": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-queer-def_d4a3da1b-2f82-4a71-b664-13e14b768484.jpg",
+            "button-overlay": "yes",
+            "use_thumbnail": "",
+            "title": "",
+            "description": "",
+            "btn_text": "Queer Definition Collection",
+            "btn_url": "shopify:\/\/collections\/wheeplus-nwpapride"
+          }
+        },
+        "item_7knEnr": {
+          "type": "item",
+          "settings": {
+            "img_light_mode": "shopify:\/\/shop_images\/banner-support-local-drag_32886e74-3afe-4eae-89bd-643bff441c39.jpg",
+            "button-overlay": "yes",
+            "use_thumbnail": "",
+            "title": "",
+            "description": "",
+            "btn_text": "Support Local Drag Collection",
+            "btn_url": "shopify:\/\/collections\/wheeplus-zonedanceclub"
+          }
+        }
+      },
+      "block_order": [
+        "item_TEhEpz",
+        "item_69FVBp",
+        "item_7knEnr"
+      ],
+      "settings": {
+        "bg_color": "body-bg",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "body-fg",
+        "container_max_width": "",
+        "header_title": "",
+        "header_title_font_size": "h2",
+        "header_description": "",
+        "header_description_font_size": "fs-4",
+        "item_bg_color": "body-bg",
+        "item_bg_opacity": 100,
+        "item_text_color": "body-fg",
+        "item_text_align": "text-start",
+        "item_img_orientation": "adapt",
+        "item_title_font_size": "h5",
+        "item_description_font_size": "fs-6",
+        "item_btn_width": "w-90",
+        "item_btn_color": "btn-primary",
+        "item_btn_size": "btn-sm",
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 3,
+        "breakpoint_desktop": 3
+      }
+    },
     "separator_XWdU3n": {
       "type": "separator",
+      "disabled": true,
       "settings": {
         "border_color": "fg",
         "opacity": 20,
         "height": 1,
         "container": "container",
-        "pt": 0,
-        "pb": 4
+        "pt": 3,
+        "pb": 2
       }
     },
     "html_UPfj4R": {
@@ -189,9 +261,9 @@
         "header_description": "<p>Add on optional description for this section<\/p>",
         "header_description_font_size": "fs-md",
         "pt": 5,
-        "pb": 3,
-        "mt": 5,
-        "mb": 0
+        "pb": 0,
+        "mt": 4,
+        "mb": 1
       }
     },
     "separator_pMbxtB": {
@@ -276,77 +348,6 @@
       "settings": {
         "title": ""
       }
-    },
-    "card_list_LyGLbC": {
-      "type": "card-list",
-      "blocks": {
-        "item_TEhEpz": {
-          "type": "item",
-          "settings": {
-            "img_light_mode": "shopify:\/\/shop_images\/whee-plus-community-collaborations-ltmode.png",
-            "img_dark_mode": "shopify:\/\/shop_images\/whee-plus-community-collaborations-dkmode.png",
-            "button-overlay": "no",
-            "use_thumbnail": "",
-            "title": "",
-            "description": "<ul><li><a href=\"\/collections\/aging-with-pride\" title=\"Whee! Pride PLUS Aging with Pride\">Aging with Pride<\/a><\/li><li><a href=\"\/collections\/erie-gay-news\" title=\"Whee! Pride PLUS Erie Gay News\">Erie Gay News<\/a><\/li><li><a href=\"\/collections\/wheeplus-zonedanceclub\" title=\"Whee! Pride Plus The Zone Dance Club\">The Zone Dance Club<\/a><\/li><li><a href=\"\/collections\/wheeplus-nwpapride\" title=\"Whee! Pride PLUS NWPA Pride Alliance\">NWPA Pride Alliance<\/a><\/li><li><a href=\"\/collections\/drag-performers\" title=\"Slay All Day: Our Drag Queen & King Collaborations\">Drag Performers<\/a><\/li><\/ul>",
-            "btn_text": "",
-            "btn_url": ""
-          }
-        },
-        "item_69FVBp": {
-          "type": "item",
-          "settings": {
-            "img_light_mode": "shopify:\/\/shop_images\/banner-queer-def_d4a3da1b-2f82-4a71-b664-13e14b768484.jpg",
-            "button-overlay": "yes",
-            "use_thumbnail": "",
-            "title": "",
-            "description": "",
-            "btn_text": "Queer Definition Collection",
-            "btn_url": "shopify:\/\/collections\/wheeplus-nwpapride"
-          }
-        },
-        "item_7knEnr": {
-          "type": "item",
-          "settings": {
-            "img_light_mode": "shopify:\/\/shop_images\/banner-support-local-drag_32886e74-3afe-4eae-89bd-643bff441c39.jpg",
-            "button-overlay": "yes",
-            "use_thumbnail": "",
-            "title": "",
-            "description": "",
-            "btn_text": "Support Local Drag Collection",
-            "btn_url": "shopify:\/\/collections\/wheeplus-zonedanceclub"
-          }
-        }
-      },
-      "block_order": [
-        "item_TEhEpz",
-        "item_69FVBp",
-        "item_7knEnr"
-      ],
-      "settings": {
-        "bg_color": "body-bg",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "body-fg",
-        "container_max_width": "",
-        "header_title": "",
-        "header_title_font_size": "h2",
-        "header_description": "",
-        "header_description_font_size": "fs-4",
-        "item_bg_color": "body-bg",
-        "item_bg_opacity": 100,
-        "item_text_color": "body-fg",
-        "item_text_align": "text-start",
-        "item_img_orientation": "adapt",
-        "item_title_font_size": "h5",
-        "item_description_font_size": "fs-6",
-        "item_btn_width": "w-90",
-        "item_btn_color": "btn-primary",
-        "item_btn_size": "btn-sm",
-        "breakpoint_mobile": 1,
-        "breakpoint_tablet": 3,
-        "breakpoint_desktop": 3
-      }
     }
   },
   "order": [
@@ -354,12 +355,12 @@
     "card_list_XMHT87",
     "separator_nwEqn8",
     "media_with_text_F3VJ6L",
+    "card_list_LyGLbC",
     "separator_XWdU3n",
     "html_UPfj4R",
     "separator_pMbxtB",
     "1720385455a99418d3",
     "newsletter_yVTDYR",
-    "info_line_PdJ4V4",
-    "card_list_LyGLbC"
+    "info_line_PdJ4V4"
   ]
 }
