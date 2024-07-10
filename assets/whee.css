@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ws-menu-item a:hover, .ws-menu-item a:active {
   text-decoration: none;
-  //background-color: rgba(var(--bs-primary-rgb), .1);
+  background-color: rgba(var(--bs-primary-rgb), .05);
   color: rgba(var(--bs-primary-rgb), 1);
 }
 
