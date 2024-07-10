@@ -73,6 +73,7 @@ body {
 .img-grid .img-thumbnail {
   margin-top: 5px;
   padding: .35em;
+  height: 100%;
 }
 
 .img-grid .img-thumbnail a {
