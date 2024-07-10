@@ -296,6 +296,10 @@
     },
     "newsletter_yVTDYR": {
       "type": "newsletter",
+      "custom_css": [
+        "a {color: rgba(var(--bs-text-link-color-alt-rgb), 1) !important;}",
+        "a:hover, a:active {color: rgba(var(--bs-text-link-color-alt-rgb), .7) !important;}"
+      ],
       "settings": {
         "bg_gradient": "",
         "header_title": "Newsletter Signup",
@@ -305,7 +309,7 @@
         "btn_color": "btn-primary",
         "btn_size": "",
         "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
-        "pt": 10,
+        "pt": 19,
         "pb": 10
       }
     },
