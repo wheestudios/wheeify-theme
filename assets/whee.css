@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: rgba(var(--ws-body-fg-rgb), 1);
+  color: rgba(var(--bs-text-link-color-rgb), 1);
 }
 
 /* FIXED COLORS */
