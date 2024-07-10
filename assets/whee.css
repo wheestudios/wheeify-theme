@@ -330,11 +330,13 @@ h1, h2, h3, h4, h5, h6 {
   width:100%;
   height:100%;
   padding: .1em .2em;
+  color: rgba(var(--ws-body-fg-rgb), 1);
 }
 
 .ws-menu-item a:hover, .ws-menu-item a:active {
   text-decoration: none;
   background-color: rgba(var(--bs-primary-rgb), .1);
+  color: rgba(var(--bs-primary-rgb), 1);
 }
 
 /*
@@ -902,8 +904,8 @@ fieldset:disabled .btn {
 
 .nav-link {
   font-size: .8em;
-  color: rgba(var(--ws-body-fg-rgb), .9) !important;
 }
+
 
 .nav-link:hover,
 .nav-link:focus {
