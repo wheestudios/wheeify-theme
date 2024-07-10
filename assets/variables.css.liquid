@@ -88,7 +88,7 @@
   --bs-white-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
-  --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', 50 }}
+  --bs-link-hover-color: rgba(var(--bs-primary-rgb), 1);
 
   --bs-heading-color: rgba(var(--bs-primary-rgb), 1);
   
