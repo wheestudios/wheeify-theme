@@ -78,6 +78,7 @@
   --bs-primary: {{ settings.lm_color_primary }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --bs-primary-hsl: {{ settings.lm_color_primary | color_to_hsl }};
+  --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', 45 }}
   
   --bs-secondary: {{ settings.lm_color_secondary }};2
   --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
@@ -153,6 +154,9 @@
   --bs-link-hover-color: rgba(var(--bs-primary-rgb), 1);
 
   --bs-heading-color: rgba(var(--bs-primary-rgb), 1);
+
+  
+  --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', 75 }}
 }
 
 {%- comment -%} 
