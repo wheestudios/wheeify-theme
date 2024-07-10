@@ -155,7 +155,7 @@
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
   --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
 
-  --bs-heading-color: rgba(var(--bs-primary-rgb), 1);
+  --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
   
   --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
 }
