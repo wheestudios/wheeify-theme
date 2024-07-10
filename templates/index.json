@@ -99,13 +99,12 @@
         "item_img_orientation": "ratio-4x3",
         "item_title_font_size": "h5",
         "item_description_font_size": "fs-md",
+        "item_btn_width": "w-75",
         "item_btn_color": "btn-primary",
         "item_btn_size": "btn-sm",
         "breakpoint_mobile": 1,
         "breakpoint_tablet": 2,
-        "breakpoint_desktop": 4,
-        "pt": 10,
-        "pb": 10
+        "breakpoint_desktop": 4
       }
     },
     "separator_nwEqn8": {
@@ -240,13 +239,12 @@
         "item_img_orientation": "adapt",
         "item_title_font_size": "h5",
         "item_description_font_size": "fs-sm",
+        "item_btn_width": "w-95",
         "item_btn_color": "btn-primary",
         "item_btn_size": "btn-sm",
         "breakpoint_mobile": 1,
         "breakpoint_tablet": 1,
-        "breakpoint_desktop": 3,
-        "pt": 10,
-        "pb": 10
+        "breakpoint_desktop": 3
       }
     },
     "html_UPfj4R": {
@@ -467,13 +465,12 @@
         "item_img_orientation": "adapt",
         "item_title_font_size": "h5",
         "item_description_font_size": "fs-md",
+        "item_btn_width": "w-95",
         "item_btn_color": "btn-primary",
         "item_btn_size": "btn-sm",
         "breakpoint_mobile": 2,
         "breakpoint_tablet": 3,
-        "breakpoint_desktop": 6,
-        "pt": 10,
-        "pb": 10
+        "breakpoint_desktop": 6
       }
     }
   },
