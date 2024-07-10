@@ -373,8 +373,18 @@ body.navbar-dropdown-open #footer-group::after {
   border-radius: var(--bs-border-radius);
 }
 
+
+.newletter a {
+  color: rgba(var(--bs-text-link-color-alt-rgb), 1);
+}
+
+.newsletter a:hover, .newsletter a:active {
+  color: rgba(var(--bs-text-link-color-alt-rgb), .7);
+}
+
 .wsNewletter > h2 {
   font-size: 1.25em;
+  color: var(--bs-heading-color-alt);
 }
 
 /*
