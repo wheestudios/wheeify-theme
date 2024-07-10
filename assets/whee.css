@@ -93,6 +93,10 @@ body {
   color: #121013 !important;
 }
 
+.img-grid .img-thumbnail a:hover {
+  color: #121013 !important;
+}
+
 
 /*
   Background/Text
