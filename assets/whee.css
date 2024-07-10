@@ -114,11 +114,11 @@ a:hover, a:active {
   color: rgba(var(--bs-text-link-color-rgb), .7);
 }
 
-.newletter-notice a {
+a.ondark {
   color: rgba(var(--bs-text-link-color-alt-rgb), 1) !important;
 }
 
-.newletter-notice a:hover, .newletter-notice a:active {
+a.ondark:hover, a.ondark:active {
   color: rgba(var(--bs-text-link-color-alt-rgb), .7) !important;
 }
 
