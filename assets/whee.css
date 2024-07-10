@@ -74,6 +74,7 @@ body {
   margin-top: 5px;
   padding: .35em;
   height: 100%;
+  background: transparent;
 }
 
 .img-grid .img-thumbnail a {
