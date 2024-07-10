@@ -99,7 +99,7 @@
         "item_img_orientation": "ratio-4x3",
         "item_title_font_size": "h5",
         "item_description_font_size": "fs-md",
-        "item_btn_width": "w-50",
+        "item_btn_width": "w-90",
         "item_btn_color": "btn-primary",
         "item_btn_size": "btn-sm",
         "breakpoint_mobile": 1,
