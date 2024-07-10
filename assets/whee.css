@@ -110,6 +110,10 @@ a {
   color: rgba(var(--bs-text-link-color-rgb), 1);
 }
 
+a:hover, a:active {
+  color: rgba(var(--bs-text-link-color-rgb), .8);
+}
+
 /* FIXED COLORS */
 .bg-whee-100 { background-color: #f3eaf3; }
 .bg-whee-200 { background-color: #dcb8de; }
