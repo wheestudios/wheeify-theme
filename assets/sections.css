@@ -374,12 +374,12 @@ body.navbar-dropdown-open #footer-group::after {
 }
 
 
-.newletter a {
-  color: rgba(var(--bs-text-link-color-alt-rgb), 1);
+.newletter-notice a {
+  color: rgba(var(--bs-text-link-color-alt-rgb), 1) !important;
 }
 
-.newsletter a:hover, .newsletter a:active {
-  color: rgba(var(--bs-text-link-color-alt-rgb), .7);
+.newletter-notice a:hover, .newletter-notice a:active {
+  color: rgba(var(--bs-text-link-color-alt-rgb), .7) !important;
 }
 
 .wsNewletter > h2 {
