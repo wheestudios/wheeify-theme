@@ -78,7 +78,7 @@ body {
 .img-grid .img-thumbnail a {
   font-size: .8em;
   color: var(--bs-body-fg);
-  
+  text-decoration: none;
 }
 
 
