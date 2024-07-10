@@ -151,10 +151,9 @@
   --bs-body-color: var(--ws-body-fg);
 
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
-  --bs-link-hover-color: rgba(var(--bs-primary-rgb), 1);
+  --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', 80 }}
 
   --bs-heading-color: rgba(var(--bs-primary-rgb), 1);
-
   
   --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', 80 }}
 }
