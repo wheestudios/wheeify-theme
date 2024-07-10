@@ -902,6 +902,7 @@ fieldset:disabled .btn {
 
 .nav-link {
   font-size: .8em;
+  color:rgba(var(--ws-body-fg-rgb), .8) !important;
 }
 
 .nav-link:hover,
