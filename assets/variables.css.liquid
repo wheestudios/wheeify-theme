@@ -155,7 +155,9 @@
   --bs-body-color: var(--ws-body-fg);
 
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
+   {% assign uselink = settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier %}
   --bs-text-link-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
+  --bs-text-link-color-rgb: {{ uselink | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
 
