@@ -82,6 +82,11 @@ body {
   text-decoration: none;
 }
 
+.img-grid .img-thumbnail a:hover {
+  background-image: linear-gradient(rgba(255, 242, 130, 1), rgba(255, 228, 0, 1), rgba(244, 195, 0, 1));
+  color: var(--bs-body-fg);
+}
+
 
 /*
   Background/Text
