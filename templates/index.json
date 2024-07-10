@@ -247,110 +247,6 @@
         "breakpoint_desktop": 3
       }
     },
-    "html_UPfj4R": {
-      "type": "html",
-      "disabled": true,
-      "settings": {
-        "usePage": "pride-flag-collection-2",
-        "liquid": "",
-        "bg_color": "body-bg-alt",
-        "bg_opacity": 12,
-        "text_color": "body-fg",
-        "container": "container",
-        "text_align": "text-start",
-        "header_title": "HTML and Liquid",
-        "header_title_font_size": "h2",
-        "header_description": "<p>Add on optional description for this section<\/p>",
-        "header_description_font_size": "fs-md",
-        "pt": 5,
-        "pb": 3,
-        "mt": 5,
-        "mb": 0
-      }
-    },
-    "separator_pMbxtB": {
-      "type": "separator",
-      "disabled": true,
-      "settings": {
-        "border_color": "fg",
-        "opacity": 20,
-        "height": 1,
-        "container": "container",
-        "pt": 2,
-        "pb": 2
-      }
-    },
-    "1720385455a99418d3": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_hj8dVw": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1296
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_hj8dVw"
-      ],
-      "settings": {
-      }
-    },
-    "newsletter_yVTDYR": {
-      "type": "newsletter",
-      "settings": {
-        "bg_gradient": "",
-        "header_title": "Newsletter Signup",
-        "header_title_font_size": "h4",
-        "header_description": "<p>Get 10% off your first order and be the first to hear about our exclusive offers and latest arrivals.<\/p>",
-        "header_description_font_size": "fs-md",
-        "btn_color": "btn-primary",
-        "btn_size": "",
-        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
-        "pt": 10,
-        "pb": 10
-      }
-    },
-    "info_line_PdJ4V4": {
-      "type": "info-line",
-      "blocks": {
-        "content_rzkh9Q": {
-          "type": "content",
-          "settings": {
-            "icon": "shippingbox",
-            "title": "Free Shipping.",
-            "paragraph": "All orders in the United States qualify for FREE SHIPPING.",
-            "url": ""
-          }
-        },
-        "content_W4ihzB": {
-          "type": "content",
-          "settings": {
-            "icon": "creditcard",
-            "title": "Payment Methods.",
-            "paragraph": "Visa, Mastercard, American Express, Discover, Diners Club, Shop Pay, Apple Pay, Google Pay, Facebook Pay",
-            "url": ""
-          }
-        },
-        "content_FTwGLJ": {
-          "type": "content",
-          "settings": {
-            "icon": "ribbon",
-            "title": "Quality Guarantee.",
-            "paragraph": "We pride ourselves in quality products. If there are any issues with your order, we'll make it right!",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_rzkh9Q",
-        "content_W4ihzB",
-        "content_FTwGLJ"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
     "card_list_g4C9NX": {
       "type": "card-list",
       "blocks": {
@@ -472,6 +368,110 @@
         "breakpoint_tablet": 3,
         "breakpoint_desktop": 6
       }
+    },
+    "html_UPfj4R": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "usePage": "pride-flag-collection-2",
+        "liquid": "",
+        "bg_color": "body-bg-alt",
+        "bg_opacity": 12,
+        "text_color": "body-fg",
+        "container": "container",
+        "text_align": "text-start",
+        "header_title": "HTML and Liquid",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Add on optional description for this section<\/p>",
+        "header_description_font_size": "fs-md",
+        "pt": 5,
+        "pb": 3,
+        "mt": 5,
+        "mb": 0
+      }
+    },
+    "separator_pMbxtB": {
+      "type": "separator",
+      "disabled": true,
+      "settings": {
+        "border_color": "fg",
+        "opacity": 20,
+        "height": 1,
+        "container": "container",
+        "pt": 2,
+        "pb": 2
+      }
+    },
+    "1720385455a99418d3": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_hj8dVw": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1296
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_hj8dVw"
+      ],
+      "settings": {
+      }
+    },
+    "newsletter_yVTDYR": {
+      "type": "newsletter",
+      "settings": {
+        "bg_gradient": "",
+        "header_title": "Newsletter Signup",
+        "header_title_font_size": "h4",
+        "header_description": "<p>Get 10% off your first order and be the first to hear about our exclusive offers and latest arrivals.<\/p>",
+        "header_description_font_size": "fs-md",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
+        "pt": 10,
+        "pb": 10
+      }
+    },
+    "info_line_PdJ4V4": {
+      "type": "info-line",
+      "blocks": {
+        "content_rzkh9Q": {
+          "type": "content",
+          "settings": {
+            "icon": "shippingbox",
+            "title": "Free Shipping.",
+            "paragraph": "All orders in the United States qualify for FREE SHIPPING.",
+            "url": ""
+          }
+        },
+        "content_W4ihzB": {
+          "type": "content",
+          "settings": {
+            "icon": "creditcard",
+            "title": "Payment Methods.",
+            "paragraph": "Visa, Mastercard, American Express, Discover, Diners Club, Shop Pay, Apple Pay, Google Pay, Facebook Pay",
+            "url": ""
+          }
+        },
+        "content_FTwGLJ": {
+          "type": "content",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Quality Guarantee.",
+            "paragraph": "We pride ourselves in quality products. If there are any issues with your order, we'll make it right!",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_rzkh9Q",
+        "content_W4ihzB",
+        "content_FTwGLJ"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -481,11 +481,11 @@
     "media_with_text_F3VJ6L",
     "separator_XWdU3n",
     "card_list_8eB99f",
+    "card_list_g4C9NX",
     "html_UPfj4R",
     "separator_pMbxtB",
     "1720385455a99418d3",
     "newsletter_yVTDYR",
-    "info_line_PdJ4V4",
-    "card_list_g4C9NX"
+    "info_line_PdJ4V4"
   ]
 }
