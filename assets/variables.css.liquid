@@ -18,6 +18,9 @@
     Colors
   {%- endcomment -%}
 
+  --ws-darken-modifier: 25;
+  --ws-lighten-modifier: 80;
+  
   --bs-blue: #004ce7;
   --bs-indigo: #320099;
   --bs-purple: #7b0085;
@@ -86,9 +89,9 @@
   --bs-white-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
-  --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', 30 }};
+  --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', var(--ws-darken-modifier) }};
 
-  --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', 30 }};
+  --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', var(--ws-darken-modifier) }};
   
   {% comment -%} 
     General
@@ -149,11 +152,11 @@
   --bs-body-color: var(--ws-body-fg);
 
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
-  --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', 80 }};
+  --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', var(--ws-lighten-modifier)  }};
 
   --bs-heading-color: rgba(var(--bs-primary-rgb), 1);
   
-  --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', 80 }};
+  --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', var(--ws-lighten-modifier)  }};
 }
 
 {%- comment -%} 
