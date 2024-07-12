@@ -15,6 +15,10 @@
  
 {% assign ws-darken-modifier = 25 %}
 {% assign ws-lighten-modifier = 80 %}
+
+{% assign ws-primary-dark = settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier %}
+{% assign ws-primary-light = settings.lm_color_primary | color_modify: 'lightness', ws-lightnen-modifier %}
+
 {% assign ws-white = '#faf9fb' %}
 {% assign ws-black = '#121013' %}
 
@@ -79,7 +83,12 @@
 
   --bs-primary: {{ settings.lm_color_primary }};
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
+  --ws-primary-fg: {{ ws-primary-dark }};
+
+  --ws-primary-dark: {{ ws-primary-dark }};
+  --ws-primary-light: {{  ws-primary-light }};
+  --ws-primary-dark-rgb: {{ ws-primary-dark | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-primary-light-rgb: {{ ws-primary-light | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-secondary: {{ settings.lm_color_secondary }};
   --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
@@ -90,28 +99,14 @@
   --bs-black-rgb: {{ ws-black | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
-  {% assign uselink = settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier %}
-  --bs-text-link-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
-  --bs-text-link-color-rgb: {{ uselink | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-link-color: {{ ws-primary-dark}};
+  --bs-text-link-color-rgb: {{ ws-primary-dark | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-   {% assign uselinkalt = settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier %}
-  --bs-text-link-color-alt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
-  --bs-text-link-color-alt-rgb: {{ uselinkalt | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-text-link-color-alt: {{ ws-primary-light }};
+  --bs-text-link-color-alt-rgb: {{  ws-primary-light | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-  --bs-text-link-color-lt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
-  --bs-text-link-color-dk: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
-  
-  --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
-  
-  --bs-link-color-lt-rgb: {{ uselinkalt | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-link-color-dk-rgb: {{ uselink | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  
-
-  --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
-  --bs-heading-color-alt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
-
-  --bs-heading-color-lt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
-  --bs-heading-color-dk: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
+  --bs-heading-color: {{ ws-primary-dark }};
+  --bs-heading-color-alt: {{ ws-primary-light }};
   
   {% comment -%} 
     General
