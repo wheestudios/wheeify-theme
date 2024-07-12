@@ -17,7 +17,7 @@
 {% assign ws-lighten-modifier = 80 %}
 
 {% assign ws-primary-dark = settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier %}
-{% assign ws-primary-light = settings.lm_color_primary | color_modify: 'lightness', ws-lightnen-modifier %}
+{% assign ws-primary-light = settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier %}
 
 {% assign ws-white = '#faf9fb' %}
 {% assign ws-black = '#121013' %}
@@ -101,7 +101,7 @@
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
   --bs-text-link-color: {{ ws-primary-dark}};
   --bs-text-link-color-rgb: {{ ws-primary-dark | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-link-hover-color: {{ --ws-primary-dark }};
+  --bs-link-hover-color: {{ ws-primary-dark }};
   --bs-text-link-color-alt: {{ ws-primary-light }};
   --bs-text-link-color-alt-rgb: {{  ws-primary-light | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
