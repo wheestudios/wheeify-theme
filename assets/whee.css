@@ -33,7 +33,7 @@ body {
   color: var(--ws-white);
 }
 
-.ws-black-fg
+.ws-black-fg {
   color: var(--ws-black);
 }
 
