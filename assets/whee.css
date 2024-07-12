@@ -20,6 +20,23 @@ body {
   background-color: var(--ws-body-bg);
   color: var(--ws-body-fg);
 }
+
+.ws-white-bg {
+  background-color: var(--ws-white);
+}
+
+.ws-black-bg
+  background-color: var(--ws-black);
+}
+
+.ws-white-fg {
+  color: var(--ws-white);
+}
+
+.ws-black-fg
+  color: var(--ws-black);
+}
+
 /*
   Various classes
 */
