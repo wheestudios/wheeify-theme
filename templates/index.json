@@ -297,8 +297,7 @@
     "newsletter_yVTDYR": {
       "type": "newsletter",
       "custom_css": [
-        "a {color: rgba(var(--bs-text-link-color-alt-rgb), 1) !important;}",
-        "a:hover, a:active {color: rgba(var(--bs-text-link-color-alt-rgb), .7) !important;}"
+
       ],
       "settings": {
         "bg_gradient": "",
