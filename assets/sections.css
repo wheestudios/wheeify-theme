@@ -171,9 +171,8 @@ body.navbar-dropdown-open #footer-group::after {
 
 
 
-.footer-menu h3 {
+.footer-menu > h3 {
   font-size: 1.25em;
-  color: var(--bs-white);
 }
 
 /*
