@@ -85,7 +85,7 @@
   --bs-primary-rgb: {{ settings.lm_color_primary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   
-  --bs-secondary: {{ settings.lm_color_secondary }};2
+  --bs-secondary: {{ settings.lm_color_secondary }};
   --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-white: {{ ws-white }};
