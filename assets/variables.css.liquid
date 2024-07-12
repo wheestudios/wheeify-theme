@@ -13,14 +13,15 @@
   {{ settings.font_body | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
 {% endunless %}
  
-:root, [data-bs-theme=light] {
-  {%- comment -%} 
-    Colors
-  {%- endcomment -%}
 {% assign ws-darken-modifier = 25 %}
 {% assign ws-lighten-modifier = 80 %}
 {% assign ws-white = '#faf9fa' %}
 {% assign ws-black = '#121013' %}
+
+:root, [data-bs-theme=light] {
+  {%- comment -%} 
+    Colors
+  {%- endcomment -%}
   
   --ws-darken-modifier: 25;
   --ws-lighten-modifier: 80;
