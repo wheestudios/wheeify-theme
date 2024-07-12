@@ -370,7 +370,7 @@ body.navbar-dropdown-open #footer-group::after {
 }
 
 .newsletter-trust-badges-item {
-  border-radius: var(--bs-border-radius);
+  border-radius: var(--bs-border-radius); 
 }
 
 
