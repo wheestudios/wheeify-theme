@@ -169,6 +169,13 @@ body.navbar-dropdown-open #footer-group::after {
   padding-right: 0.5rem;
 }
 
+
+
+.footer-menu h3 {
+  font-size: 1.25em;
+  color: var(--bs-white);
+}
+
 /*
   Image overlay
 */
@@ -386,6 +393,8 @@ body.navbar-dropdown-open #footer-group::after {
   font-size: 1.25em;
   color: var(--bs-white);
 }
+
+
 
 /*
   Information Line
