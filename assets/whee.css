@@ -140,12 +140,12 @@ a.ondark:hover, a.ondark:active {
   color: rgba(var(--bs-text-link-color-alt-rgb), .7) !important;
 }
 
-.nlink  a {
+.nlink a {
  color: rgba(var(--ws-primary-light-rgb), 1) !important;
  /*color: #00FF00 !important;*/
 }
 
-.newletter-notice > a:hover, .newletter-notice > a:active {
+.nlink a:hover, .nlink a:active {
   color: rgba(var(--ws-primary-light-rgb), .7) !important;
 }
 /* FIXED COLORS */
