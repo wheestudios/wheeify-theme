@@ -140,11 +140,11 @@ a.ondark:hover, a.ondark:active {
   color: rgba(var(--bs-text-link-color-alt-rgb), .7) !important;
 }
 
-.newletter-notice small p a {
+.newletter-notice > a {
   color: rgba(var(--ws-primary-light-rgb), 1) !important;
 }
 
-.newletter-notice small p a:hover, .newletter-notice small p a:active {
+.newletter-notice > a:hover, .newletter-notice > a:active {
   color: rgba(var(--ws-primary-light-rgb), .7) !important;
 }
 /* FIXED COLORS */
