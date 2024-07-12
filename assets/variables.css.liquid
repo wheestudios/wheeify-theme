@@ -19,6 +19,9 @@
   {%- endcomment -%}
 {% assign ws-darken-modifier = 25 %}
 {% assign ws-lighten-modifier = 80 %}
+{% assign ws-white = '#faf9fa' %}
+{% assign ws-black = '#121013' %}
+  
   --ws-darken-modifier: 25;
   --ws-lighten-modifier: 80;
   
@@ -32,10 +35,7 @@
   --bs-green: #249f1b;
   --bs-teal: #0d6a71;
   --bs-cyan: #1aa2f8;
-  
-  --bs-black: #000;
-  --bs-white: #fff;
-  
+
   --bs-gray: #69646a;
   --bs-gray-dark: #474248;
   
@@ -49,8 +49,8 @@
   --bs-gray-800: #242025;
   --bs-gray-900: #121012;
 
-  --bs-light: #faf9fa;
-  --bs-dark: #121013;
+  --bs-light: {{ ws-white }};
+  --bs-dark: {{ ws-black }};
 
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 16, 16, 19;
@@ -68,14 +68,14 @@
   --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
   
   --ws-body-bg: #faf9fa;
-  --ws-body-bg-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-bg-rgb: {{ ws-white | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --ws-body-fg: #121012;
-  --ws-body-fg-rgb: {{ "#121012" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-fg-rgb: {{ ws-black | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --ws-body-bg-alt: #121012;
-  --ws-body-bg-alt-rgb: {{ "#121012" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-bg-alt-rgb: {{ ws-black | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   --ws-body-fg-alt: #faf9fa;
-  --ws-body-fg-alt-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --ws-body-fg-alt-rgb: {{ ws-white | color_to_rgb | remove: 'rgb(' | remove: ')' }};
 
   --bs-light-subtle: #cecacf;
   --bs-dark-subtle: #12101;
@@ -87,8 +87,10 @@
   --bs-secondary: {{ settings.lm_color_secondary }};2
   --bs-secondary-rgb: {{ settings.lm_color_secondary | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
-  --bs-white: {{ "#faf9fa" }};
-  --bs-white-rgb: {{ "#faf9fa" | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-white: {{ ws-white }};
+  --bs-white-rgb: {{ ws-white | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-black: {{ ws-black }};
+  --bs-black-rgb: {{ ws-black | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
   --bs-link-color: rgba(var(--ws-body-fg-rgb), 1);
   {% assign uselink = settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier %}
@@ -101,6 +103,9 @@
 
   --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   --bs-heading-color-alt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
+
+  --bs-heading-color-lt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
+  --bs-heading-color-dk: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   
   {% comment -%} 
     General
@@ -172,8 +177,6 @@
 
   --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
   --bs-heading-color-alt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
-  --bs-heading-color-lt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
-  --bs-heading-color-dk: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   
   --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
 }
