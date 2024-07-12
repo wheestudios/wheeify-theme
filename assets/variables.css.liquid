@@ -102,8 +102,10 @@
   --bs-text-link-color-dk: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   
   --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
-  --bs-link-hover-color-lt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
-  --bs-link-hover-color-dk: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
+  
+  --bs-link-hover-color-lt: {{ uselinkalt | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-link-hover-color-dk: {{ uselink | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  
 
   --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   --bs-heading-color-alt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
