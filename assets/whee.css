@@ -140,7 +140,7 @@ a.ondark:hover, a.ondark:active {
   color: rgba(var(--bs-text-link-color-alt-rgb), .7) !important;
 }
 
-.newletter-notice  a {
+.nlink  a {
  /* color: rgba(var(--ws-primary-light-rgb), 1) !important;*/
   #00FF00 !important;
 }
