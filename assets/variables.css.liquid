@@ -103,8 +103,8 @@
   
   --bs-link-hover-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   
-  --bs-link-hover-color-lt: {{ uselinkalt | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-  --bs-link-hover-color-dk: {{ uselink | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-link-hover-color-lt-rgb: {{ uselinkalt | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+  --bs-link-hover-color-dk-rgb: {{ uselink | color_to_rgb | remove: 'rgb(' | remove: ')' }};
   
 
   --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
