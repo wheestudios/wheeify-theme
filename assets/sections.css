@@ -375,11 +375,11 @@ body.navbar-dropdown-open #footer-group::after {
 
 
 .newletter-notice small p a {
-  color: rgba(var(--bs-link-link-color-lt-rgb), 1) !important;
+  color: rgba(var(--bs-link-color-lt-rgb), 1) !important;
 }
 
 .newletter-notice small p a:hover, .newletter-notice small p a:active {
-  color: rgba(var(--bs-link-link-color-lt-rgb), .7) !important;
+  color: rgba(var(--bs-link-color-lt-rgb), .7) !important;
 }
 
 .wsNewletter > h2 {
