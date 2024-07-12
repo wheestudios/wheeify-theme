@@ -142,7 +142,7 @@ a.ondark:hover, a.ondark:active {
 
 .nlink  a {
  /* color: rgba(var(--ws-primary-light-rgb), 1) !important;*/
-  #00FF00 !important;
+ color: #00FF00 !important;
 }
 
 .newletter-notice > a:hover, .newletter-notice > a:active {
