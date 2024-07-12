@@ -172,6 +172,8 @@
 
   --bs-heading-color: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
   --bs-heading-color-alt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
+  --bs-heading-color-lt: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
+  --bs-heading-color-dk: {{ settings.lm_color_primary | color_modify: 'lightness', ws-darken-modifier }};
   
   --ws-primary-fg: {{ settings.lm_color_primary | color_modify: 'lightness', ws-lighten-modifier }};
 }
