@@ -37,6 +37,16 @@ body {
   color: var(--ws-black);
 }
 
+
+
+.newletter-notice > a {
+  color: rgba(var(--bs-link-link-color-lt-rgb), 1) !important;
+}
+
+.newletter-notice > a:hover, .newletter-notice > a:active {
+  color: rgba(var(--bs-link-link-color-lt-rgb), .7) !important;
+}
+
 /*
   Various classes
 */
