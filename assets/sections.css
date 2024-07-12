@@ -301,7 +301,7 @@ body.navbar-dropdown-open #footer-group::after {
 
 .card-list ul li a:hover {
   text-decoration: none;
-  color: var(--ws-primary-fg) !important;
+  color: var(--bs-link-hover-color) !important;
 }
 
 .card-list .btn-sm {
