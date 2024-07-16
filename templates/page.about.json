@@ -87,12 +87,24 @@
             "btn_text": "",
             "btn_url": ""
           }
+        },
+        "item_RBdjnM": {
+          "type": "item",
+          "settings": {
+            "button-overlay": "no",
+            "use_thumbnail": "",
+            "title": "geek \/gēk\/",
+            "description": "<p><em>noun Slang.<br\/><\/em>a knowledgeable and obsessive enthusiast.<\/p>",
+            "btn_text": "",
+            "btn_url": ""
+          }
         }
       },
       "block_order": [
         "item_DALV8c",
         "item_LjidGy",
-        "item_VLyQPc"
+        "item_VLyQPc",
+        "item_RBdjnM"
       ],
       "settings": {
         "bg_color": "body-bg",
@@ -110,7 +122,7 @@
         "item_text_align": "text-start",
         "item_img_orientation": "ratio-4x3",
         "item_title_font_size": "h5",
-        "item_description_font_size": "fs-6",
+        "item_description_font_size": "small",
         "item_btn_width": "w-95",
         "item_btn_color": "btn-outline-primary",
         "item_btn_size": "btn-sm",
