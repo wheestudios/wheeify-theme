@@ -24,20 +24,15 @@
     "91fa2e27-741f-431f-b658-c6ce03d0f6eb": {
       "type": "page-content",
       "settings": {
-        "bg_color": "bg-body",
+        "bg_color": "body-bg",
         "bg_opacity": 100,
         "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 10,
-        "container_max_width": "800",
+        "text_color": "body-fg",
         "show_title": true,
-        "title_font_size": "h1",
+        "title_font_size": "h4",
         "description_font_size": "fs-md",
-        "pt": 9,
-        "pb": 9
+        "pt": 2,
+        "pb": 2
       }
     },
     "cfc6ff50-e3a5-4219-8350-f2db73f829c8": {
