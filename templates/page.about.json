@@ -31,7 +31,7 @@
         "show_title": true,
         "title_font_size": "h4",
         "description_font_size": "fs-md",
-        "pt": 2,
+        "pt": 4,
         "pb": 2
       }
     },
