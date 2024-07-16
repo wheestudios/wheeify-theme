@@ -69,10 +69,21 @@
         "item_LjidGy": {
           "type": "item",
           "settings": {
-            "button-overlay": "yes",
+            "button-overlay": "no",
             "use_thumbnail": "",
             "title": "pride \/praɪd\/",
             "description": "<p><em>noun<br\/><\/em>a sense of the respect that other people have for you, and that you have for yourself.<\/p>",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        },
+        "item_VLyQPc": {
+          "type": "item",
+          "settings": {
+            "button-overlay": "no",
+            "use_thumbnail": "",
+            "title": "design \/dɪzaɪn\/",
+            "description": "<p><em>verb<\/em><br\/>to plan and fashion the form and structure of an object, work of art, decorative scheme, etc.<\/p>",
             "btn_text": "",
             "btn_url": ""
           }
@@ -80,7 +91,8 @@
       },
       "block_order": [
         "item_DALV8c",
-        "item_LjidGy"
+        "item_LjidGy",
+        "item_VLyQPc"
       ],
       "settings": {
         "bg_color": "body-bg",
