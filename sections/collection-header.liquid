@@ -14,7 +14,7 @@
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
   ">
   {% if section.settings.img_show and collection.image != nil %}
-    <div class="img-wrapper">
+    <div class="">
       <img
         srcset="{{ collection.image | image_url: width: 800 }} 800w, {{ collection.image | image_url: width: 1600 }} 1600w"
         src="{{ collection.image | image_url: width: 1600 }}"
@@ -25,8 +25,7 @@
         loading="eager">
       </div>
   {% endif %}
-  <div 
-    class="container">
+  <div class="container">
     <h2 class="title {{ section.settings.title_font_size }}">
       <span>{{ collection.title }}</span>
     </h2>
