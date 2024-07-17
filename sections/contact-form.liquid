@@ -56,20 +56,6 @@
               {{ 'general.contact_form.email' | t }}
             </label>
           </div>
-          <div class="form-floating  mb-5">
-            <input 
-              id="contact-form-phone"
-              class="form-control" 
-              type="tel" 
-              name="contact[phone]"
-              value="{{ customer.phone }}"  
-              placeholder="{{ 'general.contact_form.phone' | t }}"
-              pattern="[0-9\-]*"
-              autocomplete="tel">
-            <label for="contact-form-phone">
-              {{ 'general.contact_form.phone' | t }}
-            </label>
-          </div>
           <div class="form-floating mb-5">
             <textarea
               id="contact-form-message"
