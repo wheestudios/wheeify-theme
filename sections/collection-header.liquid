@@ -21,7 +21,6 @@
     </h2>
   {% if section.settings.img_show and collection.image != nil %}
 		<p><img
-        srcset="{{ collection.image | image_url: width: 800 }} 800w, {{ collection.image | image_url: width: 1600 }} 1600w"
         src="{{ collection.image | image_url: width: 1600 }}"
         class="img-fluid"
         alt="{{ collection.image.alt }}"
