@@ -31,9 +31,9 @@
         <div 
           class="
             product-list mx-n4 mx-desktop-n5 mb-0 row 
-            {{ section.settings.breakpoint_mobile | prepend: 'cols-sm-' }}
-            {{ section.settings.breakpoint_tablet | prepend: 'cols-md-' }}
-            {{ section.settings.breakpoint_desktop | prepend: 'cols-lg-' }}
+            {{ section.settings.breakpoint_mobile | prepend: 'row-cols-' }}
+            {{ section.settings.breakpoint_tablet | prepend: 'row-cols-md-' }}
+            {{ section.settings.breakpoint_desktop | prepend: 'row-cols-lg-' }}
           " 
           role="list">
           {% for product in collection.products %}
