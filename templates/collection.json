@@ -20,10 +20,10 @@
         "title_font_size": "h2",
         "description_show": true,
         "description_font_size": "fs-md",
-        "pt": 3,
+        "pt": 4,
         "pb": 3,
-        "pt_desktop": 2,
-        "pb_desktop": 2
+        "pt_desktop": 5,
+        "pb_desktop": 3
       }
     },
     "collection_products_Fx3hb6": {
