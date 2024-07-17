@@ -102,8 +102,8 @@
         "item_RBdjnM"
       ],
       "settings": {
-        "bg_color": "bg-primary",
-        "bg_opacity": 50,
+        "bg_color": "bg-secondary",
+        "bg_opacity": 42,
         "bg_gradient": "",
         "text_color": "body-fg",
         "container_max_width": "",
@@ -112,7 +112,7 @@
         "header_description": "",
         "header_description_font_size": "fs-4",
         "item_bg_color": "body-bg",
-        "item_bg_opacity": 100,
+        "item_bg_opacity": 0,
         "item_text_color": "body-fg",
         "item_text_align": "text-start",
         "item_img_orientation": "ratio-4x3",
