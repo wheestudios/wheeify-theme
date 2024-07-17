@@ -127,12 +127,28 @@
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4
       }
+    },
+    "newsletter_9tKrBj": {
+      "type": "newsletter",
+      "settings": {
+        "bg_gradient": "",
+        "header_title": "Newsletter Subscribe",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Get 10% off your first order and be the first to hear about our exclusive offers and latest arrivals.<\/p>",
+        "header_description_font_size": "fs-md",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
+        "pt": 1,
+        "pb": 1
+      }
     }
   },
   "order": [
     "18e3bb8e-f1ba-421c-91c3-37c1c5b25a2a",
     "91fa2e27-741f-431f-b658-c6ce03d0f6eb",
     "cfc6ff50-e3a5-4219-8350-f2db73f829c8",
-    "card_list_BCTgyg"
+    "card_list_BCTgyg",
+    "newsletter_9tKrBj"
   ]
 }
