@@ -37,10 +37,65 @@
         "pt": 0,
         "pb": 0
       }
+    },
+    "newsletter_PnJp7R": {
+      "type": "newsletter",
+      "settings": {
+        "bg_gradient": "",
+        "header_title": "Newsletter Signup",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Get 10% off your first order and be the first to hear about our exclusive offers and latest arrivals.<\/p>",
+        "header_description_font_size": "fs-md",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>"
+      }
+    },
+    "info_line_Wdt3hg": {
+      "type": "info-line",
+      "blocks": {
+        "content_WcMzL7": {
+          "type": "content",
+          "settings": {
+            "icon": "shippingbox",
+            "title": "Free Shipping.",
+            "paragraph": "All orders in the United States qualify for FREE SHIPPING.",
+            "url": ""
+          }
+        },
+        "content_QpJFDx": {
+          "type": "content",
+          "settings": {
+            "icon": "creditcard",
+            "title": "Payment Methods.",
+            "paragraph": "Visa, Mastercard, American Express, Discover, Diners Club, Shop Pay, Apple Pay, Google Pay, Facebook Pay",
+            "url": ""
+          }
+        },
+        "content_PrByiX": {
+          "type": "content",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Quality Guarantee.",
+            "paragraph": "We pride ourselves in quality products. If there are any issues with your order, we'll make it right!",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_WcMzL7",
+        "content_QpJFDx",
+        "content_PrByiX"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
     "ba94d905-ea2f-4198-8472-5296b1853fb5",
-    "5d7e9d3e-ba1d-498d-a3fd-144ce2e406e5"
+    "5d7e9d3e-ba1d-498d-a3fd-144ce2e406e5",
+    "newsletter_PnJp7R",
+    "info_line_Wdt3hg"
   ]
 }
