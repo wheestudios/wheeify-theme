@@ -25,8 +25,6 @@
         src="{{ collection.image | image_url: width: 1600 }}"
         class="img-fluid"
         alt="{{ collection.image.alt }}"
-        width="1600"
-        height="{{ 1600 | divided_by: collection.image.aspect_ratio }}"
         loading="eager"></p>
   {% endif %}    
     {% if section.settings.description_show and collection.description != blank %}
