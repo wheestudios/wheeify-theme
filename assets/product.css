@@ -286,7 +286,7 @@
 .product-card-title {
   margin-bottom: 0.2em;
   transition: all 200ms ease-out;
-  font-size: 1.2em;
+  font-size: 1em !important;
 }
 
 .product-card-link:hover .product-card-title,
