@@ -31,9 +31,9 @@
         <div 
           class="
             product-list mx-n4 mx-desktop-n5 mb-0 row 
-            {{ section.settings.breakpoint_mobile | prepend: 'row-cols-' }}
-            {{ section.settings.breakpoint_tablet | prepend: 'row-cols-tablet-' }}
-            {{ section.settings.breakpoint_desktop | prepend: 'row-cols-desktop-' }}
+            {{ section.settings.breakpoint_mobile | prepend: 'cols-sm-' }}
+            {{ section.settings.breakpoint_tablet | prepend: 'cols-md-' }}
+            {{ section.settings.breakpoint_desktop | prepend: 'cols-lg-' }}
           " 
           role="list">
           {% for product in collection.products %}
@@ -107,12 +107,6 @@
       ]
     },
     {
-      "type": "text",
-      "id": "container_max_width",
-      "label": "Container max-width (px)",
-      "info": "Leave empty to use the global container width"
-    },
-    {
       "type": "header",
       "content": "General"
     },
@@ -141,29 +135,6 @@
       "type": "select",
       "id": "filters_btn_color",
       "label": "Filters button color",
-      "default": "btn-outline-primary",
-      "options": [
-        { "group": "Solid", "value": "btn-primary", "label": "Primary" },
-        { "group": "Solid", "value": "btn-secondary", "label": "Secondary" },
-        { "group": "Solid", "value": "btn-white", "label": "White" },
-        { "group": "Light", "value": "btn-light-primary", "label": "Primary" },
-        { "group": "Light", "value": "btn-light-secondary", "label": "Secondary" },
-        { "group": "Light", "value": "btn-light-white", "label": "White" },
-        { "group": "Outline", "value": "btn-outline-primary", "label": "Primary" },
-        { "group": "Outline", "value": "btn-outline-secondary", "label": "Secondary" },
-        { "group": "Outline", "value": "btn-outline-white", "label": "White" }
-      ]
-    },
-    {
-      "type": "checkbox",
-      "id": "show_sort_by",
-      "label": "Show sorting",
-      "default": true
-    },
-    {
-      "type": "select",
-      "id": "sort_by_btn_color",
-      "label": "Sort-by button color",
       "default": "btn-outline-primary",
       "options": [
         { "group": "Solid", "value": "btn-primary", "label": "Primary" },
