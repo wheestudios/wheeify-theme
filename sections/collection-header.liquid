@@ -13,22 +13,12 @@
   style="
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
   ">
-  {% if section.settings.img_show and collection.image != nil %}
-    <div class="">
-      <img
-        srcset="{{ collection.image | image_url: width: 800 }} 800w, {{ collection.image | image_url: width: 1600 }} 1600w"
-        src="{{ collection.image | image_url: width: 1600 }}"
-        class="img-fluid"
-        alt="{{ collection.image.alt }}"
-        width="1600"
-        height="{{ 1600 | divided_by: collection.image.aspect_ratio }}"
-        loading="eager">
-      </div>
-  {% endif %}
-<div class="mb-15">
 
-	<h1 class="mb-10 d-lg-block text-center text-lg-left">{{ collection.title }}</h1>
-	<div class="rte fs d-lg-block">
+  
+  <div class="container">
+    <h2 class="title {{ section.settings.title_font_size }}">
+      <span>{{ collection.title }}</span>
+    </h2>
   {% if section.settings.img_show and collection.image != nil %}
 		<p><img
         srcset="{{ collection.image | image_url: width: 800 }} 800w, {{ collection.image | image_url: width: 1600 }} 1600w"
@@ -38,23 +28,7 @@
         width="1600"
         height="{{ 1600 | divided_by: collection.image.aspect_ratio }}"
         loading="eager"></p>
-  {% endif %}
-
-    {% if section.settings.description_show and collection.description != blank %}
-      <div class="description rte mb-0 {{ section.settings.description_font_size }}">
-        {{ collection.description }}
-      </div>
-    {% endif %}
-
-	</div>
-</div>
-
-
-  
-  <div class="container">
-    <h2 class="title {{ section.settings.title_font_size }}">
-      <span>{{ collection.title }}</span>
-    </h2>
+  {% endif %}    
     {% if section.settings.description_show and collection.description != blank %}
       <div class="description rte mb-0 {{ section.settings.description_font_size }}">
         {{ collection.description }}
