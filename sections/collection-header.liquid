@@ -7,8 +7,8 @@
     {{ section.settings.text_color }}
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
-    {{ section.settings.pt_desktop | prepend: 'pt-desktop-' }} 
-    {{ section.settings.pb_desktop | prepend: 'pb-desktop-' }}
+    {{ section.settings.pt_desktop | prepend: 'pt-lg-' }} 
+    {{ section.settings.pb_desktop | prepend: 'pb-lg-' }}
   "
   style="
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
@@ -107,31 +107,6 @@
       "default": true
     },
     {
-      "type": "color",
-      "id": "img_overlay_color",
-      "label": "Overlay color",
-      "default": "#000000"
-    },
-    {
-      "type": "range",
-      "id": "img_overlay_opacity",
-      "label": "Overlay opacity",
-      "min": 0,
-      "max": 100,
-      "step": 10,
-      "default": 30,
-      "unit": "%"
-    },
-    {
-      "type": "range",
-      "id": "img_overlay_blur",
-      "label": "Overlay blur",
-      "min": 0,
-      "max": 10,
-      "step": 1,
-      "default": 0
-    },
-    {
       "type": "header",
       "content": "Text"
     },
@@ -177,18 +152,18 @@
       "id": "pt",
       "label": "Top",
       "min": 0,
-      "max": 20,
+      "max": 5,
       "step": 1,
-      "default": 8
+      "default": 2
     },
     {
       "type": "range",
       "id": "pb",
       "label": "Bottom",
       "min": 0,
-      "max": 20,
+      "max": 5,
       "step": 1,
-      "default": 8
+      "default": 2
     },
     {
       "type": "header",
@@ -199,18 +174,18 @@
       "id": "pt_desktop",
       "label": "Top",
       "min": 0,
-      "max": 20,
+      "max": 5,
       "step": 1,
-      "default": 14
+      "default": 2
     },
     {
       "type": "range",
       "id": "pb_desktop",
       "label": "Bottom",
       "min": 0,
-      "max": 20,
+      "max": 5,
       "step": 1,
-      "default": 14
+      "default": 2
     }
   ],
   "templates": ["collection"],
