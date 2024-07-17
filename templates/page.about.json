@@ -127,12 +127,50 @@
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4
       }
+    },
+    "featured_products_UX63Rd": {
+      "type": "featured-products",
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "products": [
+
+        ],
+        "collection": "ets-fs-best-selling-products",
+        "limit": 8,
+        "recommended_mode": true,
+        "recommended_mode_intent": "related",
+        "header_title": "Featured Products",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Add on optional description for this section<\/p>",
+        "header_description_font_size": "fs-md",
+        "slider_speed": 300,
+        "slider_navigation": true,
+        "slider_pagination": true,
+        "slider_pagination_type": "bullets",
+        "slider_scrollbar": true,
+        "slider_partial_slides_mobile": false,
+        "slider_autoplay": 0,
+        "breakpoint_mobile": 3,
+        "breakpoint_tablet": 4,
+        "breakpoint_desktop": 6,
+        "pt": 10,
+        "pb": 10
+      }
     }
   },
   "order": [
     "18e3bb8e-f1ba-421c-91c3-37c1c5b25a2a",
     "91fa2e27-741f-431f-b658-c6ce03d0f6eb",
     "cfc6ff50-e3a5-4219-8350-f2db73f829c8",
-    "card_list_BCTgyg"
+    "card_list_BCTgyg",
+    "featured_products_UX63Rd"
   ]
 }
