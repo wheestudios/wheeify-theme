@@ -102,8 +102,8 @@
         "item_RBdjnM"
       ],
       "settings": {
-        "bg_color": "body-bg",
-        "bg_opacity": 100,
+        "bg_color": "bg-primary",
+        "bg_opacity": 50,
         "bg_gradient": "",
         "text_color": "body-fg",
         "container_max_width": "",
