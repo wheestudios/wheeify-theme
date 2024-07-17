@@ -5,9 +5,6 @@
     {{ section.settings.bg_color }} 
     {{ section.settings.bg_gradient }}
     {{ section.settings.text_color }}
-    {{ section.settings.border_top_width | prepend: 'border-top-' }}
-    {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
-    {{ section.settings.border_color }} 
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
     {{ section.settings.pt_desktop | prepend: 'pt-desktop-' }} 
@@ -15,7 +12,6 @@
   "
   style="
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
-    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
   ">
   {% if section.settings.img_show and collection.image != nil %}
     <div 
@@ -36,8 +32,7 @@
       </div>
   {% endif %}
   <div 
-    class="container"
-    style="max-width: {{ section.settings.container_max_width | append: 'px' }};">
+    class="container">
     <h2 class="title {{ section.settings.title_font_size }}">
       <span>{{ collection.title }}</span>
     </h2>
@@ -61,12 +56,12 @@
       "type": "select",
       "id": "bg_color",
       "label": "Background color",
-      "default": "bg-body",
+      "default": "body-bg",
       "options": [
         { "value": "bg-primary", "label": "Primary" },
         { "value": "bg-secondary", "label": "Secondary" },
-        { "value": "bg-body", "label": "Body" },
-        { "value": "bg-white", "label": "White" }
+        { "value": "body-bg", "label": "Body BG" },
+        { "value": "body-bg-alt", "label": "Body BG - Alt" }
       ]
     },
     {
@@ -93,62 +88,13 @@
       "type": "select",
       "id": "text_color",
       "label": "Text color",
-      "default": "text-body",
+      "default": "body-fg",
       "options": [
         { "value": "text-primary", "label": "Primary" },
         { "value": "text-secondary", "label": "Secondary" },
-        { "value": "text-body", "label": "Body" },
-        { "value": "text-white", "label": "White" }
+        { "value": "body-fg", "label": "Body Foreground" },
+        { "value": "body-fg-alt", "label": "Body Foreground Alt" }
       ]
-    },
-    {
-      "type": "range",
-      "id": "border_top_width",
-      "label": "Border top width",
-      "default": 0,
-      "min": 0,
-      "max": 16,
-      "step": 1,
-      "unit": "px"
-    },
-    {
-      "type": "range",
-      "id": "border_bottom_width",
-      "label": "Border bottom width",
-      "default": 0,
-      "min": 0,
-      "max": 16,
-      "step": 1,
-      "unit": "px"
-    },
-    {
-      "type": "select",
-      "id": "border_color",
-      "label": "Border color",
-      "default": "border-body",
-      "options": [
-        { "value": "border-primary", "label": "Primary" },
-        { "value": "border-secondary", "label": "Secondary" },
-        { "value": "border-body", "label": "Body" },
-        { "value": "border-white", "label": "White" }
-      ]
-    },
-    {
-      "type": "range",
-      "id": "border_opacity",
-      "label": "Border opacity",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 100,
-      "unit": "%"
-    },
-    {
-      "type": "text",
-      "id": "container_max_width",
-      "label": "Container max-width (px)",
-      "info": "Leave empty to use the global container width",
-      "default": "600"
     },
     {
       "type": "header",
