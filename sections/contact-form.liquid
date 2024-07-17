@@ -5,26 +5,21 @@
     {{ section.settings.bg_color }} 
     {{ section.settings.bg_gradient }}
     {{ section.settings.text_color }}
-    {{ section.settings.border_top_width | prepend: 'border-top-' }}
-    {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
-    {{ section.settings.border_color }} 
     {{ section.settings.pt | prepend: 'pt-' }} 
     {{ section.settings.pb | prepend: 'pb-' }}
   "
   style="
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
-    --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
   ">
   <div 
-    class="container" 
-    style="max-width: {{ section.settings.container_max_width }}px">
+    class="container">
     <div class="row align-items-center">
       {% if section.settings.img != nil %}
-        <div class="col-desktop-7 mb-6 mb-desktop-0">
+        <div class="col-4 mb-6 mb-desktop-0">
           {% render 'image-url', img: section.settings.img, size: 900, orientation: section.settings.img_orientation, class: section.settings.img_border %}
         </div>
       {% endif %}
-      <div class="{% if section.settings.img == nil %}col-desktop-18{% else %}col-desktop-11{% endif %}">
+      <div class="{% if section.settings.img == nil %}col-12{% else %}col-8{% endif %}">
         {% render 'section-header' %}
         {% form 'contact' %}
           {% if form.posted_successfully? %}
@@ -113,12 +108,12 @@
       "type": "select",
       "id": "bg_color",
       "label": "Background color",
-      "default": "bg-body",
+      "default": "body-bg",
       "options": [
         { "value": "bg-primary", "label": "Primary" },
         { "value": "bg-secondary", "label": "Secondary" },
-        { "value": "bg-body", "label": "Body" },
-        { "value": "bg-white", "label": "White" }
+        { "value": "body-bg", "label": "Body Background" },
+        { "value": "body-bg-alt", "label": "Body Background Alt" }
       ]
     },
     {
@@ -145,61 +140,13 @@
       "type": "select",
       "id": "text_color",
       "label": "Text color",
-      "default": "text-body",
+      "default": "body-fg",
       "options": [
         { "value": "text-primary", "label": "Primary" },
         { "value": "text-secondary", "label": "Secondary" },
-        { "value": "text-body", "label": "Body" },
-        { "value": "text-white", "label": "White" }
+        { "value": "body-fg", "label": "Body Foreground" },
+        { "value": "body-fg-alt", "label": "Body Foreground Alt" }
       ]
-    },
-    {
-      "type": "range",
-      "id": "border_top_width",
-      "label": "Border top width",
-      "default": 0,
-      "min": 0,
-      "max": 16,
-      "step": 1,
-      "unit": "px"
-    },
-    {
-      "type": "range",
-      "id": "border_bottom_width",
-      "label": "Border bottom width",
-      "default": 0,
-      "min": 0,
-      "max": 16,
-      "step": 1,
-      "unit": "px"
-    },
-    {
-      "type": "select",
-      "id": "border_color",
-      "label": "Border color",
-      "default": "border-body",
-      "options": [
-        { "value": "border-primary", "label": "Primary" },
-        { "value": "border-secondary", "label": "Secondary" },
-        { "value": "border-body", "label": "Body" },
-        { "value": "border-white", "label": "White" }
-      ]
-    },
-    {
-      "type": "range",
-      "id": "border_opacity",
-      "label": "Border opacity",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 100,
-      "unit": "%"
-    },
-    {
-      "type": "text",
-      "id": "container_max_width",
-      "label": "Container max-width (px)",
-      "info": "Leave empty to use the global container width"
     },
     {
       "type": "header",
@@ -289,18 +236,18 @@
       "id": "pt",
       "label": "Top",
       "min": 0,
-      "max": 20,
+      "max": 5,
       "step": 1,
-      "default": 10
+      "default": 2
     },
     {
       "type": "range",
       "id": "pb",
       "label": "Bottom",
       "min": 0,
-      "max": 20,
+      "max": 5,
       "step": 1,
-      "default": 10
+      "default": 2
     }
   ],
   "disabled_on": {
