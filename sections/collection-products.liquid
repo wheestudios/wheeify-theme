@@ -29,15 +29,14 @@
       {% else %}
         {% render 'collection-utilities' %}
         <div 
-          class="
-            product-list mx-n4 mx-desktop-n5 mb-0 row 
+          class="product-list row 
             {{ section.settings.breakpoint_mobile | prepend: 'row-cols-' }}
             {{ section.settings.breakpoint_tablet | prepend: 'row-cols-md-' }}
             {{ section.settings.breakpoint_desktop | prepend: 'row-cols-lg-' }}
           " 
           role="list">
           {% for product in collection.products %}
-            <div class="p-4 p-lg-5 mb-4 mb-lg-5" role="list-item">
+            <div class="p-4 p-lg-1 mb-4 mb-lg-1" role="list-item">
               {% render 'product-card', product: product %}
             </div>
           {% endfor %}
