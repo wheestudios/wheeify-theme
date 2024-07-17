@@ -14,13 +14,7 @@
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
   ">
   {% if section.settings.img_show and collection.image != nil %}
-    <div 
-      class="img-wrapper"
-      style="
-        --overlay-color-rgb: {{ section.settings.img_overlay_color | color_to_rgb | remove: 'rgb(' | remove: ')' }};
-        --overlay-opacity: {{ section.settings.img_overlay_opacity | append: '%' }};
-        --overlay-blur: {{ section.settings.img_overlay_blur | append: 'px' }}
-      ">
+    <div class="img-wrapper">
       <img
         srcset="{{ collection.image | image_url: width: 800 }} 800w, {{ collection.image | image_url: width: 1600 }} 1600w"
         src="{{ collection.image | image_url: width: 1600 }}"
