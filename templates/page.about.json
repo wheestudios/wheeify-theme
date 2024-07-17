@@ -103,7 +103,7 @@
       ],
       "settings": {
         "bg_color": "bg-secondary",
-        "bg_opacity": 42,
+        "bg_opacity": 40,
         "bg_gradient": "",
         "text_color": "body-fg",
         "container_max_width": "",
