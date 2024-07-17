@@ -102,11 +102,13 @@
         "item_RBdjnM"
       ],
       "settings": {
-        "bg_color": "bg-secondary",
-        "bg_opacity": 40,
+        "bg_color": "body-bg-alt",
+        "bg_opacity": 15,
         "bg_gradient": "",
         "text_color": "body-fg",
         "container_max_width": "",
+        "pt": 1,
+        "pb": 0,
         "header_title": "",
         "header_title_font_size": "h2",
         "header_description": "",
