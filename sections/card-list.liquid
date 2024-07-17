@@ -16,8 +16,7 @@
     --bs-bg-opacity: {{ section.settings.item_bg_opacity | append: '%' }};
 ">
   <div 
-    class="container" 
-    style="max-width: {{ section.settings.container_max_width }}px">
+    class="container">
     {% render 'section-header' %}
     <div class="row">
       {% for block in section.blocks %}
