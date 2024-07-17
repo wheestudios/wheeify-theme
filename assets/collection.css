@@ -7,9 +7,6 @@
   Collection header
 */
 .collection-header {
-  border-top-style: solid;
-  border-bottom-style: solid;
-  text-align: center;
 }
 
 
@@ -17,8 +14,6 @@
   Collection products
 */
 .collection-products {
-  border-top-style: solid;
-  border-bottom-style: solid;
 }
 
 .product-list {
