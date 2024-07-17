@@ -29,22 +29,22 @@
     "collection_products_Fx3hb6": {
       "type": "collection-products",
       "settings": {
-        "bg_color": "bg-body",
+        "bg_color": "body-bg",
         "bg_opacity": 100,
         "bg_gradient": "",
-        "text_color": "text-body",
+        "text_color": "body-fg",
         "container_max_width": "",
         "limit": 48,
         "show_product_count": true,
         "show_filters": true,
-        "filters_btn_color": "btn-outline-secondary",
+        "filters_btn_color": "btn-primary",
         "show_sort_by": true,
-        "sort_by_btn_color": "btn-outline-secondary",
+        "sort_by_btn_color": "btn-primary",
         "breakpoint_mobile": 2,
-        "breakpoint_tablet": 3,
+        "breakpoint_tablet": 4,
         "breakpoint_desktop": 4,
-        "pt": 10,
-        "pb": 10
+        "pt": 1,
+        "pb": 1
       }
     },
     "da87b500-2710-4252-99e4-4bd5db55af39": {
