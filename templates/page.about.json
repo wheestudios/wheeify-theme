@@ -140,7 +140,7 @@
         "btn_size": "",
         "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
         "pt": 1,
-        "pb": 1
+        "pb": 0
       }
     }
   },
