@@ -1,8 +1,88 @@
+<section 
+  id="collection-products-{{ collection.id }}" 
+  class="collection-products">
+  <div 
+    class="container">
+		<div class="row">
+			<div class="col-lg-3">
+<p class=""><strong>What's Your Whee!?</strong></p>
+
+<h4 class="h2">Find EXACTLY What You Are Looking For</h4>
+
+<p>Choose your flag and then choose a product to narrow down your options.</p>	
+<hr>
+{% render 'collection-filters' %}
+			</div>
+			<div class="col-lg-9">
+              
+<header id="collection-header-{{ section.id }}" class="collection-header">
+  <div class="container">
+    <h2 class="text-center text-lg-left">
+      <span>{{ collection.title }}</span>
+    </h2>
+  {% if section.settings.img_show and collection.image != nil %}
+		<p><img src="{{ collection.image | image_url: width: 1440 }}" class="img-fluid" width="1440" height="100" alt="{{ collection.image.alt }}" loading="eager"></p>
+  {% endif %}    
+    {% if section.settings.description_show and collection.description != blank %}
+      <div class="description rte mb-0">
+        {{ collection.description }}
+      </div>
+    {% endif %}
+  </div>
+</header>
+              
+			
+    {% paginate collection.products by limit %}
+      {% if collection.products.size == 0 %}
+        <p class="alert alert-primary">
+          {{ 'collection.empty_html' | t }}
+        </p>
+      {% else %}
+        {% render 'collection-utilities' %}
+        <div 
+          class="product-list row 
+            {{ section.settings.breakpoint_mobile | prepend: 'row-cols-' }}
+            {{ section.settings.breakpoint_tablet | prepend: 'row-cols-md-' }}
+            {{ section.settings.breakpoint_desktop | prepend: 'row-cols-lg-' }}
+          " 
+          role="list">
+          {% for product in collection.products %}
+            <div class="p-4 p-lg-2 mb-4 mb-lg-1" role="list-item">
+              {% render 'product-card', product: product %}
+            </div>
+          {% endfor %}
+        </div>
+        <collection-pagination class="collection-pagination"> 
+          {% render 'pagination', paginate: paginate %}
+        </collection-pagination>
+      {% endif %}
+    {% endpaginate %}
+			</div>
+		</div>
+  </div>
+</section>
 
 
 {% schema %}
   {
     "name": "Collection Page",
-    "settings": []
+    "settings": [
+      {
+        "type": "header",
+        "content": "Collection Image"
+      },
+      {
+        "type": "checkbox",
+        "id": "img_show",
+        "label": "Show Collection Image",
+        "default": true
+      }
+    ],
+    "templates": ["collection"],
+    "presets": [
+      {
+        "name": "Collection Default"
+      }
+    ]
   }
 {% endschema %}
