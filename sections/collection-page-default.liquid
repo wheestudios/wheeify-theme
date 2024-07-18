@@ -52,7 +52,7 @@
 
           </div>
         </header>
-			
+		{% render 'collection-utilities' %}	
 {% paginate collection.products by 48 %}
   {% if collection.products.size == 0 %}
     <p class="alert alert-primary">
