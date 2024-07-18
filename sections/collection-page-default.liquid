@@ -30,7 +30,6 @@
     {% endif %}
   </div>
 </header>
-              
 			
     {% paginate collection.products by limit %}
       {% if collection.products.size == 0 %}
@@ -39,13 +38,7 @@
         </p>
       {% else %}
         {% render 'collection-utilities' %}
-        <div 
-          class="product-list row 
-            {{ section.settings.breakpoint_mobile | prepend: 'row-cols-' }}
-            {{ section.settings.breakpoint_tablet | prepend: 'row-cols-md-' }}
-            {{ section.settings.breakpoint_desktop | prepend: 'row-cols-lg-' }}
-          " 
-          role="list">
+        <div class="product-list row row-cols-2 row-cols-md-3 row-cols-lg-4" role="list">
           {% for product in collection.products %}
             <div class="p-4 p-lg-2 mb-4 mb-lg-1" role="list-item">
               {% render 'product-card', product: product %}
@@ -75,6 +68,12 @@
         "type": "checkbox",
         "id": "img_show",
         "label": "Show Collection Image",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "description_show",
+        "label": "Show Collection Description",
         "default": true
       }
     ],
