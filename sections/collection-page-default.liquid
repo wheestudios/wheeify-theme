@@ -25,25 +25,25 @@
           </div>
         </header>
 			
-    {% paginate collection.products by limit %}
-      {% if collection.products.size == 0 %}
-        <p class="alert alert-primary">
-          {{ 'collection.empty_html' | t }}
-        </p>
-      {% else %}
-        {% render 'collection-utilities' %}
-        <div class="product-list row row-cols-2 row-cols-md-3 row-cols-lg-4" role="list">
-          {% for product in collection.products %}
-            <div class="p-4 p-lg-2 mb-4 mb-lg-1" role="list-item">
-              {% render 'product-card', product: product %}
-            </div>
-          {% endfor %}
+{% paginate collection.products by 48 %}
+  {% if collection.products.size == 0 %}
+    <p class="alert alert-primary">
+      {{ 'collection.empty_html' | t }}
+    </p>
+  {% else %}
+    {% render 'collection-utilities' %}
+    <div class="product-list row row-cols-2 row-cols-md-3 row-cols-lg-4" role="list">
+      {% for product in collection.products %}
+        <div class="p-4 p-lg-2 mb-4 mb-lg-1" role="list-item">
+          {% render 'product-card', product: product %}
         </div>
-        <collection-pagination class="collection-pagination"> 
-          {% render 'pagination', paginate: paginate %}
-        </collection-pagination>
-      {% endif %}
-    {% endpaginate %}
+      {% endfor %}
+    </div>
+    <collection-pagination class="collection-pagination"> 
+      {% render 'pagination', paginate: paginate %}
+    </collection-pagination>
+  {% endif %}
+{% endpaginate %}
 			</div>
 		</div>
   </div>
