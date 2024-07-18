@@ -11,9 +11,6 @@
 %}
 
 <div class="collection-utilities mb-5">
-    <p class="collection-product-count small mb-0">
-      {{ 'collection.count_products' | t: count: collection.products_count }}
-    </p>
     <div class="d-flex align-items-center mx-n2">
         <sort-by class="sort-by dropdown">
           <button 
@@ -41,4 +38,8 @@
           </ul>
         </sort-by>
     </div>
+  
+    <p class="collection-product-count small mb-0">
+      {{ 'collection.count_products' | t: count: collection.products_count }}
+    </p>
 </div>
