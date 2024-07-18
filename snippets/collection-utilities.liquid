@@ -12,31 +12,12 @@
 
 <div class="collection-utilities mb-5">
     <div class="d-flex align-items-center mx-n2">
-        <sort-by class="sort-by dropdown">
-          <button 
-            class="btn btn-sm px-4 dropdown-toggle mx-2" 
-            type="button" 
-            data-bs-toggle="dropdown" 
-            aria-expanded="false">
-            {{ 'collection.sort_by' | t }}
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            {% for option in collection.sort_options %}
-              <li>
-                <input 
-                  type="radio" 
-                  class="btn-check" 
-                  name="sort_by" 
-                  id="sort-by-{{ option.value }}" 
-                  value="{{ option.value }}"
-                  {% if option.value == collection.sort_by %}checked{% endif %}>
-                <label class="dropdown-item" for="sort-by-{{ option.value }}">
-                  {{ option.name }}
-                </label>
-              </li>
-            {% endfor %}
-          </ul>
-        </sort-by>
+<label class="collection-filters__label caption-large mb-0 mr-5" for="SortByClone">Sort:</label>
+<select name="sort_by_clone" class="collection-filters__sort select__select caption-large p-0 pr-10 pr-lg-25 mb-0 border-0 cursor-pointer" id="SortByClone">
+          {% for option in collection.sort_options %}
+            <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% endif %}>{{ option.name }}</option>
+          {% endfor %}
+
     </div>
   
     <p class="collection-product-count small mb-0">
