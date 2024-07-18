@@ -1,8 +1,5 @@
 <div 
-  id="offcanvas-collection-filters" 
-  class="offcanvas offcanvas-end" 
-  tabindex="-1"
-  aria-labelledby="offcanvas-collection-filters-label">
+  id="offcanvas-collection-filters" >
   <collection-filters 
     id="collection-filters" 
     class="collection-filters">
@@ -10,9 +7,6 @@
       <h2 id="offcanvas-collection-filters-label" class="offcanvas-title">
         {{ 'collection.filters.title' | t }}
       </h2>
-      <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="{{ 'general.accessibility.close' | t }}">
-        {% render 'svg-icons', icon: 'x' %}
-      </button>
     </div>
     <div class="offcanvas-body p-0">
       <form class="collection-filters-form">
