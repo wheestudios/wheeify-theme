@@ -1,35 +1,29 @@
-<section 
-  id="collection-products-{{ collection.id }}" 
-  class="collection-products">
-  <div 
-    class="container">
-		<div class="row">
-			<div class="col-lg-3">
-<p class=""><strong>What's Your Whee!?</strong></p>
-
-<h4 class="h2">Find EXACTLY What You Are Looking For</h4>
-
-<p>Choose your flag and then choose a product to narrow down your options.</p>	
-<hr>
-{% render 'collection-filters' %}
-			</div>
-			<div class="col-lg-9">
-              
-<header id="collection-header-{{ section.id }}" class="collection-header">
+<section id="collection-section-{{ collection.id }}" class="collection-section">
   <div class="container">
-    <h2 class="text-center text-lg-left">
-      <span>{{ collection.title }}</span>
-    </h2>
-  {% if section.settings.img_show and collection.image != nil %}
-		<p><img src="{{ collection.image | image_url: width: 1440 }}" class="img-fluid" width="1440" height="100" alt="{{ collection.image.alt }}" loading="eager"></p>
-  {% endif %}    
-    {% if section.settings.description_show and collection.description != blank %}
-      <div class="description rte mb-0">
-        {{ collection.description }}
+    <div class="row">
+          
+      <div class="collection-sidebar col-lg-3">
+        <p class=""><strong>What's Your Whee!?</strong></p>
+        <h4 class="h2">Find EXACTLY What You Are Looking For</h4>
+        <p>Choose your flag and then choose a product to narrow down your options.</p>	
+        <hr>
+{% render 'collection-filters' %}
       </div>
-    {% endif %}
-  </div>
-</header>
+    
+      <div class="collection-content col-lg-9">
+              
+        <header id="collection-header-{{ section.id }}" class="collection-header">
+          <div class="container">
+            <h2 class="text-center text-lg-left">
+              <span>{{ collection.title }}</span>
+            </h2> 
+            {% if section.settings.description_show and collection.description != blank %}
+              <div class="description rte mb-0">
+                {{ collection.description }}
+              </div>
+            {% endif %}
+          </div>
+        </header>
 			
     {% paginate collection.products by limit %}
       {% if collection.products.size == 0 %}
