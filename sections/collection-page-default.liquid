@@ -15,12 +15,12 @@
         <header id="collection-header-{{ section.id }}" class="collection-header">
           <div class="container">
 {% if section.settings.img_show and collection.image != nil %}
-		<p><img
+		<img
         src="{{ collection.image | image_url: width: 500 }}"
         class="img-fluid rounded float-start"
         width="250" width="250"
         alt="{{ collection.image.alt }}"
-        loading="eager"></p>
+        loading="eager">
 {% endif %}   
             <h2 class="text-center text-lg-start h4">
               <span>{{ collection.title }}</span>
