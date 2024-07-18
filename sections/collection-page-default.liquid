@@ -14,14 +14,30 @@
               
         <header id="collection-header-{{ section.id }}" class="collection-header">
           <div class="container">
-{% if section.settings.img_show and collection.image != nil %}
-		<img
-        src="{{ collection.image | image_url: width: 500 }}"
-        class="img-fluid rounded float-start"
-        width="250" width="250"
-        alt="{{ collection.image.alt }}"
-        loading="eager">
-{% endif %}   
+          {% if section.settings.img_show and collection.image != nil %}            
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+            		<img
+                    src="{{ collection.image | image_url: width: 500 }}"
+                    class="img-fluid rounded float-start"
+                    width="250" width="250"
+                    alt="{{ collection.image.alt }}"
+                    loading="eager">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h2 class="card-title h4 text-center text-lg-start"><span>{{ collection.title }}</span></h2>
+                        {% if section.settings.description_show and collection.description != blank %}
+                          <div class="card-text section-description rte mb-0">
+                            {{ collection.description }}
+                          </div>
+                        {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% else %}
             <h2 class="text-center text-lg-start h4">
               <span>{{ collection.title }}</span>
             </h2> 
@@ -30,6 +46,8 @@
                 {{ collection.description }}
               </div>
             {% endif %}
+          {% endif %}  
+
           </div>
         </header>
 			
