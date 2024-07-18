@@ -24,7 +24,7 @@
     "collection_page_default_44g4bm": {
       "type": "collection-page-default",
       "settings": {
-        "img_show": false,
+        "img_show": true,
         "description_show": true
       }
     }
