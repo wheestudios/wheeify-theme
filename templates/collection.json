@@ -12,18 +12,8 @@
     "collection_header_JKf7mh": {
       "type": "collection-header",
       "settings": {
-        "bg_color": "body-bg",
-        "bg_opacity": 10,
-        "bg_gradient": "",
-        "text_color": "body-fg",
         "img_show": false,
-        "title_font_size": "h2",
-        "description_show": true,
-        "description_font_size": "fs-md",
-        "pt": 4,
-        "pb": 3,
-        "pt_desktop": 5,
-        "pb_desktop": 3
+        "description_show": true
       }
     },
     "collection_products_Fx3hb6": {
@@ -55,11 +45,19 @@
         "pt": 0,
         "pb": 0
       }
+    },
+    "collection_page_default_44g4bm": {
+      "type": "collection-page-default",
+      "settings": {
+        "img_show": true,
+        "description_show": true
+      }
     }
   },
   "order": [
     "collection_header_JKf7mh",
     "collection_products_Fx3hb6",
-    "da87b500-2710-4252-99e4-4bd5db55af39"
+    "da87b500-2710-4252-99e4-4bd5db55af39",
+    "collection_page_default_44g4bm"
   ]
 }
