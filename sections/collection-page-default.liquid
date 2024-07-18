@@ -17,7 +17,7 @@
           {% if section.settings.img_show and collection.image != nil %}            
             <div class="card mb-3 border-0 body-bg">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-3">
                   <div class="card-body">
             		<img
                     src="{{ collection.image | image_url: width: 500 }}"
@@ -27,7 +27,7 @@
                     loading="eager">
                   </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-9">
                   <div class="card-body">
                     <h2 class="card-title h4 text-center text-lg-start pt-0"><span>{{ collection.title }}</span></h2>
                         {% if section.settings.description_show and collection.description != blank %}
