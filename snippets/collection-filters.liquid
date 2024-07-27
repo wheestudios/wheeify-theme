@@ -1,16 +1,16 @@
-<div id="offcanvas-collection-filters">
+<div id="collection-filters-container">
   <collection-filters id="collection-filters" class="collection-filters">
-    <div class="offcanvas-header border-0">
-      <h4 id="" class="offcanvas-title">
+    <div class="header border-0">
+      <h4 id="" class="title">
         {{ 'collection.filters.title' | t }}
       </h4>
     </div>
-    <div class="offcanvas-body p-0">
+    <div class="p-0">
       <form class="collection-filters-form">
         <input type="hidden" name="sort_by" value="{{ collection.sort_by }}">
         <div       
           role="list" 
-          aria-labelledby="offcanvas-collection-filters-label">
+          aria-labelledby="collection-filters-label">
           {% for filter in collection.filters %}
             <div class="collapse-wrapper" role="listitem">
               <button
@@ -148,14 +148,13 @@
       </form>
     </div>
     <div
-      class="offcanvas-footer border-top px-5 py-4">
-      <button class="btn btn-primary btn-filters-view-results w-100" type="button" data-bs-dismiss="offcanvas">
+      class="filter-footer border-top px-5 py-4">
+      <button class="btn btn-primary btn-filters-view-results w-100" type="button">
         {{ 'collection.filters.view_results' | t: count: collection.products_count }}
       </button>
       <button 
         class="btn btn-link btn-filters-clear-all btn-sm w-100 mt-2 mb-n2" 
         type="button" 
-        data-bs-dismiss="offcanvas"
         hidden>
         {{ 'collection.filters.clear_all' | t }}
       </button>
