@@ -1,8 +1,3 @@
-/*
-  © 2024 KondaSoft
-  https://www.kondasoft.com
-*/
-
 const loadCollection = async () => {
   const collectionProducts = document.querySelector('.collection-products')
   const productList = collectionProducts.querySelector('.product-list')
