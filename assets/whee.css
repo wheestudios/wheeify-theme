@@ -385,7 +385,7 @@ a.ondark:hover, a.ondark:active {
 .btn {
   --bs-btn-font-family: var(--bs-btn-font-family-new);
   font-weight: var(--bs-btn-font-weight);
-  text-transform: uppercase;
+  text-transform: uppercase !important;
   letter-spacing: var(--bs-btn-letter-spacing);
   background-image: var(--bs-btn-gradient);
   
